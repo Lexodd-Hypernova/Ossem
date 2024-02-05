@@ -106,3 +106,7 @@
   font-weight: 900;
   font-style: italic;
 }
+@font-face {
+  font-family: "Gotham";
+  src: url("../src/assets/fonts/GothamBook.ttf") format("truetype");
+}
