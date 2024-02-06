@@ -2,6 +2,7 @@ import "./App.css";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import { useEffect } from "react";
+import TabSection from "./components/TabSection/TabSection";
 
 function App() {
   useEffect(() => {
@@ -38,6 +39,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <TabSection />
     </>
   );
 }

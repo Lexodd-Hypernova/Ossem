@@ -5,7 +5,7 @@ self.addEventListener('fetch', event => {
     // Check if the request protocol is supported
     if (requestURL.protocol === 'http:' || requestURL.protocol === 'https:') {
         // Cache only image requests
-        if (requestURL.pathname.match(/\.(png|jpg|jpeg|gif|webp)$/i)) {
+        if (requestURL.pathname.match(/\.(png|jpg|svg|jpeg|gif|webp|svg+xml)$/i)) {
             event.respondWith(
                 caches.match(event.request).then(response => {
                     // Return cached image if available
