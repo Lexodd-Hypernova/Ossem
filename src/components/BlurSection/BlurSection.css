@@ -12,13 +12,15 @@
 .Boxes {
   display: flex;
   flex-direction: column;
-  margin: 50px 20px;
+  margin: 50px 50px 80px 50px;
   gap: 50px;
   align-items: flex-start;
   justify-content: space-between;
 }
 .first-box-section {
   display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
   align-items: center;
   gap: 20px;
 }
@@ -39,6 +41,7 @@
 .second-box-section {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 .second-box-section p {
   color: #fff;
@@ -53,6 +56,7 @@
 .third-box-section {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 .third-box-section p {
   color: #fff;

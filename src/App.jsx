@@ -1,10 +1,6 @@
 import "./App.css";
-import Hero from "./components/Hero/Hero";
-import Navbar from "./components/Navbar/Navbar";
 import { useEffect } from "react";
-import TabSection from "./components/TabSection/TabSection";
-import BlurSection from "./components/BlurSection/BlurSection";
-import Cardcomp from "./components/ExpandCard/Cardcomp";
+import Home from "./pages/Home";
 
 function App() {
   useEffect(() => {
@@ -39,11 +35,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Hero />
-      <TabSection />
-      <BlurSection />
-      <Cardcomp />
+      <Home />
     </>
   );
 }
