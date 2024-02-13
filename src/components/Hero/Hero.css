@@ -1,24 +1,25 @@
 .Hero-container {
-  padding: 0 50px;
-  padding-bottom: 50px;
+  padding: 0 50px 50px;
+
   background-image: url(../../assets/heroimg.webp);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 110vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: left;
   color: #fff; /* Text color on top of the background */
 }
 .Hero-container h1 {
   color: #2e2e2e;
   font-family: Gotham;
-  font-size: 65px;
+  font-size: 64px;
   font-style: normal;
   font-weight: 700;
-  line-height: 116%; /* 88.16px */
-  letter-spacing: -3.8px;
+  line-height: 116%; /* 74.24px */
+  letter-spacing: -3.2px;
+  text-align: center;
   text-transform: uppercase;
 }
 .Hero-container button {

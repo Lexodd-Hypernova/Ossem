@@ -7,11 +7,7 @@ const Hero = () => {
     <>
       <div className="Hero-container">
         {/* <img src={HeroImg} alt="img" /> */}
-        <h1>
-          {" "}
-          A Digital Platform <br />
-          Crafted to Empower
-        </h1>
+        <h1>CRAFTED AND EMPOWERED, DIGITALLY.</h1>
         <button>
           Know more <img src={ArrowHead} alt="arrow" />
         </button>

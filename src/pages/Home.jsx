@@ -6,6 +6,7 @@ import TabSection from "../components/TabSection/TabSection";
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navbar/Navbar";
 import Cliente from "../components/Cliente/Cliente";
+import Features from "../components/Features/Features";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <TabSection />
       <BlurSection />
       <ResizableImages />
+      <Features />
       <Cliente />
       <Footer />
     </>

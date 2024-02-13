@@ -1,0 +1,27 @@
+.FeatureCard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.FeatureCard-container img {
+  width: 440px;
+
+  margin-bottom: 50px;
+}
+.FeatureCard-container h3 {
+  color: #000;
+  font-family: Gotham;
+  font-size: 22.804px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34.421px; /* 150.943% */
+}
+.FeatureCard-container p {
+  color: #000;
+  font-family: Inter;
+  font-size: 19.935px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28.684px; /* 143.885% */
+}
