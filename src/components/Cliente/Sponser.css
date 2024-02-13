@@ -1,0 +1,27 @@
+.client-logos {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.client-logos h2 {
+  color: #000;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 2px solid #000;
+  width: fit-content;
+
+  margin: 20px;
+}
+
+.logo-container {
+  margin: 20px 20px 10px 20px;
+}
+
+.logo-container img {
+  max-width: 80%;
+  height: auto;
+}

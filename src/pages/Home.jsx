@@ -5,6 +5,7 @@ import BlurSection from "../components/BlurSection/BlurSection";
 import TabSection from "../components/TabSection/TabSection";
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navbar/Navbar";
+import Cliente from "../components/Cliente/Cliente";
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
       <TabSection />
       <BlurSection />
       <ResizableImages />
-
+      <Cliente />
       <Footer />
     </>
   );

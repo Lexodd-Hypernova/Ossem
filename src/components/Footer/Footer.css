@@ -7,7 +7,7 @@
     rgba(255, 199, 0, 1) 0%,
     rgba(247, 255, 0, 1) 100%
   );
-  height: 100vh;
+  /* height: 100vh; */
   gap: 80px;
 }
 .Footer-container h1 {
@@ -42,6 +42,7 @@
 }
 
 .Footer-second-section p {
+  width: 50%;
   padding: 20px;
   color: #000;
   font-family: Inter;
