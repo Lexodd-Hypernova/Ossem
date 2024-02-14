@@ -1,9 +1,9 @@
 import React from "react";
 import "./Features.css";
 import FeatureCard from "./FeatureCard";
-import Addmission from "../../assets/AdmissionFeature.svg";
-import Account from "../../assets/AccountFeature.svg";
-import Student from "../../assets/StudentFeature.svg";
+import Addmission from "../../../assets/AdmissionFeature.svg";
+import Account from "../../../assets/AccountFeature.svg";
+import Student from "../../../assets/StudentFeature.svg";
 const Features = () => {
   return (
     <div className="Features-container">

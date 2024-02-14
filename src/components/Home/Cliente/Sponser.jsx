@@ -1,8 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
-import logo1 from "../../assets/sreenidhi-logo 1.svg";
-import logo2 from "../../assets/Logo_Anurag_University 1.svg";
-import logo3 from "../../assets/sponser3.svg";
+import logo1 from "../../../assets/sreenidhi-logo 1.svg";
+import logo2 from "../../../assets/Logo_Anurag_University 1.svg";
+import logo3 from "../../../assets/sponser3.svg";
 import "./Sponser.css";
 
 const clientLogos = [logo1, logo2, logo3];

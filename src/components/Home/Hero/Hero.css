@@ -1,7 +1,6 @@
 .Hero-container {
   padding: 0 50px 50px;
-
-  background-image: url(../../assets/heroimg.webp);
+  background-image: url(../../../assets/heroimg.webp);
   background-size: cover;
   background-position: center;
   height: 110vh;

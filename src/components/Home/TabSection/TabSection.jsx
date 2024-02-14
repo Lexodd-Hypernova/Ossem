@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Tab1 from "../../assets/Tab-1.webp";
-import Tab2 from "../../assets/Tab-2.webp";
-import Tab3 from "../../assets/Tab-3.webp";
+import Tab1 from "../../../assets/Tab-1.webp";
+import Tab2 from "../../../assets/Tab-2.webp";
+import Tab3 from "../../../assets/Tab-3.webp";
 import "./TabSection.css";
 
 const TabSection = () => {

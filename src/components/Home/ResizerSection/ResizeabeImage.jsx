@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./ResizeableImage.css";
 
-import image1 from "../../assets/Cards1.svg";
-import image2 from "../../assets/Card2.svg";
-import image3 from "../../assets/Card3.svg";
-import image4 from "../../assets/Card4.svg";
+import image1 from "../../../assets/Cards1.svg";
+import image2 from "../../../assets/Card2.svg";
+import image3 from "../../../assets/Card3.svg";
+import image4 from "../../../assets/Card4.svg";
 
 const ResizableImages = () => {
   const [activeIndex, setActiveIndex] = useState(0);

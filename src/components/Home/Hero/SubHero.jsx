@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
-import SubHeroImg from "../../assets/SubHero.svg";
-import MacIng from "../../assets/macimg.svg";
+import SubHeroImg from "../../../assets/SubHero.svg";
+import MacIng from "../../../assets/macimg.svg";
 const SubHero = () => {
   return (
     <>

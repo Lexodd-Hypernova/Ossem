@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import ArrowHead from "../../assets/arrowhead.svg";
+import ArrowHead from "../../../assets/arrowhead.svg";
 import SubHero from "./SubHero";
 const Hero = () => {
   return (
