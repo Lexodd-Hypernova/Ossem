@@ -6,7 +6,6 @@ const Hero = () => {
   return (
     <>
       <div className="Hero-container">
-        {/* <img src={HeroImg} alt="img" /> */}
         <h1>CRAFTED AND EMPOWERED, DIGITALLY.</h1>
         <button>
           Know more <img src={ArrowHead} alt="arrow" />

@@ -36,7 +36,7 @@
   font-weight: 400;
   line-height: 83.07px; /* 114.966% */
   letter-spacing: -1.51px;
-  border-bottom: none; /* Remove the border-bottom property */
+  border-bottom: none;
   transition: all 0.3s ease-in;
   position: relative;
 }
