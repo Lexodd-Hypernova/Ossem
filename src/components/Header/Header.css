@@ -1,52 +1,77 @@
+.top__Nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
 .nav-container {
-  margin-top: 20px;
+  margin-top: 30px;
+  padding: 0 65px;
   display: flex;
   justify-content: space-between;
-
   align-items: center;
 }
+
 .first-nav-section {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  gap: 20px;
+  gap: 72px;
 }
+
+.first-logo-nav {
+  width: 180px;
+  height: 80px;
+}
+
 .first-logo-nav img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.nav-first-links ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 68px;
+}
+
+/* .first-logo-nav img {
   padding: 0 50px;
-}
-.nav-first-links {
+} */
+/* .nav-first-links {
   margin-left: 50px;
-}
-.nav-first-links a {
+} */
+.top__Nav a {
   color: #000;
   text-align: center;
   font-family: Gotham;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 1;
   text-decoration: none;
-  margin: 0 30px;
 }
-.second-nav-section button {
-  width: 220px;
-  height: 74px;
-  text-align: center;
-  font-family: Poppins;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  cursor: pointer;
+
+.second-nav-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
-.button-Contact {
-  border: none;
-  background-color: inherit;
-  margin-right: 20px;
-}
+
 .button-Login {
+  font-family: 'Gotham';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 24px 60px;
   color: #f7f7f7;
   border: none;
   background-color: #00b2c7;
   border-radius: 37px;
+  cursor: pointer;
 }

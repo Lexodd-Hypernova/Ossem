@@ -6,10 +6,14 @@ const Hero = () => {
   return (
     <>
       <div className="Hero-container">
-        <h1>CRAFTED AND EMPOWERED, DIGITALLY.</h1>
-        <button>
-          Know more <img src={ArrowHead} alt="arrow" />
-        </button>
+        <div className="hero__Ttl">
+          <h1>CRAFTED AND EMPOWERED, DIGITALLY.</h1>
+        </div>
+        <div className="hero__Cta">
+          <button>
+            Know more <img src={ArrowHead} alt="arrow" />
+          </button>
+        </div>
       </div>
       <SubHero />
     </>
