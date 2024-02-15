@@ -6,28 +6,39 @@ const SubHero = () => {
   return (
     <>
       <div className="Sub-Hero">
-        <h3>
-          Our mission is to make management easy and effective for everyone,
-          providing specially curated learning resources and a transformative
-          platform.
-        </h3>
-        <img src={SubHeroImg} alt="" />
+        <div className="sb_hr_Row1">
+          <p>
+            Our mission is to make management easy and effective
+            for everyone, providing specially curated learning
+            resources and a transformative platform.
+          </p>
+          <div className="sb_hr-img">
+            <img src={SubHeroImg} alt="" />
+          </div>
+        </div>
       </div>
-      <div className="Sub-span-title">
-        <h2>
-          Lorem ipsum <span>dolor</span> sit amet, <br />
-          adipiscing <span>Consectetur</span>
-        </h2>
-        <h5>
-          Our mission is to make management easy and effective for everyone,
-          providing specially curated learning resources and a transformative
-          platform.
-        </h5>
-        <img src={MacIng} alt="mac" />
-        <h4>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </h4>
+
+      <div className="build__Sec">
+        <div className="bld__Ttl">
+          <h2>
+            With <span className="ttl_stl1">Ossem</span> You
+            <br></br>
+            <span className="ttl_stl2">Build to </span><span className="ttl_stl3">Scale</span>
+          </h2>
+          <p>
+            Our mission is to make management easy and effective for everyone,
+            providing specially curated learning resources and a transformative platform.
+          </p>
+        </div>
+        <div className="bld__hr-img">
+          <img src={MacIng} alt="mac" />
+        </div>
+        <div className="bld_ext-p">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
       </div>
     </>
   );
