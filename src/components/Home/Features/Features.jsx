@@ -7,14 +7,16 @@ import Student from "../../../assets/StudentFeature.svg";
 const Features = () => {
   return (
     <div className="Features-container">
-      <h2>
-        Easily customizable <br />
-        extension templates
-      </h2>
-      <p>
-        Quickly set up your first Private Extension and speed up <br />
-        common workflows that best suit your team’s needs.
-      </p>
+      <div className="feat__Ttl">
+        <h2>
+          Easily customizable<br />
+          extension templates
+        </h2>
+        <p>
+          Quickly set up your first Private Extension and speed up 
+          common workflows that best suit your team’s needs.
+        </p>
+      </div>
       <div className="Features-card">
         <FeatureCard
           img={Addmission}
