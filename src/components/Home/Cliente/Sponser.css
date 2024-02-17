@@ -25,3 +25,30 @@
   max-width: 80%;
   height: auto;
 }
+
+.parallax {
+  overflow: hidden;
+  letter-spacing: -2px;
+  line-height: 0.8;
+  /* margin: 0; */
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 12rem;
+}
+
+.parallax .scroller {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 64px;
+  display: flex;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.parallax span {
+  display: block;
+  margin-right: 18rem;
+}

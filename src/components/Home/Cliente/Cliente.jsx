@@ -5,7 +5,10 @@ import Sponser from "./Sponser";
 const Cliente = () => {
   return (
     <div className="Cliente-container">
-      <Sponser />
+      <div className="cl__Ttl">
+        <h2>Our Client</h2>
+      </div>
+      <Sponser baseVelocity={1} />
       <Testimonial />
     </div>
   );
