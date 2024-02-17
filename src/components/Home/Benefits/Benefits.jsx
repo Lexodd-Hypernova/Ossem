@@ -22,14 +22,14 @@ const Benefits = () => {
             slidesPerView: 1,
             autoHeight: true,
             autoplay: {
-                delay: 3000,
+                delay: 5000,
             },
             effect: 'fade',
             fadeEffect: {
                 crossFade: true
             },
             pagination: {
-                el: '.swiper-pagination',
+                el: '.swiper-pagination.bnft_swp-pgn',
                 clickable: true,
                 type: 'bullets',
                 renderBullet: (index, className) => {
@@ -115,7 +115,7 @@ const Benefits = () => {
                     <div className="swiper-button-next"></div>
                     <div className="swiper-scrollbar"></div> */}
                 </div>
-                <div className="swiper-pagination"></div>
+                <div className="swiper-pagination bnft_swp-pgn"></div>
             </div>
         </>
     )

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import ResizableImages from "../components/Home/ResizerSection/ResizeabeImage";
@@ -10,7 +10,25 @@ import Features from "../components/Home/Features/Features";
 import Benefits from "../components/Home/Benefits/Benefits";
 // import About from "../components/Home/About/About";
 
+import Lenis from '@studio-freight/lenis'
+
 const Home = () => {
+
+  useEffect(() => {
+    const lenis = new Lenis()
+
+    lenis.on('scroll', (e) => {
+      // console.log(e)
+    })
+
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+  }, [])
+
   return (
     <>
       <div className="pg__Wrap">
