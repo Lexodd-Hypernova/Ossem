@@ -1,0 +1,183 @@
+.who__Sec {
+  padding: 0 80px;
+}
+
+.wh__Ttl h2 {
+  font-family: Gotham;
+  font-size: 84px;
+  font-weight: 400;
+  line-height: 101px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  margin-bottom: 5rem;
+}
+
+.wrapper-resizer {
+  margin-top: 200px;
+}
+
+.resize-container {
+  display: flex;
+  /* height: 100vh; */
+  width: 100%;
+  gap: 60px;
+  position: relative;
+}
+
+.resizeList {
+  flex: .5;
+  overflow: hidden;
+  transition: flex 0.5s ease;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+.rsz__Cnt {
+  position: relative;
+  height: 20vh;
+}
+
+.rsz__Cnt h4 {
+  font-family: Gotham;
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  position: absolute;
+  top: 30px;
+}
+
+.rsz__Cnt h3 {
+  font-family: 'Gotham';
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1;
+  color: #000;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  top: 80px;
+}
+
+.rsz__Cnt p {
+  font-family: Gotham;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  position: absolute;
+  top: 110px;
+}
+
+.resize-container::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #cccccc;
+}
+
+.clr__Blt {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+}
+
+.clr__Blt span {
+  width: 10px;
+  height: 10px;
+  background: #F79D1D;
+  border-radius: 100%;
+}
+
+.wh_kn {
+  margin-top: 40px;
+  display: flex;
+  justify-content: end;
+}
+
+.wh_kn button {
+  font-family: Gotham;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: left;
+  border: none;
+  background: transparent;
+  color: #00000099;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.ar_img {
+  width: 26px;
+  height: 26px;
+  border: 1px solid #F79D1D;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ar_img i {
+  color: #F79D1D;
+  font-size: 15px;
+}
+
+/* .resizeList h2 {
+  color: #000;
+  font-family: Gotham;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+} */
+
+/* .resizeList p {
+  color: #000;
+  font-family: Gotham;
+  font-size: 12.389px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+} */
+
+/* .resizeList img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+} */
+
+.rsz__Img {
+  width: 937px;
+  height: 543px;
+  /* width: 100%;
+  height: 543px; */
+}
+
+.rsz__Img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.resizeList.active {
+  flex: 2;
+}
+
+/* .resizeList.active .rsz__Cnt p{
+  font-size: 20px;
+} */
