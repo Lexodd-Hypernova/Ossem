@@ -1,4 +1,5 @@
 import "./FeatureCard.css";
+
 const FeatureCard = ({ img, title, para }) => {
   return (
     <div className="FeatureCard-container">

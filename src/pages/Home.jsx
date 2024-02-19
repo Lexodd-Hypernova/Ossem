@@ -8,7 +8,7 @@ import Hero from "../components/Home/Hero/Hero";
 import Cliente from "../components/Home/Cliente/Cliente";
 import Features from "../components/Home/Features/Features";
 import Benefits from "../components/Home/Benefits/Benefits";
-// import About from "../components/Home/About/About";
+import About from "../components/Home/About/About";
 
 import Lenis from '@studio-freight/lenis'
 
@@ -35,7 +35,7 @@ const Home = () => {
         <Header />
         <Hero />
         <Benefits></Benefits>
-        {/* <About></About> */}
+        <About></About>
         {/* <TabSection /> */}
         {/* <BlurSection /> */}
         <ResizableImages />

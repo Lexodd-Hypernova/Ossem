@@ -2,12 +2,15 @@ import React from "react";
 import "./Hero.css";
 import ArrowHead from "../../../assets/arrowhead.svg";
 import SubHero from "./SubHero";
+import { Fade } from "react-awesome-reveal";
 const Hero = () => {
   return (
     <>
       <div className="Hero-container">
         <div className="hero__Ttl">
-          <h1>CRAFTED AND EMPOWERED, DIGITALLY.</h1>
+          <Fade direction="up" triggerOnce>
+            <h1>CRAFTED AND EMPOWERED, DIGITALLY.</h1>
+          </Fade>
         </div>
         <div className="hero__Cta">
           <button>

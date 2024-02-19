@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../../assets/logo.svg";
 import "./Header.css";
+// import { Fade } from "react-awesome-reveal";
 const Navbar = () => {
   return (
     <>

@@ -2,15 +2,23 @@ import React from "react";
 import "./Hero.css";
 import SubHeroImg from "../../../assets/SubHero.svg";
 import MacIng from "../../../assets/macimg.svg";
+import { Fade } from "react-awesome-reveal";
+{/* <Fade direction="up" triggerOnce>
+
+</Fade> */}
 const SubHero = () => {
   return (
     <>
       <div className="Sub-Hero">
         <div className="sb_hr_Row1">
+
           <p>
-            Our mission is to make management easy and effective
-            for everyone, providing specially curated learning
-            resources and a transformative platform.
+            <Fade direction="up" triggerOnce>
+              Our mission is to make management easy and effective
+              for everyone, providing specially curated learning
+              resources and a transformative platform.
+
+            </Fade>
           </p>
           <div className="sb_hr-img">
             <img src={SubHeroImg} alt="" />

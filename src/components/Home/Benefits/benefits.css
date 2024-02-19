@@ -59,7 +59,12 @@
     letter-spacing: -1.5px;
     text-align: left;
     font-style: normal;
-    color: #000000;
+    color: #ACB3B7;
+    transition: .5s;
+}
+
+.benefits__Sec .swiper-pagination-bullet-active em {
+    color: #000;
 }
 
 .benefits__Sec .swiper-pagination-bullet i {
@@ -70,7 +75,18 @@
     width: 100%;
     height: 5px;
     background-color: transparent;
+    /* transition: .5s; */
 }
+
+/* .benefits__Sec .swiper-pagination-bullet-active i {
+    animation-name: countingBar;
+    animation-duration: .7s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    background-color: #ACB3B7;
+} */
 
 .benefits__Sec .swiper-pagination-bullet b {
     position: absolute;
@@ -88,7 +104,7 @@
 
 .benefits__Sec .swiper-pagination-bullet-active b {
     animation-name: countingBar;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
     animation-direction: alternate;
@@ -149,14 +165,14 @@
     color: #444A44;
 }
 
-.bnft__Ttl-txt{
+.bnft__Ttl-txt {
     position: absolute;
     top: 18px;
     width: 536px;
     right: 80px;
 }
 
-.bnft__Ttl-txt h4{
+.bnft__Ttl-txt h4 {
     font-family: Gotham;
     font-size: 20px;
     font-weight: 500;

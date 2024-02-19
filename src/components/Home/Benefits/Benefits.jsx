@@ -13,6 +13,8 @@ import Tab3 from "../../../assets/Tab-3.webp";
 
 const ListArray = ["Vision", "Mission", "Value"];
 
+import { Fade } from "react-awesome-reveal";
+
 const Benefits = () => {
 
     useEffect(() => {
@@ -21,9 +23,9 @@ const Benefits = () => {
             autoplayDisableOnInteraction: false,
             slidesPerView: 1,
             autoHeight: true,
-            autoplay: {
-                delay: 5000,
-            },
+            // autoplay: {
+            //     delay: 5000,
+            // },
             effect: 'fade',
             fadeEffect: {
                 crossFade: true
@@ -62,12 +64,20 @@ const Benefits = () => {
                                     </div>
                                 </div>
                                 <div className='bn_Txt'>
-                                    <h3>Heading1</h3>
+
+                                    <h3>
+                                        <Fade direction="up">
+                                            Heading1
+                                        </Fade>
+                                    </h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                        sed do eiusmod tempor incididunt ut labore et dolore magna
-                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        <Fade direction="up">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        </Fade>
+
                                     </p>
                                 </div>
                             </div>
