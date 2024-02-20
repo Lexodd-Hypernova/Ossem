@@ -41,4 +41,11 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 11rem;
+  width: 100%;
+}
+
+.ft__Wh-kn {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
 }

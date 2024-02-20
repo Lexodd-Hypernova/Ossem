@@ -1,9 +1,9 @@
 import React from "react";
 import "./Features.css";
 import FeatureCard from "./FeatureCard";
-import Addmission from "../../../assets/AdmissionFeature.svg";
-import Account from "../../../assets/AccountFeature.svg";
-import Student from "../../../assets/StudentFeature.svg";
+// import Addmission from "../../../assets/AdmissionFeature.svg";
+// import Account from "../../../assets/AccountFeature.svg";
+// import Student from "../../../assets/StudentFeature.svg";
 import { Fade } from "react-awesome-reveal";
 const Features = () => {
   return (
@@ -24,26 +24,32 @@ const Features = () => {
 
         </p>
       </div>
-      <div className="Features-card">
-        <Fade direction="up" triggerOnce cascade damping={0.1}>
-          <FeatureCard
-            img={Addmission}
-            title="Admission"
-            para="Let your team share actionable feedback about features in development,to speed up shipping."
-          />
-          <FeatureCard
-            img={Student}
-            title="Student Portal"
-            para="Make your design system available to everybody in your company with quick access to colors, icons, and more."
-          />
-          <FeatureCard
-            img={Account}
-            title="Accounts"
-            para="Build an index to search and get to know your teammates better. And make it easy for new joiners to discover your organization. "
-          />
-        </Fade>
+      <div className="Features-card container">
+
+        <FeatureCard
+          // img={Addmission}
+          title="Admission"
+          para="Let your team share actionable feedback about features in development,to speed up shipping."
+        />
+        <FeatureCard
+          // img={Student}
+          title="Student Portal"
+          para="Make your design system available to everybody in your company with quick access to colors, icons, and more."
+        />
+        <FeatureCard
+          // img={Account}
+          title="Accounts"
+          para="Build an index to search and get to know your teammates better. And make it easy for new joiners to discover your organization. "
+        />
+
 
       </div>
+      <div className="ft__Wh-kn">
+        <div class="wh_kn">
+          <button>Know more <span class="ar_img"><i class="fa-solid fa-arrow-right"></i></span></button>
+        </div>
+      </div>
+
     </div>
   );
 };
