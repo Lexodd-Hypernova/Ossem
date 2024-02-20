@@ -14,14 +14,14 @@
     rgba(247, 212, 156, 1) 0%,
     rgba(255, 255, 109, 1) 100%
   ); */
- 
+
   /* gap: 80px; */
   justify-content: space-between;
   height: 100%;
 }
 
-.Footer-container h1 {
-  font-family: 'Gotham';
+.Footer-container h2 {
+  font-family: Inter;
   font-size: 150px;
   font-weight: 400;
   line-height: 176px;
@@ -33,11 +33,20 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 120px;
+  /* gap: 120px; */
+}
+
+.ft_sc-Row1 {
+  flex: 1;
+}
+
+.ft_sc-Row2 {
+  flex: 1;
+  position: relative;
 }
 
 .Footer-second-section button {
-  font-family: 'Gotham';
+  font-family: 'Inter';
   font-size: 29px;
   font-weight: 500;
   line-height: 20px;
@@ -56,9 +65,9 @@
   border-radius: 9999px;
 }
 
-.Footer-second-section p {
-  width: 40%;
-  font-family: 'Gotham';
+.ft_sc-Row2 p {
+  width: 100%;
+  font-family: 'Inter';
   font-size: 48px;
   font-weight: 400;
   line-height: 58px;
@@ -66,6 +75,7 @@
   text-align: left;
   padding: 0;
   color: #000;
+  padding-left: 26%;
 }
 
 .Footer-third-section {
@@ -75,7 +85,7 @@
 }
 
 .Footer-third-section h4 {
-  font-family: 'Gotham';
+  font-family: 'Inter';
   font-size: 19px;
   font-weight: 500;
   line-height: 27px;
@@ -88,7 +98,7 @@
 
 .Footer-third-section h5 {
   color: rgba(0, 0, 0, 0.4);
-  font-family: 'Gotham';
+  font-family: 'Inter';
   font-size: 19px;
   font-weight: 500;
   line-height: 27px;
