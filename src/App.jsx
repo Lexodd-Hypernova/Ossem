@@ -1,6 +1,12 @@
 import "./App.css";
 import { useEffect } from "react";
 import Home from "./pages/Home";
+import Features from "./pages/Features";
+import Routing from "./Routing";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   useEffect(() => {
@@ -34,9 +40,21 @@ function App() {
   }, []);
 
   return (
-    <>
-      <Home />
-    </>
+    <BrowserRouter>
+      <div className="pg__Wrap">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Routing />} />
+          <Route index element={<Home />} />
+          <Route path="home" element={<Home />} />
+          <Route path="features" element={<Features />} />
+          {/* <Route path="post/:topic" element={<PostDetails />} /> */}
+          {/* <Route path="profile" element={<Profile />} /> */}
+          <Route />
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

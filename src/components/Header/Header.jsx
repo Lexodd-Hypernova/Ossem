@@ -1,7 +1,9 @@
 import React from "react";
 import Logo from "../../assets/logo.svg";
 import "./Header.css";
-// import { Fade } from "react-awesome-reveal";
+
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <>
@@ -13,9 +15,9 @@ const Navbar = () => {
             </div>
             <div className="nav-first-links">
               <ul>
-                <li><a href="">Home</a></li>
+                <li><Link to="/">Home</Link></li>
                 <li><a href="">About</a></li>
-                <li><a href="">Features</a></li>
+                <li><Link to="/features">Features</Link></li>
               </ul>
             </div>
           </div>

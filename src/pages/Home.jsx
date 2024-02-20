@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
+// import Header from "../components/Header/Header";
+// import Footer from "../components/Footer/Footer";
 import ResizableImages from "../components/Home/ResizerSection/ResizeabeImage";
 // import BlurSection from "../components/Home/BlurSection/BlurSection";
 // import TabSection from "../components/Home/TabSection/TabSection";
@@ -31,18 +31,18 @@ const Home = () => {
 
   return (
     <>
-      <div className="pg__Wrap">
-        <Header />
-        <Hero />
-        <Benefits></Benefits>
-        <About></About>
-        {/* <TabSection /> */}
-        {/* <BlurSection /> */}
-        <ResizableImages />
-        <Features />
-        <Cliente />
-        <Footer />
-      </div>
+
+      {/* <Header /> */}
+      <Hero />
+      <Benefits></Benefits>
+      <About></About>
+      {/* <TabSection /> */}
+      {/* <BlurSection /> */}
+      <ResizableImages />
+      <Features />
+      <Cliente />
+      {/* <Footer /> */}
+
     </>
   );
 };
