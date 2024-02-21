@@ -9,6 +9,17 @@ import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
+
+  // const [loaded, setLoaded] = useState(false);
+
+  // useEffect(() => {
+  //   const timerId = setTimeout(() => {
+  //     setLoaded(true);
+  //   }, 5000);
+
+  //   return () => clearTimeout(timerId);
+  // }, [])
+
   useEffect(() => {
     let registration;
 
