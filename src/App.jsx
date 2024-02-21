@@ -7,19 +7,19 @@ import Footer from "./components/Footer/Footer";
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import PageLoader from "./components/PageLoader/PageLoader";
+// import PageLoader from "./components/PageLoader/PageLoader";
 
 import "./App.css";
 
 function App() {
 
-  const [isLoading, setLoading] = useState(true);
+  // const [isLoading, setLoading] = useState(true);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 3000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 3000);
+  // }, []);
 
   useEffect(() => {
     let registration;
@@ -52,26 +52,41 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
-      {isLoading ? <PageLoader /> : (
-        <>
-          <div className="pg__Wrap">
-            <Header />
-            <Routes>
-              <Route path="/" element={<Routing />}>
-                <Route index element={<Home />} />
-                <Route path="home" element={<Home />} />
-                <Route path="features" element={<Features />} />
-                {/* <Route path="post/:topic" element={<PostDetails />} /> */}
-                {/* <Route path="profile" element={<Profile />} /> */}
-              </Route>
-            </Routes>
-            <Footer />
-          </div>
-        </>
-      )
-      }
+    // <BrowserRouter>
+    //   {isLoading ? <PageLoader /> : (
+    //     <>
+    //       <div className="pg__Wrap">
+    //         <Header />
+    //         <Routes>
+    //           <Route path="/" element={<Routing />}>
+    //             <Route index element={<Home />} />
+    //             <Route path="home" element={<Home />} />
+    //             <Route path="features" element={<Features />} />
+    //             {/* <Route path="post/:topic" element={<PostDetails />} /> */}
+    //             {/* <Route path="profile" element={<Profile />} /> */}
+    //           </Route>
+    //         </Routes>
+    //         <Footer />
+    //       </div>
+    //     </>
+    //   )
+    //   }
 
+    // </BrowserRouter>
+    <BrowserRouter>
+      <div className="pg__Wrap">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Routing />}>
+            <Route index element={<Home />} />
+            <Route path="home" element={<Home />} />
+            <Route path="features" element={<Features />} />
+            {/* <Route path="post/:topic" element={<PostDetails />} /> */}
+            {/* <Route path="profile" element={<Profile />} /> */}
+          </Route>
+        </Routes>
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }
