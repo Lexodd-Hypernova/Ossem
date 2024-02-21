@@ -1,5 +1,4 @@
-import "./App.css";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import Home from "./pages/Home";
 import Features from "./pages/Features";
 import Routing from "./Routing";
@@ -8,17 +7,19 @@ import Footer from "./components/Footer/Footer";
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import PageLoader from "./components/PageLoader/PageLoader";
+
+import "./App.css";
+
 function App() {
 
-  // const [loaded, setLoaded] = useState(false);
+  const [isLoading, setLoading] = useState(true);
 
-  // useEffect(() => {
-  //   const timerId = setTimeout(() => {
-  //     setLoaded(true);
-  //   }, 5000);
-
-  //   return () => clearTimeout(timerId);
-  // }, [])
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, []);
 
   useEffect(() => {
     let registration;
@@ -52,19 +53,25 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="pg__Wrap">
-        <Header />
-        <Routes>
-          <Route path="/" element={<Routing />} />
-          <Route index element={<Home />} />
-          <Route path="home" element={<Home />} />
-          <Route path="features" element={<Features />} />
-          {/* <Route path="post/:topic" element={<PostDetails />} /> */}
-          {/* <Route path="profile" element={<Profile />} /> */}
-          <Route />
-        </Routes>
-        <Footer />
-      </div>
+      {isLoading ? <PageLoader /> : (
+        <>
+          <div className="pg__Wrap">
+            <Header />
+            <Routes>
+              <Route path="/" element={<Routing />}>
+                <Route index element={<Home />} />
+                <Route path="home" element={<Home />} />
+                <Route path="features" element={<Features />} />
+                {/* <Route path="post/:topic" element={<PostDetails />} /> */}
+                {/* <Route path="profile" element={<Profile />} /> */}
+              </Route>
+            </Routes>
+            <Footer />
+          </div>
+        </>
+      )
+      }
+
     </BrowserRouter>
   );
 }
