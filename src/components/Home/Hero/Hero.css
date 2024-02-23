@@ -65,7 +65,6 @@
   text-align: left;
   flex: 1;
   padding-top: 53px;
-  color: #444A44;
 }
 
 .sb_hr-img {
@@ -84,7 +83,6 @@
   font-weight: 400;
   line-height: 1;
   letter-spacing: 0em;
-  color: #020202;
   text-align: center;
 }
 
@@ -96,7 +94,7 @@
 .ttl_stl1 {
   background: linear-gradient(180deg, rgba(19, 97, 146, 0.73) 50%, #7491A3 100%);
   box-shadow: 0px 0px 27px 0px #136192;
-  color: #fff;
+  color: #020202;
   display: inline-block;
   padding: 10px 3px;
   border-radius: 3px;
@@ -109,7 +107,6 @@
   font-weight: 700;
   line-height: 114px;
   letter-spacing: 0em;
-  color: #444A44;
 }
 
 .ttl_stl3 {
@@ -120,7 +117,7 @@
   font-weight: 700;
   line-height: 114px;
   letter-spacing: 0em;
-  color: #fff;
+  color: #1E1E1E;
   padding: 15px 23px 23px;
   display: inline-block;
   border-radius: 3px;
@@ -140,7 +137,6 @@
   line-height: 30px;
   letter-spacing: 0em;
   text-align: center;
-  color: #444A44;
   width: 32%;
 }
 
@@ -159,10 +155,10 @@
 
 .bld_ext-p p {
   font-family: Gotham;
-  font-size: 40px;
+  font-size: 55px;
   font-weight: 400;
-  line-height: 38px;
+  line-height: 53px;
   letter-spacing: 0em;
   text-align: center;
-  padding: 0 28px;
+  padding: 0 15%;
 }

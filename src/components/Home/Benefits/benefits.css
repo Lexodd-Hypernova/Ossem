@@ -64,7 +64,7 @@
 }
 
 .benefits__Sec .swiper-pagination-bullet-active em {
-    color: #000;
+    color: #fff;
 }
 
 .benefits__Sec .swiper-pagination-bullet i {
@@ -95,7 +95,7 @@
     z-index: 2;
     width: 0%;
     height: 5px;
-    background-color: #000000;
+    background-color: #0057DA;
 }
 
 .benefits__Sec .swiper-pagination-bullet-active {
@@ -133,11 +133,13 @@
 .bn-img {
     width: 907px;
     height: 1123px;
+    border-radius: 15px;
 }
 
 .bn-img img {
     width: 100%;
     object-fit: cover;
+    border-radius: 15px;
 }
 
 .bn_Txt {
@@ -151,7 +153,7 @@
     line-height: 27px;
     letter-spacing: 0em;
     text-align: left;
-    color: #000;
+    
     margin-bottom: 20px;
 }
 
@@ -162,7 +164,7 @@
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
-    color: #444A44;
+    
 }
 
 .bnft__Ttl-txt {
@@ -180,5 +182,4 @@
     letter-spacing: 0em;
     text-align: left;
     width: 60%;
-    color: #000000;
 }

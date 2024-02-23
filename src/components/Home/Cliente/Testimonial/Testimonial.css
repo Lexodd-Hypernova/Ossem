@@ -13,6 +13,7 @@
 
 .testimonial__Sec .swiper-container {
   height: 100%;
+  overflow: hidden;
 }
 
 .testimonial__Sec .swiper-wrapper {

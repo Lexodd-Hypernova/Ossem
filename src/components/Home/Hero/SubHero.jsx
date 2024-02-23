@@ -43,8 +43,8 @@ const SubHero = () => {
         </div>
         <div className="bld_ext-p">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Lorem ipsum dolor sit  amet, consectetur
+            adipiscing elit, sed do
           </p>
         </div>
       </div>

@@ -9,7 +9,6 @@
   line-height: 101px;
   letter-spacing: 0em;
   text-align: left;
-  color: #000;
   margin-bottom: 5rem;
 }
 
@@ -46,7 +45,6 @@
   line-height: 1;
   letter-spacing: 0em;
   text-align: left;
-  color: #000;
   position: absolute;
   top: 30px;
 }
@@ -56,7 +54,6 @@
   font-size: 19px;
   font-weight: 500;
   line-height: 1;
-  color: #000;
   letter-spacing: 0em;
   text-align: left;
   position: absolute;
@@ -70,7 +67,6 @@
   line-height: 32px;
   letter-spacing: 0em;
   text-align: left;
-  color: #000;
   position: absolute;
   top: 110px;
 }
@@ -115,7 +111,7 @@
   text-align: left;
   border: none;
   background: transparent;
-  color: #00000099;
+  color: #fff;
   display: flex;
   align-items: center;
   gap: 15px;
