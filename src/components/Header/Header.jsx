@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="nav-container">
           <div className="first-nav-section">
             <div className="first-logo-nav">
-              <img src={Logo} alt="logo" />
+              <img src="assets/img/logo.png" alt="logo" />
             </div>
             <div className="nav-first-links">
               <ul>

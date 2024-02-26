@@ -24,10 +24,10 @@ const Testimonial = () => {
       // fadeEffect: {
       //     crossFade: true
       // },
-      // autoplay: {
-      //   delay: 5000,
-      //   disableOnInteraction: false,
-      // },
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
       pagination: {
         el: ".swiper-pagination.test_pg",
         dynamicBullets: false,
@@ -47,38 +47,61 @@ const Testimonial = () => {
     <>
       <div className='testimonial__Sec'>
         <div className='tst_Swp-cnt'>
+          <div className='tst__Ttl-txt'>
+            <h3>
+              Testimonials
+            </h3>
+          </div>
           <div className="swiper-container testimonial_sw">
             <div className="swiper-wrapper">
               <div className="swiper-slide">
                 <div className='tst__Sl'>
                   <div className='tst_Txt'>
-                    <h3>Testimonial1</h3>
-                    <p>
-                      Lorem ipsum dolor sit  amet, consectetur adipiscing elit,
-                      sed do Lorem ipsum dolor sit  amet, consectetur
-                    </p>
+                    {/* <h3>Testimonial1</h3> */}
+                    <div className='test__Para'>
+                      <p>
+                        Lorem ipsum dolor sit  amet, consectetur adipiscing elit,
+                        sed do Lorem ipsum dolor sit  amet, consectetur
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit  amet, consectetur adipiscing elit,
+                        sed do Lorem ipsum dolor sit  amet, consectetur
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="swiper-slide">
                 <div className='tst__Sl'>
                   <div className='tst_Txt'>
-                    <h3>Testimonial2</h3>
-                    <p>
-                      Lorem ipsum dolor sit  amet, consectetur adipiscing elit,
-                      sed do Lorem ipsum dolor sit  amet, consectetur
-                    </p>
+                    {/* <h3>Testimonial2</h3> */}
+                    <div className='test__Para'>
+                      <p>
+                        Lorem ipsum dolor sit  amet, consectetur adipiscing elit,
+                        sed do Lorem ipsum dolor sit  amet, consectetur
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit  amet, consectetur adipiscing elit,
+                        sed do Lorem ipsum dolor sit  amet, consectetur
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="swiper-slide">
                 <div className='tst__Sl'>
                   <div className='tst_Txt'>
-                    <h3>Testimonial3</h3>
-                    <p>
-                      Lorem ipsum dolor sit  amet, consectetur adipiscing elit,
-                      sed do Lorem ipsum dolor sit  amet, consectetur
-                    </p>
+                    {/* <h3>Testimonial3</h3> */}
+                    <div className='test__Para'>
+                      <p>
+                        Lorem ipsum dolor sit  amet, consectetur adipiscing elit,
+                        sed do Lorem ipsum dolor sit  amet, consectetur
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit  amet, consectetur adipiscing elit,
+                        sed do Lorem ipsum dolor sit  amet, consectetur
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>

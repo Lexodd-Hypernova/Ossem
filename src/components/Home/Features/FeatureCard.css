@@ -96,17 +96,23 @@
 
 .container .box:nth-child(1):before,
 .container .box:nth-child(1):after {
-  background: linear-gradient(90deg, rgba(130, 180, 198, 1) 0%, rgba(172, 183, 177, 1) 35%, rgba(214, 175, 116, 1) 100%);
+  background: linear-gradient(315deg, #ffbc00, #E8BE6E);
+  /* background: radial-gradient(circle, rgba(247,212,156,1) 0%, rgba(255,255,109,1) 100%); */
+  /* background: linear-gradient(90deg, rgba(130, 180, 198, 1) 0%, rgba(172, 183, 177, 1) 35%, rgba(214, 175, 116, 1) 100%); */
 }
 
 .container .box:nth-child(2):before,
 .container .box:nth-child(2):after {
-  background: linear-gradient(90deg, rgba(130, 180, 198, 1) 0%, rgba(172, 183, 177, 1) 35%, rgba(214, 175, 116, 1) 100%);
+  background: linear-gradient(315deg, #ffbc00, #E8BE6E);
+  /* background: radial-gradient(circle, rgba(247,212,156,1) 0%, rgba(255,255,109,1) 100%); */
+  /* background: linear-gradient(90deg, rgba(130, 180, 198, 1) 0%, rgba(172, 183, 177, 1) 35%, rgba(214, 175, 116, 1) 100%); */
 }
 
 .container .box:nth-child(3):before,
 .container .box:nth-child(3):after {
-  background: linear-gradient(90deg, rgba(130, 180, 198, 1) 0%, rgba(172, 183, 177, 1) 35%, rgba(214, 175, 116, 1) 100%);
+  background: linear-gradient(315deg, #ffbc00, #E8BE6E);
+  /* background: radial-gradient(circle, rgba(247,212,156,1) 0%, rgba(255,255,109,1) 100%); */
+  /* background: linear-gradient(90deg, rgba(130, 180, 198, 1) 0%, rgba(172, 183, 177, 1) 35%, rgba(214, 175, 116, 1) 100%); */
 }
 
 .container .box span {
@@ -185,7 +191,9 @@
   position: relative;
   left: 0;
   padding: 20px 40px;
-  background: rgb(130, 180, 198);
+  /* background: rgb(247,212,156); */
+  /* background: rgba(255, 255, 255, 0.05); */
+  background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   border-radius: 8px;

@@ -1,17 +1,14 @@
 .top__Nav {
-  position: absolute;
+  position: relative;
   width: 100%;
-  top: 0;
-  left: 0;
   z-index: 2;
 }
 
 .nav-container {
-  margin-top: 30px;
-  padding: 0 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .first-nav-section {
@@ -45,7 +42,7 @@
   margin-left: 50px;
 } */
 .top__Nav a {
-  color: #000;
+  color: #fff;
   text-align: center;
   font-family: Gotham;
   font-size: 20px;

@@ -1,8 +1,8 @@
 .Hero-container {
-  background-image: url(/src/assets/heroimg.webp);
+  background-image: url(../../../../public/assets/img/hero.png);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: calc(100vh - 160px);
   position: relative;
 }
 
@@ -12,8 +12,8 @@
 
 .hero__Cta {
   position: absolute;
-  left: 19rem;
-  bottom: 8rem;
+  left: 32rem;
+  bottom: 9rem;
 }
 
 .hero__Ttl h1 {

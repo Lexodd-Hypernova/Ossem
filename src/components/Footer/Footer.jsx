@@ -67,9 +67,15 @@ const Footer = () => {
   return (
     <div className="foot__Sec" id="blob-container">
       <div className="Footer-container">
-        <h2>
-          We Are Ossem <img src={FooterVector} alt="Footervector" />
-        </h2>
+        <div className="ft_fst-Sec">
+          <h2>
+            We Are Ossem
+          </h2>
+          <div className="ft_arw-img">
+            <img src={FooterVector} alt="Footervector" />
+          </div>
+
+        </div>
         <div className="Footer-second-section">
           <div className="ft_sc-Row1">
             <button>Let's Connect <span><i className="fa-solid fa-arrow-right"></i></span></button>
@@ -85,8 +91,8 @@ const Footer = () => {
           <div className="Footer-third-first-section">
             <h4>Ed tech solutions for all educational organizations .</h4>
             <h5>
-              We’ll listen to your needs, identify the best approach, and then
-              create a bespoke smart ERP solution that’s right for you.
+              We’ll listen to your needs, identify the best approach, and then create a bespoke
+              smart ERP solution that’s right for you.
             </h5>
           </div>
           <div className="Footer-social-networks">
@@ -94,6 +100,20 @@ const Footer = () => {
             <FaInstagram />
             <FaXTwitter />
             <FaLinkedinIn />
+          </div>
+        </div>
+        <div className="ft_frth-sec">
+          <div className="copyright">
+            Copyright@ossem2024
+          </div>
+          <div className="btm_lnks">
+            <a href="">
+              Privacy Policy
+            </a>
+          </div>
+          <div className="pwr_by">
+            Powered by :
+            <a href="">Lexodd Hypernova Pvt. Ltd</a>
           </div>
         </div>
       </div>
