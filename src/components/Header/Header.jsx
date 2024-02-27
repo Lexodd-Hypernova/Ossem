@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className="nav-first-links">
               <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><a href="">About</a></li>
+                <li><Link to="/about">About</Link></li>
                 <li><Link to="/features">Features</Link></li>
               </ul>
             </div>

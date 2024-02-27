@@ -101,6 +101,7 @@ import Features from "./pages/Features";
 import Routing from "./Routing";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import About from './pages/About';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -149,6 +150,7 @@ const App = () => {
                     <Route index element={<Home />} />
                     <Route path="home" element={<Home />} />
                     <Route path="features" element={<Features />} />
+                    <Route path="about" element={<About />} />
                   </Route>
                 </Routes>
                 <Footer />

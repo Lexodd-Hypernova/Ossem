@@ -1,0 +1,31 @@
+.abt__Hero-wrap {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 160px);
+    padding: 0 80px;
+    background-image: url(../../../public/assets/img/about-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.abt_Hero-sec {
+    display: flex;
+    padding-top: 13rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.abt_Hero-txt h1 {
+    font-family: Gotham;
+    font-size: 113px;
+    font-weight: 400;
+    line-height: 107px;
+    letter-spacing: -0.05em;
+    text-align: left;
+}
+
+.abt__Hero-img img {
+    width: 100%;
+    object-fit: cover;
+}
