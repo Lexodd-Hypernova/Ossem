@@ -46,7 +46,14 @@ const Features = () => {
       </div>
       <div className="ft__Wh-kn">
         <div class="wh_kn">
-          <button>Know more <span class="ar_img"><i class="fa-solid fa-arrow-right"></i></span></button>
+          <div id="btn_container">
+            <button className="learn-more-btn">
+              <span className="circle-btn" aria-hidden="true">
+                <span className="icon-btn arrow-btn"></span>
+              </span>
+              <span class="button-text">Learn More</span>
+            </button>
+          </div>
         </div>
       </div>
 

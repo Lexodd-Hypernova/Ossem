@@ -1,0 +1,33 @@
+.abt__Video-wrap {
+    position: relative;
+    padding: 0 27rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt_Vd-txt h3 {
+    font-family: Gotham;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.abt__Vd-con video {
+    width: 100%;
+    object-fit: cover;
+}
+
+.abt_Vd-para p {
+    font-family: Gotham;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 65px;
+    padding: 0 7%;
+}

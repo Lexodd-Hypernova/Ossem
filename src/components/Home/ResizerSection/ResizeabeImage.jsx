@@ -61,9 +61,14 @@ const ResizableImages = () => {
         </div>
       </div>
       <div className="wh_kn">
-        <button>
-          Know more <span className="ar_img"><i className="fa-solid fa-arrow-right"></i></span>
-        </button>
+        <div id="btn_container">
+          <button className="learn-more-btn">
+            <span className="circle-btn" aria-hidden="true">
+              <span className="icon-btn arrow-btn"></span>
+            </span>
+            <span class="button-text">Learn More</span>
+          </button>
+        </div>
       </div>
     </div>
   );

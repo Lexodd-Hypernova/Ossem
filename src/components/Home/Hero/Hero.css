@@ -12,8 +12,8 @@
 
 .hero__Cta {
   position: absolute;
+  bottom: 15rem;
   left: 32rem;
-  bottom: 9rem;
 }
 
 .hero__Ttl h1 {
@@ -27,7 +27,7 @@
   text-transform: uppercase;
 }
 
-.Hero-container button {
+/* .Hero-container button {
   font-family: Gotham;
   font-size: 22px;
   font-style: normal;
@@ -43,7 +43,7 @@
   gap: 70px;
   box-shadow: 0px 2px 2px 0px #00000040 inset;
   cursor: pointer;
-}
+} */
 
 .Sub-Hero {
   padding: 0 80px;
@@ -162,3 +162,137 @@
   text-align: center;
   padding: 0 15%;
 }
+
+/* button */
+
+/* @import url("https://fonts.googleapis.com/css?family=Mukta:700"); */
+/* * {
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mukta", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  background: #f3f8fa;
+} */
+
+.btn_container {
+  width: 200px;
+  height: 50px;
+  position: relative;
+}
+
+.learn-more-btn {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.learn-more-btn {
+  width: 25rem;
+  height: auto;
+}
+
+.learn-more-btn .circle-btn {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 6rem;
+  height: 6rem;
+  background: #F79D1D;
+  border-radius: 9999px;
+}
+
+.learn-more-btn .circle-btn .icon-btn {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+.learn-more-btn .circle-btn .icon-btn.arrow-btn {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 2rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+.learn-more-btn .circle-btn .icon-btn.arrow-btn::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+.learn-more-btn .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 0 0 40px;
+  color: #444A44;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: Gotham;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 0em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.learn-more-btn:hover .circle-btn {
+  width: 100%;
+}
+
+.learn-more-btn:hover .circle-btn .icon-btn.arrow-btn {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+
+.learn-more-btn:hover .button-text {
+  color: #fff;
+}
+
+/* @supports (display: grid) {
+  body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.625rem;
+    grid-template-areas: ". main main ." ". main main .";
+  }
+
+  #container {
+    grid-area: main;
+    align-self: center;
+    justify-self: center;
+  }
+} */

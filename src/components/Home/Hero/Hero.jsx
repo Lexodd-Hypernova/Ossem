@@ -13,9 +13,14 @@ const Hero = () => {
           </Fade>
         </div>
         <div className="hero__Cta">
-          <button>
-            Know more <img src={ArrowHead} alt="arrow" />
-          </button>
+          <div id="btn_container">
+            <button className="learn-more-btn">
+              <span className="circle-btn" aria-hidden="true">
+                <span className="icon-btn arrow-btn"></span>
+              </span>
+              <span class="button-text">Learn More</span>
+            </button>
+          </div>
         </div>
       </div>
       <SubHero />

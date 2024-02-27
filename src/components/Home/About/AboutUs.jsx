@@ -28,7 +28,14 @@ const AboutUs = () => {
                             </p>
                         </div>
                         <div className='abt_us-cta'>
-                            <button>Know More</button>
+                            <div id="btn_container">
+                                <button className="learn-more-btn">
+                                    <span className="circle-btn" aria-hidden="true">
+                                        <span className="icon-btn arrow-btn"></span>
+                                    </span>
+                                    <span class="button-text">Learn More</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
