@@ -3,23 +3,27 @@ import "./Hero.css";
 import SubHeroImg from "../../../assets/SubHero.svg";
 import MacIng from "../../../assets/macimg.svg";
 import { Fade } from "react-awesome-reveal";
-{/* <Fade direction="up" triggerOnce>
 
-</Fade> */}
+import TextReveal from "../../TextReveal";
+
+const textReveal = "Our mission is to make management easy and effective for everyone, providing specially curated learning resources and a transformative platform."
+
 const SubHero = () => {
   return (
     <>
       <div className="Sub-Hero">
         <div className="sb_hr_Row1">
 
-          <p>
+          <TextReveal text={textReveal}></TextReveal>
+
+          {/* <p>
             <Fade direction="up" triggerOnce>
               Our mission is to make management easy and effective
               for everyone, providing specially curated learning
               resources and a transformative platform.
 
             </Fade>
-          </p>
+          </p> */}
           <div className="sb_hr-img">
             <img src={SubHeroImg} alt="" />
           </div>

@@ -1,6 +1,10 @@
 import React from 'react';
 import "./aboutUs.css";
 
+import TextReveal from '../../TextReveal';
+
+const textReveal = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et incididunt ut labore et"
+
 const AboutUs = () => {
     return (
         <div className='aboutUs__Wrap'>
@@ -19,13 +23,14 @@ const AboutUs = () => {
                             <h3>
                                 Prodserv Technologies
                             </h3>
-                            <p>
+                            <TextReveal text={textReveal}></TextReveal>
+                            {/* <p>
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit, sed do eiusmod tempor
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et incididunt ut labore et
-                            </p>
+                            </p> */}
                         </div>
                         <div className='abt_us-cta'>
                             <div id="btn_container">
