@@ -51,7 +51,7 @@ const Features = () => {
               <span className="circle-btn" aria-hidden="true">
                 <span className="icon-btn arrow-btn"></span>
               </span>
-              <span class="button-text">Learn More</span>
+              <span class="button-text">Know more</span>
             </button>
           </div>
         </div>

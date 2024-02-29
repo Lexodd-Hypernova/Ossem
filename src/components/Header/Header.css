@@ -18,8 +18,8 @@
 }
 
 .first-logo-nav {
-  width: 180px;
-  height: 80px;
+  width: 131px;
+  height: 57px;
 }
 
 .first-logo-nav img {
@@ -50,6 +50,27 @@
   font-weight: 400;
   line-height: 1;
   text-decoration: none;
+  transition: .3s ease-in-out;
+  position: relative;
+}
+
+.top__Nav a:hover{
+color: #00B2C7;
+}
+
+.top__Nav a::before{
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  bottom: -8px;
+  left: 0;
+  background-color: #00B2C7;
+  transition: .3s ease-in-out;
+}
+
+.top__Nav a:hover::before{
+  width: 100%;
 }
 
 .second-nav-section {
