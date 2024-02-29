@@ -1,7 +1,7 @@
 .abt__Hero-wrap {
     position: relative;
     width: 100%;
-    height: calc(100vh - 160px);
+    height: calc(100vh - 148px);
     padding: 0 80px;
     background-image: url(../../../public/assets/img/about-bg.png);
     background-position: center;
@@ -12,7 +12,7 @@
 .abt_Hero-sec {
     display: flex;
     padding-top: 13rem;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
 }
 

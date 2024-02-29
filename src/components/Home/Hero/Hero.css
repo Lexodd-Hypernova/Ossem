@@ -2,7 +2,7 @@
   background-image: url(../../../../public/assets/img/hero.png);
   background-size: cover;
   background-position: center;
-  height: calc(100vh - 160px);
+  height: calc(100vh - 148px);
   position: relative;
   padding: 0 80px;
 }

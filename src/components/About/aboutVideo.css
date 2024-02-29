@@ -1,12 +1,4 @@
-.abt__Video-wrap {
-    position: relative;
-    padding: 0 27rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.abt_Vd-txt h3 {
+.abt__os-ttl h2 {
     font-family: Gotham;
     font-size: 64px;
     font-weight: 400;
@@ -16,12 +8,7 @@
     margin-bottom: 65px;
 }
 
-.abt__Vd-con video {
-    width: 100%;
-    object-fit: cover;
-}
-
-.abt_Vd-para p {
+.abt__os-para p {
     font-family: Gotham;
     font-size: 36px;
     font-weight: 400;
@@ -29,5 +16,51 @@
     letter-spacing: 0em;
     text-align: center;
     margin-top: 65px;
-    padding: 0 7%;
+    padding: 0 19%;
 }
+
+
+/* ----------------------- */
+
+.saloon-video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* background: linear-gradient(to bottom, #894942 50%, #f1d9c6 50%); */
+  
+     /* scale: calc(0);
+      transition: scale 3s;  */
+  }
+  
+  .saloon-video-container video {
+    /* / Make video to at least 100% wide and tall / */
+  
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+  
+    /* / Setting width & height to auto prevents the browser from stretching or squishing the video / */
+    width: 100vw;
+    height: 100vh;
+  
+    /* / Center the video / */
+  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.4, 0.4);
+  
+    rotate: none;
+    overflow-x: clip;
+  }
+  
+   .background {
+      background-color: #662d91aa;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .video {
+      z-index: 10;
+    } 
