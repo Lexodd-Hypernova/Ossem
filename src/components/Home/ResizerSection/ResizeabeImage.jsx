@@ -6,6 +6,8 @@ import image2 from "../../../assets/Cards1.svg";
 import image3 from "../../../assets/Card3.svg";
 import image4 from "../../../assets/cards4.jpg";
 
+import { Link } from "react-router-dom";
+
 const ResizableImages = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -62,12 +64,12 @@ const ResizableImages = () => {
       </div>
       <div className="wh_kn">
         <div id="btn_container">
-          <button className="learn-more-btn">
+          <Link to="/features" className="learn-more-btn">
             <span className="circle-btn" aria-hidden="true">
               <span className="icon-btn arrow-btn"></span>
             </span>
             <span class="button-text">Know more</span>
-          </button>
+          </Link>
         </div>
       </div>
     </div>

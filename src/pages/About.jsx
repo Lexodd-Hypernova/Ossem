@@ -5,7 +5,9 @@ import Cliente from "../components/Home/Cliente/Cliente";
 import Founder from '../components/About/Founder';
 import AboutVideoFile from '../components/About/AboutVideoFile';
 
-import Lenis from '@studio-freight/lenis'
+import Lenis from '@studio-freight/lenis';
+
+import ScrollToTop from "../components/ScrollToTop";
 
 const About = () => {
 
@@ -31,6 +33,7 @@ const About = () => {
             <AboutVideoFile></AboutVideoFile>
             <Founder></Founder>
             <Cliente></Cliente>
+            <ScrollToTop></ScrollToTop>
         </>
     )
 }

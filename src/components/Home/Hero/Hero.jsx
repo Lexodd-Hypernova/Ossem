@@ -4,6 +4,8 @@ import ArrowHead from "../../../assets/arrowhead.svg";
 import SubHero from "./SubHero";
 import { Fade } from "react-awesome-reveal";
 
+import { Link } from "react-router-dom";
+
 import gsap from 'gsap';
 
 const Hero = () => {
@@ -45,12 +47,12 @@ const Hero = () => {
         </div>
         <div className="hero__Cta">
           <div id="btn_container">
-            <button className="learn-more-btn">
+            <Link to="/about" className="learn-more-btn">
               <span className="circle-btn" aria-hidden="true">
                 <span className="icon-btn arrow-btn"></span>
               </span>
               <span class="button-text">Know more</span>
-            </button>
+            </Link>
           </div>
         </div>
       </div>

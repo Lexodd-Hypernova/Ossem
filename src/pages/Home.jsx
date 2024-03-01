@@ -12,7 +12,9 @@ import Benefits from "../components/Home/Benefits/Benefits";
 
 import AboutUs from "../components/Home/About/AboutUs";
 
-import Lenis from '@studio-freight/lenis'
+import Lenis from '@studio-freight/lenis';
+
+import ScrollToTop from "../components/ScrollToTop";
 
 const Home = () => {
 
@@ -45,6 +47,8 @@ const Home = () => {
       <Features />
       <Cliente />
       {/* <Footer /> */}
+
+      <ScrollToTop></ScrollToTop>
 
     </>
   );

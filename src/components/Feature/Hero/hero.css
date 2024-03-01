@@ -1,12 +1,13 @@
 .ft_Hero-wrap {
     padding: 0 80px;
-    height: calc(100vh - 160px);
+    height: calc(100vh - 148px);
     background: #fff;
 }
 
 .ft_Hero-sec {
     padding-top: 50px;
     display: flex;
+    align-items: flex-end;
 }
 
 .ft_Hr-ttl {

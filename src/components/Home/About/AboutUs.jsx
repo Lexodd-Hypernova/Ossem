@@ -2,6 +2,7 @@ import React from 'react';
 import "./aboutUs.css";
 
 import TextReveal from '../../TextReveal';
+import { Link } from 'react-router-dom';
 
 const textReveal = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et incididunt ut labore et"
 
@@ -34,12 +35,12 @@ const AboutUs = () => {
                         </div>
                         <div className='abt_us-cta'>
                             <div id="btn_container">
-                                <button className="learn-more-btn">
+                                <Link to="/about" className="learn-more-btn">
                                     <span className="circle-btn" aria-hidden="true">
                                         <span className="icon-btn arrow-btn"></span>
                                     </span>
                                     <span class="button-text">Know more</span>
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
