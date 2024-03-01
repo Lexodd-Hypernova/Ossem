@@ -28,6 +28,14 @@ const Founder = () => {
                             <div className="">Digital Marketing</div>
                         </div>
                     </div>
+                    <div className="d_card d_card-3">
+                        <img src="assets/img/fnd.png" alt='founder' />
+                        <div className="d_crd-cnt">
+                            <h3 className="">Karteek Routh</h3>
+                            <p className="">Co Founder</p>
+                            <div className="">Digital Marketing</div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className='fnd__ext-para'>

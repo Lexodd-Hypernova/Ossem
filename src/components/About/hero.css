@@ -23,9 +23,30 @@
     line-height: 107px;
     letter-spacing: -0.05em;
     text-align: left;
+    text-transform: capitalize;
 }
 
-.abt__Hero-img img {
+/* .abt_Hero-txt{
+    flex: 1;
+}
+
+#paragraph {
+    font-family: Gotham;
+    font-size: 113px;
+    font-weight: 400;
+    line-height: 107px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    text-transform: capitalize;
+    color: white;
+    position:sticky;
+    top: 0%;
+} */
+/* #paragraph span {
+    transition: .3s linear;
+} */
+
+/* .abt__Hero-img img {
     width: 100%;
     object-fit: cover;
-}
+} */
