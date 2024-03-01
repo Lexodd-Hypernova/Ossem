@@ -18,6 +18,41 @@
 }
 
 
+.overview__Sec{
+    position: relative;
+}
+
+.ov__Ttl{
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+
+.ov__Ttl h2{
+    font-family: Gotham;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    display: inline-block;
+    padding: 18px 54px;
+    background: #E39D38;
+    border-radius: 2px;
+    color: #262222;
+    position: relative;
+}
+
+.ov__Ttl h2::before{
+    content: '';
+    position: absolute;
+    right: -214px;
+    bottom: 0;
+    height: 2px;
+    width: 214px;
+    background-color: #AAAAAA;
+}
+
 .ov_Con {
     display: flex;
     flex-direction: column;
@@ -38,8 +73,10 @@
     width: 417px;
     height: 520px;
     position: relative;
-    background: #E4E4E4;
-    transition: background .5s ease-in-out;
+    background: linear-gradient(110.97deg, rgba(255, 255, 255, 0.5) -4.87%, rgba(255, 255, 255, 0) 103.95%);
+    transition:  background 1s cubic-bezier(0, 0, 0.21, 1);
+    /* transition:  background 1s ease; */
+    transition-delay: .1s;
 }
 
 .ov_Crd-in {
@@ -57,14 +94,13 @@
 .ov-crd-ttl h3 {
     font-family: Gotham;
     font-size: 40px;
-    font-style: italic;
     font-weight: 500;
     line-height: 38px;
     letter-spacing: 0em;
     text-align: left;
     height: 80px;
-    color: #1E1C1C;
-    transition: color .5s ease-in-out;
+    color: #E1E1E1;
+    transition:all .5s ease-in-out;
 }
 
 .ov-crd-ttl p {
@@ -76,7 +112,7 @@
     text-align: left;
     margin-top: 30px;
     width: 70%;
-    color: #1E1C1C;
+    color: #E1E1E1;
     transition: color .5s ease-in-out;
 }
 
@@ -93,13 +129,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #303030;
+    border: 1px solid #E1E1E1;
     transition: border .5s ease-in-out;
 }
 
 .ov_Kn i {
-    font-size: 18px;
-    color: #1D1B1B;
+    font-size: 15px;
+    color: #E1E1E1;
     transition: color .5s ease-in-out;
 }
 
@@ -122,8 +158,8 @@
     width: 93px;
     height: 30px;
     display: flex;
-    border: 1px solid #303030;
-    color: #1D1B1B;
+    border: 1px solid #E1E1E1;
+    color: #E1E1E1;
     justify-content: center;
     align-items: center;
     transition: all .5s ease-in-out;
@@ -138,12 +174,13 @@
     text-align: left;
     width: 30px;
     /* padding: 8px; */
-    border: 1px solid #303030;
+    border: 1px solid #E1E1E1;
     height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all .5s ease-in-out;
+    color: #E1E1E1;
 }
 
 .ov_icn {
@@ -187,8 +224,9 @@
     line-height: 38px;
     letter-spacing: 0em;
     text-align: left;
-    color: #444A44;
+    color: #ACACAC;
     max-width: 575px;
+    transition: color .5s ease-in-out;
 }
 
 .ov_Row-crd .ov_crd-box {
@@ -230,5 +268,9 @@
 }
 
 .active .ov_Kn i {
+    color: #fff;
+}
+
+.active  .ov_Para p{
     color: #fff;
 }
