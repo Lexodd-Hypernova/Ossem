@@ -83,7 +83,7 @@
   border-radius: 9999px;
 }
 
-.Footer-second-section i{
+.Footer-second-section i {
   font-size: 18px;
 }
 
@@ -189,8 +189,94 @@
   color: #000;
 }
 
-.sc__Top-sec{
+.sc__Top-sec {
   position: absolute;
   right: 0;
   top: 40px;
+}
+
+@media only screen and (max-width: 1680px) {
+  .foot__Sec {
+    padding: 30px 40px 20px;
+  }
+
+  .ft_arw-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .ft_fst-Sec h2 {
+    font-size: 75px;
+  }
+
+  .ft_sc-Row2 p {
+    font-size: 22px;
+    line-height: 30px;
+    padding-left: 52%;
+  }
+
+  .Footer-second-section button {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 15px 25px 15px 25px;
+    gap: 50px;
+  }
+
+  .Footer-second-section i {
+    font-size: 14px;
+  }
+
+  .Footer-third-section h4 {
+    font-size: 14px;
+    line-height: 23px;
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .Footer-third-section h5 {
+    font-size: 14px;
+    line-height: 23px;
+    width: 45%;
+  }
+
+  .copyright {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .btm_lnks a {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .pwr_by {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .Footer-social-networks {
+    gap: 60px;
+  }
+
+  .Footer-social-networks svg {
+    font-size: 24px;
+  }
+
+  .Footer-second-section {
+    margin-top: 5rem;
+  }
+
+  .Footer-third-section {
+    margin-top: 8rem;
+  }
+
+  .ft_frth-sec {
+    margin-top: 20px;
+  }
+
+  .sc__Top-sec {
+    position: absolute;
+    right: 0;
+    top: 20px;
+  }
 }

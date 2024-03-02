@@ -90,3 +90,38 @@
 .test_pg .swiper-pagination-bullet {
   background: #fff;
 }
+
+@media only screen and (max-width: 1680px) {
+  .parallax {
+    margin-bottom: 8rem;
+  }
+
+  .testimonial__Sec {
+    position: relative;
+    padding: 0 40px;
+    margin-bottom: 10rem;
+  }
+
+  .tst_Swp-cnt {
+    height: 375px;
+  }
+
+  .tst__Ttl-txt {
+    top: 8rem;
+  }
+
+  .tst__Ttl-txt h3 {
+    font-size: 30px;
+    line-height: 60px;
+  }
+
+  .test__Para {
+    padding: 0 40px;
+  }
+
+  .tst_Txt p {
+    font-size: 24px;
+    line-height: 28px;
+    width: 40%;
+  }
+}

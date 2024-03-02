@@ -48,3 +48,25 @@
   justify-content: flex-end;
   padding-top: 40px;
 }
+
+@media only screen and (max-width: 1680px) {
+  .Features-container {
+    padding: 0 40px;
+    margin-top: 6rem;
+  }
+
+  .feat__Ttl h2 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .feat__Ttl {
+    gap: 30px;
+  }
+
+  .feat__Ttl p {
+    font-size: 20px;
+    line-height: 30px;
+    width: 54%;
+  }
+}

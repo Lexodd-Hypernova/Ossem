@@ -132,7 +132,7 @@
 
 .bn-img {
     width: 907px;
-    height: 1123px;
+    /* height: 1123px; */
     border-radius: 15px;
 }
 
@@ -153,7 +153,7 @@
     line-height: 27px;
     letter-spacing: 0em;
     text-align: left;
-    
+
     margin-bottom: 20px;
 }
 
@@ -164,7 +164,7 @@
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
-    
+
 }
 
 .bnft__Ttl-txt {
@@ -182,4 +182,70 @@
     letter-spacing: 0em;
     text-align: left;
     width: 60%;
+}
+
+@media only screen and (max-width: 1680px) {
+    .benefits__Sec {
+        padding: 0 40px;
+        margin-top: 12rem;
+    }
+
+    .bn-img {
+        width: 600px;
+        /* height: 588px; */
+    }
+
+    .bnft__Ttl-txt h4 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .benefits__Sec .swiper-pagination-bullet em {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .benefits__Sec .swiper-pagination-bullet i {
+        bottom: -10px;
+        height: 3px;
+    }
+
+    .benefits__Sec .swiper-pagination-bullet b {
+        bottom: -10px;
+        height: 3px;
+    }
+
+    .benefits__Sec .swiper-pagination {
+        gap: 18px;
+    }
+
+    .bn_Txt h3 {
+        font-size: 24px;
+        line-height: 27px;
+        margin-bottom: 15px;
+    }
+
+    .bn_Txt p {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .bn__Sl {
+        gap: 27rem;
+    }
+
+    .bn_Txt {
+        padding-bottom: 14rem;
+    }
+
+    .benefits__Sec .swiper-pagination {
+        top: 10rem !important;
+        right: 40px;
+        width: 399px !important;
+    }
+
+    .bnft__Ttl-txt {
+        width: 399px;
+        right: 40px;
+    }
 }

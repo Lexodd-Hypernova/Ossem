@@ -75,3 +75,36 @@
     padding: 20px;
     border-radius: 8px;
 } */
+
+@media only screen and (max-width: 1680px) {
+    .aboutUs__Wrap {
+        padding: 0 40px;
+        margin-top: 12rem;
+    }
+
+    .abt_Us-ttl h2 {
+        font-size: 55px;
+        padding-bottom: 15px;
+        margin-bottom: 35px;
+    }
+
+    .abt_us-para h3 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 10px;
+        margin-bottom: 40px;
+    }
+
+    .abt_us-para p {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .abt_us-img {
+        width: 500px;
+    }
+
+    .abt_Us-box {
+        gap: 10rem;
+    }
+}

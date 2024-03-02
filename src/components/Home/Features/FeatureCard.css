@@ -243,3 +243,38 @@
   box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2); */
   box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
 }
+
+@media only screen and (max-width: 1680px) {
+  .container .box {
+    width: 360px;
+    height: 420px;
+  }
+
+  .container .box:hover .content {
+    padding: 40px 40px;
+  }
+
+  .container .box:hover span::before {
+    width: 80px;
+    height: 80px;
+  }
+
+  .container .box:hover span:after {
+    width: 80px;
+    height: 80px;
+  }
+
+  .container .box .content h3 {
+    font-size: 20px;
+  }
+
+  .container .box .content p {
+    font-size: 17px;
+    line-height: 27px;
+  }
+
+  .container .box .content a {
+    font-size: 13px;
+    padding: 8px;
+  }
+}
