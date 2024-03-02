@@ -280,3 +280,17 @@
     top: 20px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .Footer-third-section h5 {
+    width: 62%;
+  }
+
+  .ft_sc-Row2 p {
+    padding-left: 34%;
+  }
+
+  .Footer-third-section h4 {
+    width: 55%;
+  }
+}

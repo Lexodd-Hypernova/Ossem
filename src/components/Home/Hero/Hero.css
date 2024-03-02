@@ -439,3 +439,31 @@ body {
     line-height: 38px;
   }
 }
+
+
+@media only screen and (max-width: 1200px) {
+  .hero__Ttl {
+    padding-top: 10rem;
+  }
+
+  .hr_ttl-txt {
+    height: 65px;
+  }
+
+  .hr_ttl-txt span {
+    font-size: 55px;
+  }
+
+  .sb_hr-img {
+    width: 300px;
+    height: 214px;
+  }
+
+  .bld__Ttl p {
+    width: 45%;
+  }
+
+  .bld_ext-p p {
+    padding: 0 8%;
+  }
+}

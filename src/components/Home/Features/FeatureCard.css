@@ -278,3 +278,19 @@
     padding: 8px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .container .box .content {
+    padding: 20px 20px;
+  }
+
+  .container .box {
+    width: 280px;
+    height: 420px;
+  }
+
+  .container .box .content p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

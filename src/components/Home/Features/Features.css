@@ -70,3 +70,9 @@
     width: 54%;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .feat__Ttl p {
+    width: 60%;
+  }
+}

@@ -249,3 +249,17 @@
         right: 40px;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    .bn-img {
+        width: 400px;
+    }
+
+    .bn_Txt {
+        padding-bottom: 3rem;
+    }
+
+    .bn__Sl {
+        gap: 13rem;
+    }
+}

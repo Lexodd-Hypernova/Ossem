@@ -232,3 +232,14 @@
     height: 343px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .rsz__Cnt {
+    height: 30vh;
+  }
+
+  .rsz__Img {
+    width: 437px;
+    height: 243px;
+  }
+}
