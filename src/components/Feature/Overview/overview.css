@@ -74,9 +74,9 @@
     height: 520px;
     position: relative;
     background: linear-gradient(110.97deg, rgba(255, 255, 255, 0.5) -4.87%, rgba(255, 255, 255, 0) 103.95%);
-    transition:  background 1s cubic-bezier(0, 0, 0.21, 1);
+    transition:  1s ease;
     /* transition:  background 1s ease; */
-    transition-delay: .1s;
+    /* transition-delay: .1s; */
 }
 
 .ov_Crd-in {
