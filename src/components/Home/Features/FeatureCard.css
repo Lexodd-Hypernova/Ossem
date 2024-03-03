@@ -315,6 +315,16 @@
 
   .container .box {
     width: 260px;
-    height: 400px;
+    height: 340px;
+  }
+
+  .container .box:hover span:before {
+    width: 60px;
+    height: 60px;
+  }
+
+  .container .box:hover span:after {
+    width: 60px;
+    height: 60px;
   }
 }
