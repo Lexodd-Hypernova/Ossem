@@ -150,7 +150,7 @@
   }
 
   .mob-logo {
-    width: 60px;
+    width: 120px;
   }
 
   .mob-logo img {
@@ -170,7 +170,7 @@
 
 @media only screen and (max-width: 600px) {
   .mob-logo {
-    width: 28px;
+    width: 80px;
   }
 
   .mob_ham {

@@ -54,7 +54,7 @@ const Navbar = () => {
       <div className="mob_Navbar">
         <div className="mob_Logo-con">
           <div className="mob-logo">
-            <img src="assets/img/m-logo.png"></img>
+            <img src="assets/img/logo.png"></img>
           </div>
         </div>
         <div className="mob_ham-con">
