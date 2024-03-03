@@ -263,3 +263,39 @@
         gap: 13rem;
     }
 }
+
+@media only screen and (max-width: 991px) {
+    .benefits__Sec {
+        padding: 0 20px;
+        margin-top: 8rem;
+    }
+
+    .bn__Sl {
+        flex-direction: column;
+        gap: 33rem;
+    }
+
+    .bn-img {
+        width: 100%;
+        height: unset;
+    }
+
+    .benefits__Sec .swiper-pagination {
+        bottom: 15rem;
+        top: unset !important;
+        right: unset;
+        left: 20px !important;
+    }
+
+    .bnft__Ttl-txt {
+        top: unset;
+        bottom: 36rem;
+        right: unset;
+        width: auto;
+        left: 20px;
+    }
+
+    .bnft__Ttl-txt h4 {
+        width: 80%;
+    }
+}

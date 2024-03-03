@@ -114,3 +114,23 @@
         width: 400px;
     }
 }
+
+@media only screen and (max-width: 991px) {
+    .aboutUs__Wrap {
+        padding: 0 20px;
+        margin-top: 8rem;
+    }
+
+    .abt_Us-box {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .abt_us-img {
+        width: 100%;
+    }
+
+    .abt_us-cnt {
+        padding: 0;
+    }
+}

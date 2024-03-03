@@ -130,3 +130,40 @@
     padding: 16px 40px;
   }
 }
+
+@media only screen and (min-width: 992px) {
+  .mob_Navbar {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .top__Nav {
+    display: none;
+  }
+
+  .mob_Navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mob-logo {
+    width: 60px;
+  }
+
+  .mob-logo img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .mob_ham {
+    width: 30px;
+  }
+
+  .mob_ham img {
+    width: 100%;
+    object-fit: cover;
+  }
+}

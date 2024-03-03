@@ -38,3 +38,13 @@
     margin-bottom: 4rem;
   }
 }
+
+@media only screen and (max-width: 991px) {
+  .Cliente-container {
+    margin-top: 10rem;
+  }
+
+  .cl__Ttl {
+    padding: 0 20px;
+  }
+}

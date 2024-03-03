@@ -125,3 +125,34 @@
     width: 40%;
   }
 }
+
+@media only screen and (max-width: 991px) {
+  .testimonial__Sec {
+    position: relative;
+    padding: 0 20px;
+    margin-bottom: 8rem;
+  }
+
+  .tst__Ttl-txt {
+    top: 6rem;
+  }
+
+  .tst__Ttl-txt h3 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .tst_Txt {
+    padding-top: 40px;
+  }
+
+  .test__Para {
+    padding: 0 20px;
+  }
+
+  .tst_Txt p {
+    font-size: 17px;
+    line-height: 20px;
+    width: 43%;
+  }
+}

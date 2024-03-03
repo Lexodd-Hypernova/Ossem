@@ -243,3 +243,22 @@
     height: 243px;
   }
 }
+
+@media only screen and (max-width: 991px) {
+  .who__Sec {
+    padding: 0 20px;
+  }
+
+  .wrapper-resizer {
+    margin-top: 80px;
+  }
+
+  .rsz__Img {
+    width: 383px;
+    height: 222px;
+  }
+
+  .rsz__Cnt {
+    height: 16vh;
+  }
+}
