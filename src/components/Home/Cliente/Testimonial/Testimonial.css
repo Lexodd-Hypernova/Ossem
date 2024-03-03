@@ -92,9 +92,6 @@
 }
 
 @media only screen and (max-width: 1680px) {
-  .parallax {
-    margin-bottom: 8rem;
-  }
 
   .testimonial__Sec {
     position: relative;
@@ -154,5 +151,44 @@
     font-size: 17px;
     line-height: 20px;
     width: 43%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .tst_Txt p {
+    font-size: 14px;
+    line-height: 18px;
+    width: 100%;
+  }
+
+  .test__Para {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .tst_Txt {
+    padding-top: 10px;
+  }
+
+  .tst__Ttl-txt h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .tst_Swp-cnt {
+    height: 260px;
+    border-radius: 10px;
+  }
+
+  .swiper-pagination.test_pg {
+    bottom: 20px !important;
+  }
+
+  .tst__Ttl-txt {
+    top: 2rem;
+  }
+
+  .testimonial__Sec {
+    margin-bottom: 6rem;
   }
 }

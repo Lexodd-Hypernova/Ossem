@@ -167,3 +167,13 @@
     object-fit: cover;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .mob-logo {
+    width: 40px;
+  }
+
+  .mob_ham {
+    width: 20px;
+  }
+}

@@ -307,3 +307,14 @@
     height: 420px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .Features-card {
+    margin-top: 6rem;
+  }
+
+  .container .box {
+    width: 260px;
+    height: 400px;
+  }
+}

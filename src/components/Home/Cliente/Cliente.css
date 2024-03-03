@@ -48,3 +48,13 @@
     padding: 0 20px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .Cliente-container {
+    margin-top: 6rem;
+  }
+
+  .cl__Ttl h2 {
+    font-size: 32px;
+  }
+}
