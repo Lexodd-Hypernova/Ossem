@@ -80,3 +80,34 @@
     margin-top: 40px;
   }
 }
+
+@media only screen and (max-width: 991px) {
+  .abt__os-ttl h2 {
+    margin-bottom: 0;
+  }
+
+  .abt__os-para p {
+    margin-top: 0;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .abt__os-ttl h2 {
+    font-size: 32px;
+    line-height: 1;
+  }
+
+  .saloon-video-container {
+    height: 50vh;
+  }
+
+  .saloon-video-container video {
+    height: 50vh;
+  }
+
+  .abt__os-para p {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}

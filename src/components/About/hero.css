@@ -69,3 +69,49 @@
         font-size: 70px;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    .abt_ttl-txt {
+        height: 60px;
+    }
+
+    .abt_ttl-txt span {
+        font-size: 55px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .abt_Hero-sec {
+        flex-direction: column;
+        gap: 4rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .abt_Hero-txt {
+        width: 100%;
+    }
+
+    .abt__Hero-img {
+        width: 100%;
+    }
+
+    .abt__Hero-wrap {
+        padding: 0 20px;
+        background-size: 100% 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .abt_ttl-txt {
+        height: 45px;
+    }
+
+    .abt_ttl-txt span {
+        font-size: 40px;
+    }
+
+    .abt__Hero-wrap {
+        height: calc(100vh - 77px);
+    }
+}
