@@ -424,3 +424,59 @@
         height: 32px;
     }
 }
+
+@media only screen and (max-width: 991px) {
+    .ov_Row-crd1 {
+        flex-direction: column-reverse;
+    }
+
+    .ov_Row-crd2 {
+        flex-direction: column-reverse;
+    }
+
+    .ov_Row-crd3 {
+        flex-direction: column;
+    }
+
+    .ov_Row-crd4 {
+        flex-direction: column-reverse;
+    }
+
+    .ov_Row-crd5 {
+        flex-direction: column;
+    }
+
+    .ov_Con {
+        padding-top: 60px;
+    }
+
+    .ov__Ttl {
+        top: 0;
+    }
+
+    .ov_crd-box {
+        gap: 40px;
+    }
+
+    .ov_Row-crd {
+        gap: 20px;
+    }
+
+    .ov_Con {
+        gap: 40px;
+    }
+
+    .overview__Wrap {
+        padding: 0 20px;
+        margin-top: 4rem;
+        margin-bottom: 20rem;
+    }
+
+    .overview__Wrap::before {
+        top: 7rem;
+    }
+
+    .ov__Ttl h2::before {
+        display: none;
+    }
+}

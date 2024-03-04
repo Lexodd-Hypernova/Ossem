@@ -78,3 +78,30 @@
         font-size: 55px;
     }
 }
+
+@media only screen and (max-width: 991px) {
+    .ft_Hero-wrap {
+        padding: 0 20px;
+    }
+
+    .ft_ttl-txt {
+        height: 45px;
+    }
+
+    .ft_Hr-ttl span {
+        font-size: 40px;
+    }
+
+    .ft_Hero-sec {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .ft_Hr-ttl {
+        width: 100%;
+    }
+
+    .ft_Hr-img {
+        width: 100%;
+    }
+}

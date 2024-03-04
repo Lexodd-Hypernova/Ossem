@@ -255,3 +255,65 @@
         gap: 18rem;
     }
 }
+
+@media only screen and (max-width: 991px) {
+    .bnss__Card-wrap {
+        margin-top: 6rem;
+        padding: 20px 20px;
+    }
+
+    .bn_Ttl2 {
+        padding: 8px 12px;
+        font-size: 55px;
+    }
+
+    .bn_Ttl1 {
+        font-size: 20px;
+        line-height: 28px;
+        padding: 3px 5px;
+    }
+
+    .bnss__Ttl h2 {
+        font-size: 55px;
+        line-height: 80px;
+    }
+
+    .bnss-card-sec {
+        gap: 4rem;
+    }
+
+    .bnss_card-row {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .bnss_img {
+        width: 100%;
+    }
+
+    .bnss__crd-cnt {
+        margin-top: 0rem;
+    }
+
+    .bnss__crd-cnt h3 {
+        font-size: 40px;
+        line-height: 40px;
+        padding-bottom: 15px;
+    }
+
+    .bnss__crd-cnt p {
+        font-size: 17px;
+        line-height: 24px;
+        margin-top: 30px;
+    }
+
+    .bnss__Btn {
+        margin-top: 3rem;
+    }
+    .bnss_card-row2{
+        flex-direction: column-reverse;
+    }
+    .bnss__Btn{
+        justify-content: flex-start;
+    }
+}

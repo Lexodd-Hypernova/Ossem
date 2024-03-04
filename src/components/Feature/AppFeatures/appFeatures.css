@@ -480,29 +480,29 @@
 
 }
 
-@media only screen and (max-width: 1150px) {
-    #component1 .prod-comp-img {
-        width: 240px;
-        height: 230px;
-    }
-
-    #component2 .prod-comp-img {
-        width: 197px;
-        height: 240px;
-    }
-
-    #component3 .prod-comp-img {
-        width: 239px;
-        height: 239px;
-    }
-
-    #component4 .prod-comp-img {
-        width: 173px;
-        height: 174px;
-    }
-}
-
 @media only screen and (max-width: 991px) {
+    .app__Ft-ttl h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .app__Ft-ttl {
+        padding: 0 20px;
+        margin-bottom: 4rem;
+    }
+
+    .slider__Wrap {
+        padding: 0 20px;
+        margin: 20px 0;
+    }
+
+    .slider__Wrap{
+        min-height: 600px;
+        height: 600px;
+    }
+    .feat__Scroll-con{
+        height: 600px;
+    }
 
     .sidebar-item {
         font-size: 11px;
@@ -510,8 +510,22 @@
     }
 
     .prod-comp-txt p {
-        font-size: 8px;
-        line-height: 10px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .sb__List li {
+        display: flex;
+        gap: 20px;
+    }
+
+    .sb__List span {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .progress_Bar_cont {
+        height: 220px;
     }
 
     .section {
@@ -542,23 +556,13 @@
         height: 74px;
     }
 
-    .progress_Bar_cont {
-        height: 87px;
-        top: 12rem;
-    }
-
-    .slider__col {
-        top: 12rem;
-    }
-
     .slider__images {
-        width: 40%;
-        padding-top: 4rem;
+        width: 65%;
     }
 
     .slider__Wrap .slider {
-        height: 390px;
-        border-radius: 10px;
+        height: 600px;
+        border-radius: 25px;
     }
 
     .prd__Ttl {
@@ -567,8 +571,8 @@
     }
 
     .slider__thumbs .thumb_txt {
-        font-size: 11px;
-        line-height: 13px;
+        font-size: 14px;
+        line-height: 14px;
     }
 
     .slider__thumbs .swiper-slide {
@@ -577,6 +581,14 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .feat__Scroll-con {
+        height: 576px;
+    }
+
+    .slider__Wrap {
+        height: 576px;
+        min-height: 576px;
+    }
 
     /* .prod__Comp_wrap {
         padding-top: 0rem;
