@@ -217,4 +217,41 @@
     .cta span {
         font-size: 30px;
     }
+
+    .bnss-card-sec {
+        gap: 10rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .bnss_img {
+        width: 400px;
+    }
+
+    .bnss__crd-cnt {
+        margin-top: 10rem;
+    }
+
+    .bnss__crd-cnt h3 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .bnss__crd-cnt p {
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 40px;
+    }
+
+    .bnss__Btn {
+        margin-top: 8rem;
+    }
+
+    .cta span {
+        font-size: 26px;
+    }
+
+    .bnss_card-row {
+        gap: 18rem;
+    }
 }

@@ -54,15 +54,27 @@
     object-fit: cover;
 }
 
-@media only screen and (max-width: 1680px){
-    .ft_Hero-wrap{
+@media only screen and (max-width: 1680px) {
+    .ft_Hero-wrap {
         padding: 0 40px;
         height: calc(100vh - 90px);
     }
-    .ft_ttl-txt{
+
+    .ft_ttl-txt {
         height: 75px;
     }
-    .ft_Hr-ttl span{
+
+    .ft_Hr-ttl span {
         font-size: 70px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .ft_ttl-txt {
+        height: 60px;
+    }
+
+    .ft_Hr-ttl span {
+        font-size: 55px;
     }
 }

@@ -358,3 +358,69 @@
         right: -133px;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    .ov_Card {
+        width: 227px;
+        height: 287px;
+    }
+
+    .ov_Para p {
+        font-size: 20px;
+        line-height: 22px;
+        max-width: 290px;
+    }
+
+    .ov-crd-ttl h3 {
+        font-size: 24px;
+    }
+
+    .ov-crd-ttl p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .ov_asp {
+        left: 20px;
+        bottom: 20px;
+        gap: 5px;
+    }
+
+    .asp_cn {
+        font-size: 10px;
+        line-height: 12px;
+        width: 80px;
+        height: 25px;
+    }
+
+    .asp_si {
+        font-size: 10px;
+        line-height: 12px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .ov_Kn {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .ov_Kn i {
+        font-size: 10px;
+    }
+
+    .ov_Kn span {
+        width: 25px;
+        height: 25px;
+    }
+
+    .ov_icn {
+        width: 30px;
+        height: 30px;
+    }
+
+    .ov__Rect span {
+        width: 10px;
+        height: 32px;
+    }
+}

@@ -457,10 +457,25 @@
 
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1200px) {
 
     .slider__col {
         width: 40%;
+    }
+
+    .app__Ft-ttl h2 {
+        font-size: 55px;
+        line-height: 55px;
+    }
+
+    .component .prod-comp-img {
+        width: 110px;
+        height: 103px;
+    }
+
+    .prod__Comp_wrap {
+        gap: 4rem;
+        width: 65%;
     }
 
 }
@@ -484,10 +499,6 @@
     #component4 .prod-comp-img {
         width: 173px;
         height: 174px;
-    }
-
-    .prod__Comp_wrap {
-        gap: 5rem;
     }
 }
 
