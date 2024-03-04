@@ -167,3 +167,54 @@
 .bnss_card-row.bnss_card-row2 .bnss__Btn {
     justify-content: flex-start;
 }
+
+@media only screen and (max-width: 1680px) {
+    .bnss__Ttl h2 {
+        font-size: 75px;
+        line-height: 110px;
+    }
+
+    .bn_Ttl1 {
+        font-size: 22px;
+        line-height: 32px;
+        padding: 3px 5px;
+    }
+
+    .bn_Ttl2 {
+        padding: 10px 18px;
+        font-size: 75px;
+    }
+
+    .bnss__Card-wrap {
+        margin-top: 9rem;
+        padding: 30px 40px;
+    }
+
+    .bnss_card-row {
+        gap: 28rem;
+    }
+
+    .bnss_img {
+        width: 460px;
+    }
+
+    .bnss__crd-cnt {
+        margin-top: 12rem;
+    }
+
+    .bnss__crd-cnt h3 {
+        font-size: 65px;
+        line-height: 65px;
+        padding-bottom: 20px;
+    }
+
+    .bnss__crd-cnt p {
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 46px;
+    }
+
+    .cta span {
+        font-size: 30px;
+    }
+}

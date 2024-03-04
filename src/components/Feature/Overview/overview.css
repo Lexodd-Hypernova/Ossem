@@ -18,17 +18,17 @@
 }
 
 
-.overview__Sec{
+.overview__Sec {
     position: relative;
 }
 
-.ov__Ttl{
+.ov__Ttl {
     position: absolute;
     left: 0;
     top: 60px;
 }
 
-.ov__Ttl h2{
+.ov__Ttl h2 {
     font-family: Gotham;
     font-size: 18px;
     font-weight: 700;
@@ -43,7 +43,7 @@
     position: relative;
 }
 
-.ov__Ttl h2::before{
+.ov__Ttl h2::before {
     content: '';
     position: absolute;
     right: -214px;
@@ -51,6 +51,7 @@
     height: 2px;
     width: 214px;
     background-color: #AAAAAA;
+    z-index: -1;
 }
 
 .ov_Con {
@@ -74,7 +75,7 @@
     height: 520px;
     position: relative;
     background: linear-gradient(110.97deg, rgba(255, 255, 255, 0.5) -4.87%, rgba(255, 255, 255, 0) 103.95%);
-    transition:  1s ease;
+    transition: 1s ease;
     /* transition:  background 1s ease; */
     /* transition-delay: .1s; */
 }
@@ -100,7 +101,7 @@
     text-align: left;
     height: 80px;
     color: #E1E1E1;
-    transition:all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .ov-crd-ttl p {
@@ -271,6 +272,89 @@
     color: #fff;
 }
 
-.active  .ov_Para p{
+.active .ov_Para p {
     color: #fff;
+}
+
+
+@media only screen and (max-width: 1680px) {
+    .overview__Wrap {
+        padding: 0 40px;
+        margin-top: 10rem;
+        margin-bottom: 30rem;
+    }
+
+    .ov_Card {
+        width: 308px;
+        height: 420px;
+    }
+
+    .ov-crd-ttl {
+        top: 60px;
+        left: 20px;
+    }
+
+    .ov-crd-ttl h3 {
+        font-size: 32px;
+        line-height: 32px;
+        height: 60px;
+    }
+
+    .ov-crd-ttl p {
+        font-size: 17px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+
+    .ov_Para p {
+        font-size: 28px;
+        line-height: 28px;
+        max-width: 415px;
+    }
+
+    .ov_Kn {
+        right: 20px;
+        bottom: 40px;
+    }
+
+    .ov_asp {
+        left: 20px;
+        bottom: 40px;
+        gap: 8px;
+    }
+
+    .ov_icn {
+        width: 40px;
+        height: 40px;
+        top: 140px;
+        right: 20px;
+    }
+
+    .ov__Rect {
+        gap: 8px;
+        right: 20px;
+    }
+
+    .ov__Rect span {
+        width: 14px;
+        height: 45px;
+    }
+
+    .ov__Ttl h2 {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 15px 40px;
+    }
+
+    .ov_Con {
+        gap: 20px;
+    }
+
+    .overview__Wrap::before {
+        top: 15rem;
+    }
+
+    .ov__Ttl h2::before {
+        right: -133px;
+    }
 }
