@@ -106,3 +106,37 @@
   text-align: center;
   padding: 0 23%;
 }
+
+@media only screen and (max-width: 1680px) {
+  .d_mn-ttl {
+    font-size: 45px;
+    line-height: 51px;
+  }
+
+  .d_Card-wrap {
+    column-gap: 4rem;
+  }
+
+  .d_card {
+    width: 33rem;
+  }
+
+  .d_crd-cnt {
+    padding: 3rem;
+  }
+
+  .fnd__ext-para {
+    margin-top: 20rem;
+  }
+
+  .fnd__ext-para h3 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 3rem;
+  }
+
+  .fnd__ext-para p {
+    font-size: 24px;
+    line-height: 33px;
+  }
+}

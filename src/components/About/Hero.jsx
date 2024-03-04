@@ -1,66 +1,59 @@
 import React, { useEffect, useState, useRef } from 'react';
 import "./hero.css";
-// import ScrollingText from '../ScrollingText';
-
-// const title = ""
-
-
-
-
-
+import gsap from 'gsap';
 
 const Hero = () => {
-    // const text = "crafted to empower our educational organizations"
-    // const words = text.split(' ');
-    // const [color, setColor] = useState(Array(words.length).fill('black'));
-    // const [started, setStarted] = useState(false);
-    // const sectionRef = useRef(null);
 
+    useEffect(() => {
+        const tl = gsap.timeline();
 
-    // useEffect(() => {
-    //     const handleScroll = () => {
-    //         const sectionHeight = sectionRef.current.offsetHeight;
-    //         const sectionTop = sectionRef.current.offsetTop;
-    //         const scrollPosition = window.scrollY;
+        tl.to(".abt_Hero-txt span", 1.8, {
+            y: 0,
+            ease: "power4.out",
+            delay: 0.5,
+            skewY: 0,
+            stagger: {
+                amount: 0.3
+            }
+        })
 
-    //         if (scrollPosition === 0 && !started) {
-    //             setStarted(true);
-    //             setColor(Array(words.length).fill('white'));
-    //         } else if (scrollPosition > sectionTop && scrollPosition < sectionTop + sectionHeight) {
-    //             const scrollPercentage = (scrollPosition - sectionTop) / sectionHeight;
-    //             const numWordsToChange = Math.ceil(scrollPercentage * (words.length + 1));
-
-    //             setColor(prevColor => prevColor.map((_, index) => index < numWordsToChange ? 'white' : 'black'));
-    //         }
-    //     };
-
-    //     window.addEventListener('scroll', handleScroll);
-
-    //     return () => {
-    //         window.removeEventListener('scroll', handleScroll);
-    //     };
-    // }, [started]);
-
+    }, []);
 
     return (
         <div className='abt__Hero-wrap'>
             <div className='abt_Hero-sec'>
                 <div className='abt_Hero-txt'>
-                    <h1>
-                        A digital<br></br>
-                        platform<br></br>
-                        crafted to<br></br>
-                        empower our<br></br>
-                        educational<br></br>
-                        organizations
-                    </h1>
-                    {/* <div ref={sectionRef} id="paragraph">
-                        {words.map((word, index) => (
-                            <span key={index} style={{ color: color[index] }}>
-                                {word}{' '}
-                            </span>
-                        ))}
-                    </div> */}
+                    <div className='abt_ttl-txt'>
+                        <span>
+                            A digital
+                        </span>
+                    </div>
+                    <div className='abt_ttl-txt'>
+                        <span>
+                            platform
+                        </span>
+                    </div>
+                    <div className='abt_ttl-txt'>
+                        <span>
+                            crafted to
+                        </span>
+                    </div>
+                    <div className='abt_ttl-txt'>
+                        <span>
+                            empower our
+                        </span>
+                    </div>
+                    <div className='abt_ttl-txt'>
+                        <span>
+                            educational
+                        </span>
+                    </div>
+                    <div className='abt_ttl-txt'>
+                        <span>
+                            organizations
+                        </span>
+                    </div>
+
                 </div>
                 <div className='abt__Hero-img'>
                     <img src="assets/img/about.png" alt="about" />
