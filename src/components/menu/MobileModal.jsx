@@ -35,6 +35,11 @@ const MobileModal = ({ isOpen, onClose }) => {
                                         <li><NavLink to="/features" onClick={onClose}>Features</NavLink></li>
                                         <li>
                                             <a onClick={onClose}>
+                                                Contact
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a onClick={onClose}>
                                                 Login
                                             </a>
                                         </li>
