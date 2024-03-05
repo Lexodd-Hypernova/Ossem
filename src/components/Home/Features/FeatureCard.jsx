@@ -17,7 +17,7 @@ const FeatureCard = ({ title, para }) => {
         <div class="content">
           <h3>{title}</h3>
           <p>{para}</p>
-          <a href="#">Read More</a>
+          <a href="#">Know more</a>
         </div>
       </div>
     </>

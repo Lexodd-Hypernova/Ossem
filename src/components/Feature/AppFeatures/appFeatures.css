@@ -496,11 +496,12 @@
         margin: 20px 0;
     }
 
-    .slider__Wrap{
+    .slider__Wrap {
         min-height: 600px;
         height: 600px;
     }
-    .feat__Scroll-con{
+
+    .feat__Scroll-con {
         height: 600px;
     }
 
@@ -581,14 +582,23 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .feat__Scroll-con {
-        height: 576px;
+    .app__Ft-ttl h2 {
+        font-size: 30px;
+        line-height: 32px;
     }
 
-    .slider__Wrap {
+    .app__Ft-ttl {
+        margin-bottom: 1rem;
+    }
+
+    /* .feat__Scroll-con {
+        height: 576px;
+    } */
+
+    /* .slider__Wrap {
         height: 576px;
         min-height: 576px;
-    }
+    } */
 
     /* .prod__Comp_wrap {
         padding-top: 0rem;
@@ -629,21 +639,16 @@
         height: 221px;
     }
 
-    .prod-comp-txt p {
-        font-size: 12px;
-        line-height: 14px;
-    }
-
-    .slider__Wrap .slider {
+    /* .slider__Wrap .slider {
         height: 576px;
-    }
+    } */
 
     .slider__col {
         position: relative;
-        top: 0;
+        top: 119px;
         left: 0;
         width: 100%;
-        padding: 20px 0 0 20px;
+        padding: 0px 0 20px 20px;
     }
 
     .slider__thumbs .swiper-slide {
@@ -653,12 +658,12 @@
 
     .slider__images {
         width: 100%;
-        padding-top: 4rem;
+        padding-top: 0;
         justify-self: center;
     }
 
     .slider__Wrap {
-        padding: 0 30px;
+        padding: 0 20px;
         margin: 30px 0;
     }
 
@@ -667,9 +672,10 @@
     }
 
     .progress_Bar_cont {
-        height: 87px;
-        top: 2rem;
+        height: 211px;
+        top: 0rem;
         left: 0;
+        transform: none;
     }
 
     .prd__Ttl {
@@ -678,12 +684,38 @@
     }
 
     .slider__thumbs .thumb_txt {
-        font-size: 11px;
+        font-size: 12px;
         line-height: 13px;
     }
 
     .prod__Comp_wrap {
-        gap: 4rem;
+        gap: 2rem;
         align-items: center;
+        width: 100%;
+    }
+
+    .component .prod-comp-img {
+        width: 80px;
+        height: 75px;
+    }
+
+    .prod-comp-txt p {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .sb__Md-ttl h4 {
+        font-size: 13px;
+        line-height: 13px;
+        margin-bottom: 15px;
+    }
+
+    .sb__List ul {
+        gap: 8px;
+    }
+
+    .sb__List span {
+        font-size: 13px;
+        line-height: 17px;
     }
 }

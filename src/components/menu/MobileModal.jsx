@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import "./mobileModal.css";
 
-// import { Link } from "react-router-dom";
-
+import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -19,9 +19,9 @@ const MobileModal = ({ isOpen, onClose }) => {
                                     <div className="mob-mn_Ttl-icn">
 
                                         {/* <Link href="/" onClick={onClose}><Image src="/assets/images/menu-logo.svg" alt='project-d' width={400} height={56}></Image></Link> */}
-                                        <a href="/" className="mob-menu_Modal-logo" onClick={onClose}>
+                                        <Link to="/" className="mob-menu_Modal-logo" onClick={onClose}>
                                             <img src="assets/img/logo.png" alt="logo"></img>
-                                        </a>
+                                        </Link>
 
                                     </div>
                                     {/* <div className="mn_Cnt-us">
@@ -30,29 +30,12 @@ const MobileModal = ({ isOpen, onClose }) => {
                                 </div>
                                 <div className="mob-mn_Col2">
                                     <ul>
+                                        <li><NavLink to="/" onClick={onClose}>Home</NavLink ></li>
+                                        <li><NavLink to="/about" onClick={onClose}>About</NavLink></li>
+                                        <li><NavLink to="/features" onClick={onClose}>Features</NavLink></li>
                                         <li>
-                                            <a href="/">
-                                                Home
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/about">
-                                                About
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/portfolio">
-                                                Work
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/blog">
-                                                Blog
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/contact">
-                                                Contact
+                                            <a onClick={onClose}>
+                                                Login
                                             </a>
                                         </li>
                                     </ul>

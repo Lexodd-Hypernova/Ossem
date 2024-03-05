@@ -135,6 +135,10 @@ textarea {
     text-decoration: none;
 }
 
+.mob-mn_Col2 .active {
+    color: #00B2C7;
+  }
+
 .mob-menu_Modal-logo {
     width: 340px;
     /* height: 200px; */

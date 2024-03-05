@@ -480,3 +480,123 @@
         display: none;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .ov__Ttl h2 {
+        padding: 15px 20px;
+    }
+
+    .ov__Ttl {
+        width: 100%;
+        position: relative;
+    }
+
+    .ov__Ttl::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        right: 0;
+        bottom: 0;
+        height: 2px;
+        background-color: #AAAAAA;
+    }
+
+    .ov_Con {
+        padding-top: 50px;
+    }
+
+    .overview__Wrap::before {
+        top: 10rem;
+    }
+
+    .ov_Para p {
+        font-size: 15px;
+        line-height: 18px;
+        max-width: 100%;
+    }
+
+    .ov_Card {
+        width: 140px;
+        height: 176px;
+    }
+
+    .ov-crd-ttl {
+        top: 20px;
+        left: 10px;
+    }
+
+    .ov-crd-ttl h3 {
+        font-size: 14px;
+        line-height: 18px;
+        height: 36px;
+    }
+
+    .ov-crd-ttl p {
+        font-size: 11px;
+        line-height: 14px;
+        margin-top: 10px;
+    }
+
+    .ov_Kn {
+        right: 10px;
+        bottom: 20px;
+    }
+
+    .ov_Kn i {
+        font-size: 8px;
+    }
+
+    .ov_asp {
+        left: 10px;
+        bottom: 20px;
+        gap: 3px;
+    }
+
+    .asp_cn {
+        font-size: 8px;
+        line-height: 8px;
+        width: 64px;
+        height: 20px;
+    }
+
+    .asp_si {
+        font-size: 8px;
+        line-height: 8px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .ov_icn {
+        width: 20px;
+        height: 20px;
+        top: 70px;
+        right: 10px;
+    }
+
+    .ov__Rect {
+        gap: 5px;
+        right: 10px;
+    }
+
+    .ov__Rect span {
+        width: 6px;
+        height: 19px;
+    }
+
+    .ov_Con {
+        gap: 24px;
+    }
+
+    .ov_crd-box {
+        gap: 20px;
+    }
+
+    .overview__Wrap {
+        margin-bottom: 10rem;
+    }
+
+    .ov_Kn span {
+        width: 20px;
+        height: 20px;
+    }
+}
