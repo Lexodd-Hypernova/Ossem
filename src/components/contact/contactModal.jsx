@@ -5,7 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 // import Image from "../../../public/assets/images/formimage.svg";
-import "./ContactModal.css";
+import "./contactModal.css";
 
 const ContactModal = ({ isOpen, onClose }) => {
   const [formData, setFormData] = useState({
