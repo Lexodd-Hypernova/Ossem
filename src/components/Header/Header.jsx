@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Logo from "../../assets/logo.svg";
 import "./Header.css";
 
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import MobileModal from "../menu/MobileModal";
 
@@ -39,9 +39,9 @@ const Navbar = () => {
             </div>
             <div className="nav-first-links">
               <ul>
-                <li><NavLink to="/">Home</NavLink></li>
-                <li><NavLink to="/about">About</NavLink></li>
-                <li><NavLink to="/features">Features</NavLink></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/features">Features</Link></li>
               </ul>
             </div>
           </div>

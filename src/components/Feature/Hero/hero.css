@@ -1,5 +1,4 @@
 .ft_Hero-wrap {
-    padding: 0 80px;
     height: calc(100vh - 148px);
     background: #fff;
     display: flex;
@@ -11,6 +10,9 @@
     align-items: flex-end;
     justify-content: space-between;
     width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 80px;
 }
 
 .ft_Hr-ttl {
@@ -56,8 +58,11 @@
 
 @media only screen and (max-width: 1680px) {
     .ft_Hero-wrap {
-        padding: 0 40px;
         height: calc(100vh - 90px);
+    }
+
+    .ft_Hero-sec {
+        padding: 0 40px;
     }
 
     .ft_ttl-txt {
@@ -80,7 +85,7 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .ft_Hero-wrap {
+    .ft_Hero-sec {
         padding: 0 20px;
     }
 

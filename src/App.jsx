@@ -188,7 +188,7 @@ const App = () => {
         <div className="pg__Wrap">
           <Header />
           <Routes>
-            <Route path="/" element={<Routing />}>
+            <Route exact path="/" element={<Routing />}>
               <Route index element={<Home />} />
               <Route path="home" element={<Home />} />
               <Route path="features" element={<Features />} />

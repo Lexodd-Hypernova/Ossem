@@ -1,5 +1,7 @@
 .aboutUs__Wrap {
     padding: 0 80px;
+    max-width: 1920px;
+    margin: 0 auto;
     margin-top: 18rem;
 }
 

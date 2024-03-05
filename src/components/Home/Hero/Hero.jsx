@@ -29,32 +29,31 @@ const Hero = () => {
   return (
     <>
       <div className="Hero-container">
-        <div className="hero__Ttl">
+        <div className="hr__Sec-wrap">
+          <div className="hero__Ttl">
 
-          <div className="hr_ttl-txt">
-            <span>CRAFTED AND</span>
+            <div className="hr_ttl-txt">
+              <span>CRAFTED AND</span>
+            </div>
+            <div className="hr_ttl-txt">
+              <span>EMPOWERED,</span>
+            </div>
+            <div className="hr_ttl-txt">
+              <span>DIGITALLY.</span>
+            </div>
           </div>
-          <div className="hr_ttl-txt">
-            <span>EMPOWERED,</span>
-          </div>
-          <div className="hr_ttl-txt">
-            <span>DIGITALLY.</span>
-          </div>
-
-          {/* <Fade direction="up" triggerOnce>
-            <h1>CRAFTED AND<br></br>EMPOWERED,<br></br>DIGITALLY.</h1>
-          </Fade> */}
-        </div>
-        <div className="hero__Cta">
-          <div id="btn_container">
-            <Link to="/about" className="learn-more-btn">
-              <span className="circle-btn" aria-hidden="true">
-                <span className="icon-btn arrow-btn"></span>
-              </span>
-              <span class="button-text">Know more</span>
-            </Link>
+          <div className="hero__Cta">
+            <div id="btn_container">
+              <Link to="/about" className="learn-more-btn">
+                <span className="circle-btn" aria-hidden="true">
+                  <span className="icon-btn arrow-btn"></span>
+                </span>
+                <span class="button-text">Know more</span>
+              </Link>
+            </div>
           </div>
         </div>
+
       </div>
       <SubHero />
     </>

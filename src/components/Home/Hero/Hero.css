@@ -4,6 +4,14 @@
   background-position: center;
   height: calc(100vh - 148px);
   position: relative;
+}
+
+.hr__Sec-wrap {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
   padding: 0 80px;
 }
 
@@ -82,8 +90,10 @@
 } */
 
 .Sub-Hero {
-  padding: 0 80px;
+  max-width: 1920px;
+  margin: 0 auto;
   margin-top: 13rem;
+  padding: 0 80px;
 }
 
 .sb_hr_Row1 {
@@ -123,6 +133,8 @@
 }
 
 .build__Sec {
+  max-width: 1920px;
+  margin: 0 auto;
   margin-top: 24px;
   padding: 0 80px;
 }
@@ -337,6 +349,9 @@ body {
 @media only screen and (max-width: 1680px) {
   .Hero-container {
     height: calc(100vh - 90px);
+  }
+
+  .hr__Sec-wrap {
     padding: 0 40px;
   }
 
@@ -471,8 +486,11 @@ body {
 @media only screen and (max-width: 991px) {
   .Hero-container {
     height: calc(100vh - 53px);
-    padding: 0 20px;
     position: relative;
+  }
+
+  .hr__Sec-wrap {
+    padding: 0 20px;
   }
 
   .hero__Ttl {

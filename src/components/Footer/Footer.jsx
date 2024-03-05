@@ -84,6 +84,7 @@ const Footer = () => {
         </div>
         <div className="Footer-second-section">
           <div className="ft_sc-Row1">
+
             <button onClick={openContactModal}>
               Let's Connect
               <span>
