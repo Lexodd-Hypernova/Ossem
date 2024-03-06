@@ -16,62 +16,62 @@ const Footer = () => {
   const closeContactModal = () => {
     setIsContactModalOpen(false);
   };
-  useEffect(() => {
-    const blobContainer = document.getElementById("blob-container");
+  // useEffect(() => {
+  //   const blobContainer = document.getElementById("blob-container");
 
-    // Default background position
-    let xPercent = 50;
-    let yPercent = 50;
+  //   // Default background position
+  //   let xPercent = 50;
+  //   let yPercent = 50;
 
-    // Default animation for the gradient blob using GSAP
-    const tl = gsap.timeline({ repeat: -1, yoyo: true, paused: true });
-    tl.to(blobContainer, {
-      duration: 2,
-      ease: "power1.inOut",
-      background: `radial-gradient(circle at ${xPercent}% ${yPercent}%, rgba(245,183,66,1) 9%, rgba(254,248,122,1) 91%)`,
-    });
+  //   // Default animation for the gradient blob using GSAP
+  //   const tl = gsap.timeline({ repeat: -1, yoyo: true, paused: true });
+  //   tl.to(blobContainer, {
+  //     duration: 2,
+  //     ease: "power1.inOut",
+  //     background: `radial-gradient(circle at ${xPercent}% ${yPercent}%, rgba(245,183,66,1) 9%, rgba(254,248,122,1) 91%)`,
+  //   });
 
-    // Function to update the gradient position on mouse move
-    function moveGradient(event) {
-      // Calculate the mouse position from 0 to 100 within the container
-      xPercent = (event.clientX / window.innerWidth) * 100;
-      yPercent = (event.clientY / window.innerHeight) * 100;
+  //   // Function to update the gradient position on mouse move
+  //   function moveGradient(event) {
+  //     // Calculate the mouse position from 0 to 100 within the container
+  //     xPercent = (event.clientX / window.innerWidth) * 100;
+  //     yPercent = (event.clientY / window.innerHeight) * 100;
 
-      // Update the gradient position
-      updateGradient(xPercent, yPercent);
+  //     // Update the gradient position
+  //     updateGradient(xPercent, yPercent);
 
-      // Pause the default animation
-      tl.pause();
-    }
+  //     // Pause the default animation
+  //     tl.pause();
+  //   }
 
-    // Function to update the gradient background
-    function updateGradient(x, y) {
-      // Use GSAP to animate the background change
-      gsap.to(blobContainer, {
-        background: `radial-gradient(circle at ${x}% ${y}%, rgba(245,183,66,1) 9%, rgba(254,248,122,1) 91%)`,
-        duration: 0.5,
-        ease: "none",
-      });
-    }
+  //   // Function to update the gradient background
+  //   function updateGradient(x, y) {
+  //     // Use GSAP to animate the background change
+  //     gsap.to(blobContainer, {
+  //       background: `radial-gradient(circle at ${x}% ${y}%, rgba(245,183,66,1) 9%, rgba(254,248,122,1) 91%)`,
+  //       duration: 0.5,
+  //       ease: "none",
+  //     });
+  //   }
 
-    // Add mouse move event listener
-    document.addEventListener("mousemove", moveGradient);
+  //   // Add mouse move event listener
+  //   document.addEventListener("mousemove", moveGradient);
 
-    // Optional: Restart the default animation when mouse leaves the container
-    blobContainer.addEventListener("mouseleave", () => {
-      tl.restart();
-    });
+  //   // Optional: Restart the default animation when mouse leaves the container
+  //   blobContainer.addEventListener("mouseleave", () => {
+  //     tl.restart();
+  //   });
 
-    // Optional: Restart the default animation after a period of inactivity
-    let inactivityTimeout;
+  //   // Optional: Restart the default animation after a period of inactivity
+  //   let inactivityTimeout;
 
-    document.addEventListener("mousemove", () => {
-      clearTimeout(inactivityTimeout);
-      inactivityTimeout = setTimeout(() => {
-        tl.restart();
-      }, 200000);
-    });
-  }, []);
+  //   document.addEventListener("mousemove", () => {
+  //     clearTimeout(inactivityTimeout);
+  //     inactivityTimeout = setTimeout(() => {
+  //       tl.restart();
+  //     }, 200000);
+  //   });
+  // }, []);
 
   return (
     <div className="foot__Sec" id="blob-container">
@@ -94,24 +94,27 @@ const Footer = () => {
           </div>
           <div className="ft_sc-Row2">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempo
+              Empower your educational organizations with our management services like EMS or ERP systems.
             </p>
           </div>
         </div>
         <div className="Footer-third-section">
           <div className="Footer-third-first-section">
-            <h4>Ed tech solutions for all educational organizations .</h4>
+            <a href="mailto:info@prodservtechnologies.com" className="address">email: info@prodservtechnologies.com</a><br></br>
+            <a href="tel:+919154367608" className="address">+91 9154367608</a>
             <h5>
-              We’ll listen to your needs, identify the best approach, and then
-              create a bespoke smart ERP solution that’s right for you.
+              <span>Prodserv Technologies LLP</span><br></br>
+              P No. 30/A, MLA Colony, Road No. 12,<br></br>
+              Banjara Hills, Hyderabad, Telangana<br></br>
+              500034.
             </h5>
           </div>
           <div className="Footer-social-networks">
             <FaFacebookF />
             <FaInstagram />
             <FaXTwitter />
-            <FaLinkedinIn />
+            <a href="https://www.linkedin.com/company/ossem-by-prodserv-technologies/" target="_blank"><FaLinkedinIn /></a>
+
           </div>
         </div>
         <div className="ft_frth-sec">

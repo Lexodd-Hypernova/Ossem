@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./mobileModal.css";
 
 import { Link } from "react-router-dom";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 
 
@@ -24,15 +24,12 @@ const MobileModal = ({ isOpen, onClose }) => {
                                         </Link>
 
                                     </div>
-                                    {/* <div className="mn_Cnt-us">
-                                        <a href="" onClick={onClose}>Contact BE <i className="fa-solid fa-arrow-right"></i></a>
-                                    </div> */}
                                 </div>
                                 <div className="mob-mn_Col2">
                                     <ul>
-                                        <li><NavLink to="/" onClick={onClose}>Home</NavLink ></li>
-                                        <li><NavLink to="/about" onClick={onClose}>About</NavLink></li>
-                                        <li><NavLink to="/features" onClick={onClose}>Features</NavLink></li>
+                                        <li><Link to="/" onClick={onClose}>Home</Link ></li>
+                                        <li><Link to="/about" onClick={onClose}>About</Link></li>
+                                        <li><Link to="/features" onClick={onClose}>Features</Link></li>
                                         <li>
                                             <a onClick={onClose}>
                                                 Contact
@@ -44,20 +41,6 @@ const MobileModal = ({ isOpen, onClose }) => {
                                             </a>
                                         </li>
                                     </ul>
-                                    {/* <div className="mn_Icn-bx">
-                                        <a href="#" target="_blank" rel="noopener">
-                                            <i className="fa-brands fa-facebook-f"></i>
-                                        </a>
-                                        <a href="#" target="_blank" rel="noopener">
-                                            <i className="fa-brands fa-instagram"></i>
-                                        </a>
-                                        <a href="#" target="_blank" rel="noopener">
-                                            <i className="fa-brands fa-x-twitter"></i>
-                                        </a>
-                                        <a href="#" target="_blank" rel="noopener">
-                                            <i className="fa-brands fa-linkedin-in"></i>
-                                        </a>
-                                    </div> */}
 
                                 </div>
                             </div>

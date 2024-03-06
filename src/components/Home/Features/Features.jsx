@@ -12,15 +12,14 @@ const Features = () => {
       <div className="feat__Ttl">
         <Fade direction="up" triggerOnce>
           <h2>
-            Easily customizable<br />
-            extension templates
+            Fostering Seamless<br></br>Management Integration in a<br></br>Unified Hub
           </h2>
         </Fade>
 
         <p>
           <Fade direction="up" triggerOnce>
-            Quickly set up your first Private Extension and speed up
-            common workflows that best suit your team’s needs.
+            With Ossem, make your organization Awesome!
+            Your organization can easily access what they need from our handy mobile app exclusively designed for students, faculty, and management.
           </Fade>
 
         </p>
@@ -30,17 +29,17 @@ const Features = () => {
         <FeatureCard
           // img={Addmission}
           title="Admission"
-          para="Let your team share actionable feedback about features in development,to speed up shipping."
+          para="Get the insights like employee information, department information, and hostel facilities and more in instant by using our EMS or ERP systems."
         />
         <FeatureCard
           // img={Student}
           title="Student Portal"
-          para="Make your design system available to everybody in your company with quick access to colors, icons, and more."
+          para="Track your academic progress, check your campus events, keep an eye on your attendance and leaves, and know about circulars."
         />
         <FeatureCard
           // img={Account}
           title="Accounts"
-          para="Build an index to search and get to know your teammates better. And make it easy for new joiners to discover your organization. "
+          para="Managing students accounts and updating their profile details are now made easy with Ossem."
         />
 
 

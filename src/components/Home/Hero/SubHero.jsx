@@ -6,7 +6,8 @@ import { Fade } from "react-awesome-reveal";
 
 import TextReveal from "../../TextReveal";
 
-const textReveal = "Our mission is to make management easy and effective for everyone, providing specially curated learning resources and a transformative platform."
+const textReveal = "We are evolved to make it easy for you to manage your organization by providing the right set of tools at the right place. Onboard and experience the transformation that you wished for. With us you can Learn, Grow and Succeed.";
+
 
 const SubHero = () => {
   return (
@@ -47,8 +48,7 @@ const SubHero = () => {
         </div>
         <div className="bld_ext-p">
           <p>
-            Lorem ipsum dolor sit  amet, consectetur
-            adipiscing elit, sed do
+            Ossem: Bulit for Effective Management
           </p>
         </div>
       </div>

@@ -4,7 +4,7 @@ import "./aboutUs.css";
 import TextReveal from '../../TextReveal';
 import { Link } from 'react-router-dom';
 
-const textReveal = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et incididunt ut labore et"
+const textReveal = "One of the leading digital platforms where your educational organizations get empowered with our seamless deployment of EMS or ERP systems."
 
 const AboutUs = () => {
     return (
@@ -25,13 +25,10 @@ const AboutUs = () => {
                                 Prodserv Technologies
                             </h3>
                             <TextReveal text={textReveal}></TextReveal>
-                            {/* <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et incididunt ut labore et
-                            </p> */}
+                            <br></br>
+                            <p>
+                                You pick the features; we make it happen!
+                            </p>
                         </div>
                         <div className='abt_us-cta'>
                             <div id="btn_container">

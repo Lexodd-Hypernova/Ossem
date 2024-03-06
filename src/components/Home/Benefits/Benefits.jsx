@@ -23,9 +23,9 @@ const Benefits = () => {
             autoplayDisableOnInteraction: false,
             slidesPerView: 1,
             autoHeight: true,
-            autoplay: {
-                delay: 5000,
-            },
+            // autoplay: {
+            //     delay: 5000,
+            // },
             effect: 'fade',
             fadeEffect: {
                 crossFade: true
@@ -52,7 +52,7 @@ const Benefits = () => {
         <>
             <div className='benefits__Sec'>
                 <div className='bnft__Ttl-txt'>
-                    <h4>Curious about the benefits of OSSEM?</h4>
+                    <h4>Know us more!</h4>
                 </div>
                 <div className="swiper-container benefit_sw">
                     <div className="swiper-wrapper">
@@ -67,17 +67,16 @@ const Benefits = () => {
 
                                     <h3>
                                         <Fade direction="up">
-                                            Heading1
+
+                                            ‘Innovating tomorrow, Today.”
                                         </Fade>
                                     </h3>
                                     <p>
                                         <Fade direction="up">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                            A comprehensive platform catering to educators,
+                                            learners, and coordinators, fostering connections
+                                            and mutual growth opportunities.
                                         </Fade>
-
                                     </p>
                                 </div>
                             </div>
@@ -90,12 +89,11 @@ const Benefits = () => {
                                     </div>
                                 </div>
                                 <div className='bn_Txt'>
-                                    <h3>Heading2</h3>
+                                    <h3>“Innovative Growth Empowerment”</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                        sed do eiusmod tempor incididunt ut labore et dolore magna
-                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Our Mission is to streamline organization management
+                                        efforts by offering a comprehensive 360 - Degree connection,
+                                        ensuring all resources are conveniently accessible.
                                     </p>
                                 </div>
                             </div>
@@ -108,12 +106,11 @@ const Benefits = () => {
                                     </div>
                                 </div>
                                 <div className='bn_Txt'>
-                                    <h3>Heading3</h3>
+                                    <h3>“Integrity, Innovation, Excellence”</h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                        sed do eiusmod tempor incididunt ut labore et dolore magna
-                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        We Believe in the power of innovation to
+                                        pave the way for a future where lives are simplified,
+                                        enhanced and made more manageable.
                                     </p>
                                 </div>
                             </div>

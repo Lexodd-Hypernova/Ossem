@@ -1,8 +1,8 @@
 import React, { useRef, useEffect } from "react";
 
-import logo1 from "../../../assets/sreenidhi-logo 1.svg";
-import logo2 from "../../../assets/Logo_Anurag_University 1.svg";
-import logo3 from "../../../assets/sponser3.svg";
+import logo1 from "../../../../public/assets/img/ace.png";
+import logo2 from "../../../../public/assets/img/veritas.png";
+import logo3 from "../../../../public/assets/img/mah.png";
 import "./Sponser.css";
 
 
@@ -48,85 +48,85 @@ const Sponser = ({ children, baseVelocity = 100 }) => {
       <div className="parallax">
         <motion.div className="scroller" style={{ x }}>
           <span>
-            <img src={logo1} alt='' width={278} height={115} />
+            <img src={logo1} alt=''/>
           </span>
           <span>
-            <img src={logo2} alt='' width={313} height={65} />
+            <img src={logo2} alt='' />
           </span>
           <span>
-            <img src={logo3} alt='' width={288} height={110} />
+            <img src={logo3} alt='' />
           </span>
           <span>
-            <img src={logo1} alt='' width={278} height={115} />
+            <img src={logo1} alt=''/>
           </span>
           <span>
-            <img src={logo2} alt='' width={313} height={65} />
+            <img src={logo2} alt='' />
           </span>
           <span>
-            <img src={logo3} alt='' width={288} height={110} />
+            <img src={logo3} alt='' />
           </span>
           <span>
-            <img src={logo1} alt='' width={278} height={115} />
+            <img src={logo1} alt=''/>
           </span>
           <span>
-            <img src={logo2} alt='' width={313} height={65} />
+            <img src={logo2} alt='' />
           </span>
           <span>
-            <img src={logo3} alt='' width={288} height={110} />
+            <img src={logo3} alt='' />
           </span>
           <span>
-            <img src={logo1} alt='' width={278} height={115} />
+            <img src={logo1} alt=''/>
           </span>
           <span>
-            <img src={logo2} alt='' width={313} height={65} />
+            <img src={logo2} alt='' />
           </span>
           <span>
-            <img src={logo3} alt='' width={288} height={110} />
+            <img src={logo3} alt='' />
           </span>
           <span>
-            <img src={logo1} alt='' width={278} height={115} />
+            <img src={logo1} alt=''/>
           </span>
           <span>
-            <img src={logo2} alt='' width={313} height={65} />
+            <img src={logo2} alt='' />
           </span>
           <span>
-            <img src={logo3} alt='' width={288} height={110} />
+            <img src={logo3} alt='' />
           </span>
           <span>
-            <img src={logo1} alt='' width={278} height={115} />
+            <img src={logo1} alt=''/>
           </span>
           <span>
-            <img src={logo2} alt='' width={313} height={65} />
+            <img src={logo2} alt='' />
           </span>
           <span>
-            <img src={logo3} alt='' width={288} height={110} />
+            <img src={logo3} alt='' />
           </span>
           <span>
-            <img src={logo1} alt='' width={278} height={115} />
+            <img src={logo1} alt=''/>
           </span>
           <span>
-            <img src={logo2} alt='' width={313} height={65} />
+            <img src={logo2} alt='' />
           </span>
           <span>
-            <img src={logo3} alt='' width={288} height={110} />
+            <img src={logo3} alt='' />
           </span>
           <span>
-            <img src={logo1} alt='' width={278} height={115} />
+            <img src={logo1} alt=''/>
           </span>
           <span>
-            <img src={logo2} alt='' width={313} height={65} />
+            <img src={logo2} alt='' />
           </span>
           <span>
-            <img src={logo3} alt='' width={288} height={110} />
+            <img src={logo3} alt='' />
           </span>
           <span>
-            <img src={logo1} alt='' width={278} height={115} />
+            <img src={logo1} alt=''/>
           </span>
           <span>
-            <img src={logo2} alt='' width={313} height={65} />
+            <img src={logo2} alt='' />
           </span>
           <span>
-            <img src={logo3} alt='' width={288} height={110} />
+            <img src={logo3} alt='' />
           </span>
         </motion.div>
       </div>

@@ -462,8 +462,8 @@ body {
   }
 
   .hr_ttl-txt {
-    height: 65px;
-  }
+    height: 60px;
+  } 
 
   .hr_ttl-txt span {
     font-size: 55px;
@@ -491,7 +491,7 @@ body {
 
   .hr__Sec-wrap {
     padding: 0 20px;
-  }
+}
 
   .hero__Ttl {
     padding-top: 0;

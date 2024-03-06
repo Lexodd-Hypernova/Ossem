@@ -24,10 +24,10 @@ const Testimonial = () => {
       // fadeEffect: {
       //     crossFade: true
       // },
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-      },
+      // autoplay: {
+      //   delay: 5000,
+      //   disableOnInteraction: false,
+      // },
       pagination: {
         el: ".swiper-pagination.test_pg",
         dynamicBullets: false,
@@ -60,12 +60,10 @@ const Testimonial = () => {
                     {/* <h3>Testimonial1</h3> */}
                     <div className='test__Para'>
                       <p>
-                        Lorem ipsum dolor sit  amet, consectetur adipiscing elit,
-                        sed do Lorem ipsum dolor sit  amet, consectetur
+                        "Implementing Ossem's management solutions transformed our school's administrative efficiency. Tasks that used to take hours are now completed with a few clicks. Highly recommend their services!"
                       </p>
                       <p>
-                        Lorem ipsum dolor sit  amet, consectetur adipiscing elit,
-                        sed do Lorem ipsum dolor sit  amet, consectetur
+                        "As a school principal, I've tried several management systems, but Ossem 's solution stands out. It's user-friendly, comprehensive, and tailored perfectly for educational institutions."
                       </p>
                     </div>
                   </div>
@@ -77,12 +75,10 @@ const Testimonial = () => {
                     {/* <h3>Testimonial2</h3> */}
                     <div className='test__Para'>
                       <p>
-                        Lorem ipsum dolor sit  amet, consectetur adipiscing elit,
-                        sed do Lorem ipsum dolor sit  amet, consectetur
+                        "We've been using Ossem's management software for a year now, and it has simplified everything from admissions to grading. Our teachers and staff are more organized and focused on student success."
                       </p>
                       <p>
-                        Lorem ipsum dolor sit  amet, consectetur adipiscing elit,
-                        sed do Lorem ipsum dolor sit  amet, consectetur
+                        "The support team at Ossem is exceptional! Whenever we have a question or need assistance, they are quick to respond and resolve any issues. Great customer service!"
                       </p>
                     </div>
                   </div>
@@ -94,12 +90,10 @@ const Testimonial = () => {
                     {/* <h3>Testimonial3</h3> */}
                     <div className='test__Para'>
                       <p>
-                        Lorem ipsum dolor sit  amet, consectetur adipiscing elit,
-                        sed do Lorem ipsum dolor sit  amet, consectetur
+                        "Thanks to Ossem's management solutions, our school's enrollment process is seamless. Parents and students appreciate the easy online registration, and we've seen an increase in enrollments since we started using their services."
                       </p>
                       <p>
-                        Lorem ipsum dolor sit  amet, consectetur adipiscing elit,
-                        sed do Lorem ipsum dolor sit  amet, consectetur
+                        "I cannot imagine managing our university without Ossem's software. It's a game-changer for student records, scheduling, and financial management. Thank you for making our jobs easier!"
                       </p>
                     </div>
                   </div>

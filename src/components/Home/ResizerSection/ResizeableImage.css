@@ -37,7 +37,7 @@
 
 .rsz__Cnt {
   position: relative;
-  height: 20vh;
+  height: 23vh;
 }
 
 .rsz__Cnt h4 {
@@ -197,7 +197,7 @@
   }
 
   .rsz__Cnt {
-    height: 21vh;
+    height: 25vh;
   }
 
   .rsz__Cnt h4 {
@@ -212,7 +212,7 @@
 
   .rsz__Cnt p {
     font-size: 15px;
-    line-height: 25px;
+    line-height: 18px;
     top: 70px;
   }
 
@@ -243,6 +243,10 @@
   .rsz__Img {
     width: 437px;
     height: 243px;
+  }
+  .rsz__Cnt p{
+    font-size: 13px;
+    line-height: 15px;
   }
 }
 

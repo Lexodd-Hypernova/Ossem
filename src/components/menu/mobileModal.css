@@ -98,16 +98,8 @@ textarea {
     color: #fff;
 }
 
-.mob-mn_Col1 {
-    display: flex;
-    flex-direction: column;
-    gap: 12rem;
-}
-
 .mob-mn_Ttl-icn {
     display: flex;
-    flex-direction: column;
-    gap: 10rem;
 }
 
 .mob-mn_Col2 li {
@@ -188,58 +180,6 @@ textarea {
     gap: 8rem;
 }
 
-/* @media only screen and (max-width: 1680px) {
-    .mob-mn_Cnt-bx {
-        padding: 0 18rem 0 6rem;
-    }
-
-    .mob-mn_Col1 {
-        gap: 8rem;
-    }
-
-    .mob-mn_Ttl-icn {
-        gap: 6rem;
-    }
-
-    .mob-menu_Modal-logo {
-        width: 260px;
-    }
-
-    .mob-mn_Icn-bx i {
-        font-size: 36px;
-    }
-
-    .mob-mn_Icn-bx {
-        gap: 6rem;
-    }
-
-    .mn_Cnt-us a {
-        font-size: 35px;
-        gap: 20px;
-    }
-
-    .mn_Cnt-us i {
-        font-size: 36px;
-    }
-
-    .mob-mn_Col2 ul {
-        gap: 6rem;
-    }
-
-    .mob-mn_Col2 a {
-        font-size: 48px;
-    }
-
-    .mob-mn_Cl-icn {
-        top: 6rem;
-        right: 6rem;
-    }
-
-    .mob-mn_Cl-icn i {
-        font-size: 36px;
-    }
-} */
-
 
 @media only screen and (max-width: 991px) {
     .mob-modal {
@@ -261,7 +201,7 @@ textarea {
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        gap: 10rem;
+        /* gap: 10rem; */
     }
 
     .mob-mn_Col2 ul {
@@ -304,9 +244,9 @@ textarea {
         font-size: 24px;
     }
 
-    .mob-mn_Col2 {
+    /* .mob-mn_Col2 {
         gap: 6rem;
-    }
+    } */
 
     .mn_Icn-bx i {
         font-size: 26px;

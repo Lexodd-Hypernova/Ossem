@@ -15,22 +15,22 @@ const ResizableImages = () => {
     {
       src: image1,
       title: "Management",
-      subTitle: "Optimize resource utilization.",
+      subTitle: "Make better decisions to empower your organization.",
     },
     {
       src: image2,
       title: "Faculty",
-      subTitle: "Optimize resource utilization.",
+      subTitle: "Get your hands on new teaching tools and enhance your skills.",
     },
     {
       src: image3,
       title: "Parent's",
-      subTitle: "Optimize resource utilization.",
+      subTitle: "Get in the loop with the faculty and know fees, events, class schedules, etc.",
     },
     {
       src: image4,
       title: "Student's",
-      subTitle: "Optimize resource utilization.",
+      subTitle: "Experience the new way of modern learning with ultimate resources.",
     },
   ];
 

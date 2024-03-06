@@ -32,7 +32,7 @@
   line-height: 53px;
   letter-spacing: 0px;
   text-align: center;
-  width: 60%;
+  width: 65%;
 }
 
 
@@ -76,6 +76,11 @@
 @media only screen and (max-width: 1200px) {
   .feat__Ttl p {
     width: 60%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .feat__Ttl p {
+    width: 100%;
   }
 }
 
