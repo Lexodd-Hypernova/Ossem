@@ -57,10 +57,10 @@ const HorizontalScrollCarousel = () => {
                                         <div className='abt_gl-box'>
                                             <div className='abt_gl-cnt'>
                                                 <div className='gl_ttl'>
-                                                    <h3>Lorem</h3>
+                                                    <h3>ESSENCE</h3>
                                                 </div>
                                                 <div className='gl_cn'>
-                                                    <div className='mn_ttl'>Ipsum</div>
+                                                    <div className='mn_ttl'>Expertise</div>
                                                     <div className='mn_Num'>01</div>
                                                 </div>
                                                 <div className='gl_img'>
@@ -85,20 +85,25 @@ const HorizontalScrollCarousel = () => {
                                     <div className='abt_Row abt_Row2'>
                                         <div className='abt_txt'>
                                             <p>
-                                                "Lorem ipsum dolor sit amet,
-                                                consectetur adipiscing elit,
-                                                sed do eiusmod tempor incididunt
-                                                ut labore et dolore magna aliqua."
+                                                At ProdServ Technology,
+                                                we lead with innovation,
+                                                crafting solutions that
+                                                push boundaries. Rooted
+                                                in creativity and driven
+                                                by progress, our software
+                                                anticipates and meets
+                                                tomorrow's needs, showcasing
+                                                our commitment to excellence.
                                             </p>
                                         </div>
                                         <div className='abt_gl-box'>
                                             <div className='abt_gl-cnt'>
                                                 <div className='gl_ttl'>
-                                                    <h3>Lorem</h3>
+                                                    <h3>INNOVATION</h3>
                                                 </div>
                                                 <div className='gl_cn'>
-                                                    <div className='mn_ttl'>Ipsum</div>
-                                                    <div className='mn_Num'>01</div>
+                                                    <div className='mn_ttl'>Ambitious</div>
+                                                    <div className='mn_Num'>02</div>
                                                 </div>
                                                 <div className='gl_img'>
                                                     <img src="assets/img/gl2.png" alt="" />
@@ -117,11 +122,11 @@ const HorizontalScrollCarousel = () => {
                                         <div className='abt_gl-box'>
                                             <div className='abt_gl-cnt'>
                                                 <div className='gl_ttl'>
-                                                    <h3>Lorem</h3>
+                                                    <h3>EMBRACE</h3>
                                                 </div>
                                                 <div className='gl_cn'>
-                                                    <div className='mn_ttl'>Ipsum</div>
-                                                    <div className='mn_Num'>01</div>
+                                                    <div className='mn_ttl'>The Future</div>
+                                                    <div className='mn_Num'>03</div>
                                                 </div>
                                                 <div className='gl_img'>
                                                     <img src="assets/img/gl3.png" alt="" />
@@ -130,10 +135,11 @@ const HorizontalScrollCarousel = () => {
                                         </div>
                                         <div className='abt_txt'>
                                             <p>
-                                                "Lorem ipsum dolor sit amet,
-                                                consectetur adipiscing elit,
-                                                sed do eiusmod tempor incididunt
-                                                ut labore et dolore magna aliqua."
+                                                We empower through technology,
+                                                simplifying complexity and achieving
+                                                the impossible. Join us in redefining
+                                                possibilities, experiencing the future
+                                                today with ProdServ Technology.
                                             </p>
                                         </div>
                                     </div>
@@ -159,10 +165,10 @@ const MobScroll = () => {
                         <div className='abt_gl-box'>
                             <div className='abt_gl-cnt'>
                                 <div className='gl_ttl'>
-                                    <h3>Lorem</h3>
+                                    <h3>ESSENCE</h3>
                                 </div>
                                 <div className='gl_cn'>
-                                    <div className='mn_ttl'>Ipsum</div>
+                                    <div className='mn_ttl'>Expertisem</div>
                                     <div className='mn_Num'>01</div>
                                 </div>
                                 <div className='gl_img'>
@@ -184,23 +190,24 @@ const MobScroll = () => {
                         <div className='abt_gl-box'>
                             <div className='abt_gl-cnt'>
                                 <div className='gl_ttl'>
-                                    <h3>Lorem</h3>
+                                    <h3>INNOVATION</h3>
                                 </div>
                                 <div className='gl_cn'>
-                                    <div className='mn_ttl'>Ipsum</div>
-                                    <div className='mn_Num'>01</div>
+                                    <div className='mn_ttl'>Ambitious</div>
+                                    <div className='mn_Num'>02</div>
                                 </div>
                                 <div className='gl_img'>
-                                    <img src="assets/img/gl1.png" alt="" />
+                                    <img src="assets/img/gl2.png" alt="" />
                                 </div>
                             </div>
                         </div>
                         <div className='abt_txt'>
                             <p>
-                                "Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua."
+                                At ProdServ Technology, we lead with innovation,
+                                crafting solutions that push boundaries. Rooted
+                                in creativity and driven by progress, our software
+                                anticipates and meets tomorrow's needs, showcasing
+                                our commitment to excellence.
                             </p>
                         </div>
                     </div>
@@ -212,23 +219,24 @@ const MobScroll = () => {
                         <div className='abt_gl-box'>
                             <div className='abt_gl-cnt'>
                                 <div className='gl_ttl'>
-                                    <h3>Lorem</h3>
+                                    <h3>EMBRACE</h3>
                                 </div>
                                 <div className='gl_cn'>
-                                    <div className='mn_ttl'>Ipsum</div>
-                                    <div className='mn_Num'>01</div>
+                                    <div className='mn_ttl'>The Future</div>
+                                    <div className='mn_Num'>03</div>
                                 </div>
                                 <div className='gl_img'>
-                                    <img src="assets/img/gl1.png" alt="" />
+                                    <img src="assets/img/gl3.png" alt="" />
                                 </div>
                             </div>
                         </div>
                         <div className='abt_txt'>
                             <p>
-                                "Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua."
+                                We empower through technology,
+                                simplifying complexity and achieving
+                                the impossible. Join us in redefining
+                                possibilities, experiencing the future
+                                today with ProdServ Technology.
                             </p>
                         </div>
                     </div>

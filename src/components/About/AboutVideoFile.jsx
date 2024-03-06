@@ -62,7 +62,7 @@ const AboutVideoFile = () => {
 
             <div className="abt__os-ttl">
                 <h2>
-                    Loreum Ipsum
+                    What is OSSEM?
                 </h2>
             </div>
             <div ref={ref}>
@@ -84,11 +84,7 @@ const AboutVideoFile = () => {
 
             <div className="abt__os-para">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et incididunt ut labore
+                    This isn’t awesome, we are OSSEM.
                 </p>
             </div>
 
