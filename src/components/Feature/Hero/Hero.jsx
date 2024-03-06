@@ -23,32 +23,27 @@ const Hero = () => {
                 <div className='ft_Hr-ttl'>
                     <div className='ft_ttl-txt'>
                         <span>
-                            A digital
+                            One Stop
                         </span>
                     </div>
                     <div className='ft_ttl-txt'>
                         <span>
-                            platform
+                            Solution for
                         </span>
                     </div>
                     <div className='ft_ttl-txt'>
                         <span>
-                            crafted to
+                            Educational
                         </span>
                     </div>
                     <div className='ft_ttl-txt'>
                         <span>
-                            empower our
+                            Management -
                         </span>
                     </div>
                     <div className='ft_ttl-txt'>
                         <span>
-                            educational
-                        </span>
-                    </div>
-                    <div className='ft_ttl-txt'>
-                        <span>
-                            organizations
+                            Feature Odyssey.
                         </span>
                     </div>
                 </div>

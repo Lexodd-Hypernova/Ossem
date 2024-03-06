@@ -1,6 +1,5 @@
 .ft_Hero-wrap {
     height: calc(100vh - 148px);
-    background: #fff;
     display: flex;
     align-items: center;
 }
@@ -44,7 +43,6 @@
     display: inline-block;
     transform: skewY(7);
     transform: translateY(100%);
-    color: #000;
 }
 
 .ft_Hr-img {
