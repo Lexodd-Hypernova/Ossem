@@ -46,7 +46,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="second-nav-section">
-            <a href="">Contact</a>
+            <a href="#connect">Contact</a>
             <button className="button-Login">Login</button>
           </div>
         </div>

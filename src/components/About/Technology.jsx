@@ -33,23 +33,20 @@ const HorizontalScrollCarousel = () => {
 
     // const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
 
-    const targetRef = useRef(null);
-    const { scrollYProgress } = useScroll({
-        target: targetRef,
-    });
+    // const targetRef = useRef(null);
+    // const { scrollYProgress } = useScroll({
+    //     target: targetRef,
+    // });
 
-    const y = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
+    // const y = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
 
     return (
         <>
-
-            <section ref={targetRef} className="scroll__Cnt">
+{/* ref={targetRef} */}
+            <section  className="scroll__Cnt">
                 <div className="scl__Wrap">
-                    <motion.div style={{ y }} className="crd__Item">
-                        {/* {cards.map((card) => {
-                        return <Card card={card} key={card.id} />;
-                    })} */}
-
+                    {/* <motion.div style={{ y }} className="crd__Item"> */}
+                    <div className="crd__Item">
                         <div className="card_abt">
                             <div className="card__In">
                                 <Fade direction="up" triggerOnce>
@@ -147,8 +144,8 @@ const HorizontalScrollCarousel = () => {
 
                             </div>
                         </div>
-
-                    </motion.div>
+                    </div>
+                    {/* </motion.div> */}
                 </div>
             </section>
         </>
