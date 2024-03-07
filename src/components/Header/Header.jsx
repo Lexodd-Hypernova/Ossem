@@ -2,32 +2,32 @@ import React, { useState } from "react";
 import Logo from "../../assets/logo.svg";
 import "./Header.css";
 
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-// import MobileModal from "../menu/MobileModal";
+import MobileModal from "../menu/MobileModal";
 
 const Navbar = () => {
-  // const [isMobModalOpen, setIsMobModalOpen] = useState(false);
+  const [isMobModalOpen, setIsMobModalOpen] = useState(false);
 
-  // const openMobModal = () => {
-  //   setIsMobModalOpen(true);
-  //   // setModalContent(content);
-  //   // document.body.style.overflow = 'hidden';
-  // };
+  const openMobModal = () => {
+    setIsMobModalOpen(true);
+    // setModalContent(content);
+    // document.body.style.overflow = 'hidden';
+  };
 
-  // const closeMobModal = () => {
-  //   setIsMobModalOpen(false);
-  //   // if (!isModalOpen) {
-  //   //     document.body.style.overflow = 'auto';
-  //   // }
-  //   // else if (isMobileMenuOpen && isModalOpen) {
-  //   //     document.body.style.overflow = 'hidden';
-  //   // }
-  //   // else {
-  //   //     document.body.style.overflow = 'auto';
-  //   // }
-  //   // setModalContent(null);
-  // };
+  const closeMobModal = () => {
+    setIsMobModalOpen(false);
+    // if (!isModalOpen) {
+    //     document.body.style.overflow = 'auto';
+    // }
+    // else if (isMobileMenuOpen && isModalOpen) {
+    //     document.body.style.overflow = 'hidden';
+    // }
+    // else {
+    //     document.body.style.overflow = 'auto';
+    // }
+    // setModalContent(null);
+  };
 
   return (
     <>
@@ -57,19 +57,13 @@ const Navbar = () => {
             <img src="assets/img/logo.png"></img>
           </div>
         </div>
-        <div className="mob__Link">
-          <NavLink to="/">home</NavLink>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/features">Features</NavLink>
-        </div>
         <div className="mob_ham-con">
-          {/* onClick={openMobModal} */}
-          <div className="mob_ham" >
+          <div className="mob_ham" onClick={openMobModal}>
             <img src="assets/img/ham.png" alt="Menu" className="menu-image" />
           </div>
         </div>
       </div>
-      {/* <MobileModal isOpen={isMobModalOpen} onClose={closeMobModal}></MobileModal> */}
+      <MobileModal isOpen={isMobModalOpen} onClose={closeMobModal}></MobileModal>
     </>
   );
 };
