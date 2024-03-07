@@ -108,7 +108,7 @@ const Overview = () => {
                                             </span>
                                         </div>
                                         <div className='ov_icn'>
-                                            <img src="assets/img/icn2.png" alt="" />
+                                            <img src="assets/img/icn2.svg" alt="" />
                                         </div>
                                         <div className='ov__Rect'>
                                             <span></span>
