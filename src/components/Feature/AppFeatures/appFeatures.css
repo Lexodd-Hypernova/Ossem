@@ -23,17 +23,17 @@
     height: 100vh;
 }
 
-.section .component {
+/* .section .component {
     height: 100vh;
     width: 40%;
     justify-self: end;
-}
+} */
 
 .prod-comp-txt p {
     font-family: Gotham;
     font-size: 28px;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 29px;
     letter-spacing: 0em;
     text-align: center;
 }
@@ -53,10 +53,10 @@
 .prod__Comp_wrap {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    /* height: 100%; */
     /* padding-top: 8rem; */
     gap: 12rem;
-    width: 48%;
+    width: 70%;
     align-items: center;
 }
 
@@ -66,7 +66,7 @@
 
 .component .prod-comp-img {
     width: 180px;
-    height: 170px;
+    /* height: 170px; */
 }
 
 #component1 .prod-comp-img {
@@ -121,20 +121,39 @@
     text-align: left;
 }
 
-.sb__List {
+/* .sb__List {
     display: flex;
     justify-content: center;
-}
+} */
 
 .sb__List ul {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    gap: 50px;
 }
 
 .sb__List li {
     display: flex;
-    gap: 40px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub_Modules {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sb__List {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sb__Table {
+    width: 100%;
 }
 
 
@@ -158,7 +177,7 @@
 .slider__Wrap .slider {
     background: radial-gradient(49.99% 83.79% at 49.99% 47.7%, #1E1E1E 0.01%, #202020 100%);
     border-radius: 50px;
-    padding: 14rem 14rem;
+    padding: 2rem 14rem;
     height: 100%;
     overflow: hidden;
 }
@@ -268,9 +287,10 @@
 }
 
 .component {
-    /* width: 40%; */
+    height: 100%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .slider__images {
@@ -305,6 +325,15 @@
     width: 8px;
     background: #fff;
     border-radius: 50px;
+}
+
+.sb__Table td {
+    font-family: Gotham;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
 }
 
 
@@ -366,7 +395,7 @@
     }
 
     .slider__Wrap .slider {
-        padding: 8rem 8rem;
+        padding: 2rem 8rem;
     }
 
     .slider__thumbs .swiper-slide {
@@ -388,7 +417,7 @@
 
     .component .prod-comp-img {
         width: 140px;
-        height: 132px;
+        /* height: 132px; */
     }
 
     .prod-comp-txt p {
@@ -403,8 +432,16 @@
     }
 
     .sb__List span {
-        font-size: 17px;
-        line-height: 20px;
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .sb__List li {
+        gap: 15px;
+    }
+
+    .sb__List ul {
+        gap: 40px;
     }
 
     .prod__Comp_wrap {
@@ -470,7 +507,7 @@
 
     .component .prod-comp-img {
         width: 110px;
-        height: 103px;
+        /* height: 103px; */
     }
 
     .prod__Comp_wrap {
@@ -662,13 +699,19 @@
         justify-self: center;
     }
 
+    .feat__Scroll-con {
+        height: 800px;
+    }
+
     .slider__Wrap {
         padding: 0 20px;
         margin: 30px 0;
+        min-height: 800px;
     }
 
     .slider__Wrap .slider {
-        padding: 35px 30px;
+        padding: 20px 30px;
+        height: 800px;
     }
 
     .progress_Bar_cont {
@@ -696,7 +739,7 @@
 
     .component .prod-comp-img {
         width: 80px;
-        height: 75px;
+        /* height: 75px; */
     }
 
     .prod-comp-txt p {

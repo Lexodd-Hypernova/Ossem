@@ -37,7 +37,7 @@
 
 .rsz__Cnt {
   position: relative;
-  height: 23vh;
+  height: 22vh;
 }
 
 .rsz__Cnt h4 {
@@ -64,9 +64,9 @@
 
 .rsz__Cnt p {
   font-family: Gotham;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 26px;
   letter-spacing: 0em;
   text-align: left;
   position: absolute;

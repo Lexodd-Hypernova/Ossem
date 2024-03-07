@@ -1,19 +1,18 @@
-import React from 'react';
-// import { motion } from 'framer-motion';
-// import { useInView } from 'react-intersection-observer';
+import React from 'react'
 
-const Component3 = () => {
+const Component6 = () => {
     return (
         <div className="component">
             <div className='prod__Comp_wrap'>
                 <div className='prod-comp-img'>
-                    <img src="assets/img/img3.png" alt="" />
+                    <img src="assets/img/img6.png" alt="" />
                 </div>
                 <div className='prod-comp-txt'>
                     <p>
-                        The admissions module is a central hub,
-                        overseeing the entire process from gathering
-                        personal information to filtering eligible applicants.
+                        The Hostel module facilitates seamless
+                        hostel management, including room allocation,
+                        check-in/check-out, fee collection and maintenance
+                        tracking for efficient hostel operations.
                     </p>
                 </div>
                 <div className="sub_Modules">
@@ -25,20 +24,23 @@ const Component3 = () => {
                     <div className="sb__List">
                         <ul>
                             <li>
-                                <span>Admission</span>
+                                <span>Hostel</span>
+                                <span>Mess</span>
                             </li>
                             <li>
-                                <span>Admission Enquiry</span>
+                                <span>Hostel Linking</span>
+                                <span>Leave Management</span>
                             </li>
                             <li>
-                                <span>Course</span>
+                                <span>Promote/Detain</span>
+                                <span>Mess</span>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default Component3;
+export default Component6

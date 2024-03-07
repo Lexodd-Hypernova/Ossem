@@ -1,26 +1,38 @@
 import React from 'react';
-// import { motion } from 'framer-motion';
-// import { useInView } from 'react-intersection-observer';
 
 const Component1 = () => {
     return (
-        <div
-            className={`component`}
-            id='component1'
-        >
-            {/* Your Component 1 content */}
+        <div className="component">
             <div className='prod__Comp_wrap'>
                 <div className='prod-comp-img'>
-                    <img src="assets/img/org.png" alt="org" />
+                    <img src="assets/img/img1.png" alt="" />
                 </div>
                 <div className='prod-comp-txt'>
                     <p>
-                        Synthesizing and combining business needs from legacy code,
-                        to-be business process diagrams, requirements documentation,
-                        user stories, and more within the rhino.ai platform helps customers
-                        determine what the keep from their legacy portfolio versus what needs
-                        to be transformed with the benefit of new platform technology
+                        Organisation module details core company
+                        structure, including branches and subsets,
+                        providing insight into key institutional components.
                     </p>
+                </div>
+                <div className="sub_Modules">
+                    <div className="sb__Md-ttl">
+                        <h4>
+                            Sub Modules
+                        </h4>
+                    </div>
+                    <div className="sb__List">
+                        <ul>
+                            <li>
+                                <span>Home</span>
+                            </li>
+                            <li>
+                                <span>Branch</span>
+                            </li>
+                            <li>
+                                <span>Organization</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

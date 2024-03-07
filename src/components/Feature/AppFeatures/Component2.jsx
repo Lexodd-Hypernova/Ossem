@@ -1,30 +1,46 @@
 import React from 'react';
-// import { motion } from 'framer-motion';
-// import { useInView } from 'react-intersection-observer';
 
-const Component1 = () => {
+const Component2 = () => {
     return (
-        <div
-            className={`component`}
-            id='component2'
-        >
-            {/* Your Component 1 content */}
+        <div className="component">
             <div className='prod__Comp_wrap'>
                 <div className='prod-comp-img'>
-                <img src="assets/img/org.png" alt="org" />
+                    <img src="assets/img/img2.png" alt="" />
                 </div>
                 <div className='prod-comp-txt'>
                     <p>
-                        Synthesizing and combining business needs from legacy code,
-                        to-be business process diagrams, requirements documentation,
-                        user stories, and more within the rhino.ai platform helps customers
-                        determine what the keep from their legacy portfolio versus what needs
-                        to be transformed with the benefit of new platform technology
+                        The Employee Management module centralizes
+                        HR functionality, offering a comprehensive
+                        employee catalog with movement tracking,
+                        salary management and official inquiries.
                     </p>
+                </div>
+                <div className="sub_Modules">
+                    <div className="sb__Md-ttl">
+                        <h4>
+                            Sub Modules
+                        </h4>
+                    </div>
+                    <div className="sb__List">
+                        <ul>
+                            <li>
+                                <span>Employee Information</span>
+                                <span>Department</span>
+                            </li>
+                            <li>
+                                <span>Employee Group</span>
+                                <span>Promote / Detain</span>
+                            </li>
+                            <li>
+                                <span>Attendance</span>
+                                <span>Leave management</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     );
 };
 
-export default Component1;
+export default Component2;

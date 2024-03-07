@@ -1,8 +1,13 @@
 import React, { useEffect, useState, useRef, useLayoutEffect } from "react";
-// import Component1 from "./Component1";
-// import Component2 from "./Component2";
-// import Component3 from "./Component3";
-// import Component4 from "./Component4";
+import Component1 from "./Component1";
+import Component2 from "./Component2";
+import Component3 from "./Component3";
+import Component4 from "./Component4";
+import Component5 from "./Component5";
+import Component6 from "./Component6";
+import Component7 from "./Component7";
+import Component8 from "./Component8";
+import Component9 from "./Component9";
 
 import Swiper from 'swiper/bundle';
 // import Swiper styles
@@ -255,43 +260,15 @@ const ScrollableSection = () => {
               <div className="slider__images">
                 <div className="about-slider swiper-container">
                   <div className="swiper-wrapper">
-                    {data.map((item, index) => (
-                      <div key={index} className="swiper-slide">
-                        <div className="component">
-                          <div className='prod__Comp_wrap'>
-                            <div className='prod-comp-img'>
-                              <img src={item.imgSrc} alt="" />
-                            </div>
-                            <div className='prod-comp-txt'>
-                              <p>
-                                {item.text}
-                              </p>
-                            </div>
-                            <div className="sub_Modules">
-                              <div className="sb__Md-ttl">
-                                <h4>
-                                  Sub Modules
-                                </h4>
-                              </div>
-                              <div className="sb__List">
-                                <ul>
-                                  <li>
-                                    <span>Home</span>
-                                    <span>Branch</span>
-                                    <span>Organization</span>
-                                  </li>
-                                  <li>
-                                    <span>Home</span>
-                                    <span>Branch</span>
-                                    <span>Organization</span>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
+                    <div className="swiper-slide"><Component1></Component1></div>
+                    <div className="swiper-slide"><Component2></Component2></div>
+                    <div className="swiper-slide"><Component3></Component3></div>
+                    <div className="swiper-slide"><Component4></Component4></div>
+                    <div className="swiper-slide"><Component5></Component5></div>
+                    <div className="swiper-slide"><Component6></Component6></div>
+                    <div className="swiper-slide"><Component7></Component7></div>
+                    <div className="swiper-slide"><Component8></Component8></div>
+                    <div className="swiper-slide"><Component9></Component9></div>
                   </div>
                 </div>
               </div>
