@@ -19,7 +19,8 @@
 
 .abt_carousel {
     position: relative;
-    margin-top: -30%;
+    /* margin-top: -30%; */
+    margin-top: 0%;
 }
 
 .scroll__Cnt {
@@ -234,7 +235,8 @@
     }
 
     .abt_carousel {
-        margin-top: -15%;
+        /* margin-top: -15%; */
+        margin-top: 0%;
     }
 
     .scl__Wrap {

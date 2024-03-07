@@ -84,7 +84,7 @@ const AboutVideoFile = () => {
 
             <div className="abt__os-para">
                 <p>
-                    This isn’t awesome, we are OSSEM.
+                    We aren't just awesome, We Are OSSEM.
                 </p>
             </div>
 
