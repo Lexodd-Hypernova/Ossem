@@ -9,11 +9,11 @@ const Technology = () => {
     return (
         <div className="abt__Sec">
             <div className="abt__Wrap">
-                {/* <div className="abt_Bg-wrap">
+                <div className="abt_Bg-wrap">
                     <div className="abt_bg-cnt">
                         <img src="assets/img/bg.png" alt="" />
                     </div>
-                </div> */}
+                </div>
                 <div className="abt_carousel">
                     <HorizontalScrollCarousel />
                 </div>
