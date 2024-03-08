@@ -1,35 +1,56 @@
 /* ContactModal.css */
 .react-responsive-modal-modal {
   max-width: auto;
-
+  background: transparent;
   padding: 0rem;
+  width: auto !important;
+  border-radius: 22.196px;
 }
+
 .modal-content-contact {
   display: flex;
   justify-content: space-between;
-  background: radial-gradient(
-    461.61% 209.05% at -41.85% -46.3%,
-    #5055e3 6.15%,
-    #fff 77.95%
+  background: linear-gradient(
+    109deg,
+    #0c5f83 6.09%,
+    #52bac8 47.75%,
+    #90cfeb 100%
   );
+  padding: 0 2rem;
 }
 
 .form-container {
-  width: 60%; /* Adjust as needed */
+  width: 100%; /* Adjust as needed */
   margin-left: 20px;
   padding: 20px;
 }
-.form-container h2 {
+.form-heading {
+  display: flex;
+  align-items: center;
+}
+.form-heading h2 {
   color: #fff;
 
-  font-family: Satoshi;
-  font-size: 75px;
+  font-family: Gotham;
+  font-size: 65px;
   font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 1.98px;
+  font-weight: 400;
+  line-height: 139.517px; /* 183.333% */
+  letter-spacing: -2.537px;
 }
 
+.form-heading img {
+  padding: 0 25px;
+  scale: calc(1.3);
+}
+
+.form-row-padding {
+  padding: 17px 0;
+}
+
+.row-form-hidden {
+  display: none !important;
+}
 .form-row {
   display: flex;
   justify-content: space-between;
@@ -45,13 +66,25 @@
   margin-bottom: 5px;
 }
 
+.form-flex {
+  padding: 0 15px 0 0;
+}
+
+.form-field-name {
+  padding: 0 0 40px 0;
+}
+
 .form-field input,
 .form-field select,
 .form-field textarea {
+  font-family: "Gotham";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 3000;
   border: none;
   width: 100%;
   padding: 8px;
-  color: #e1e1e1;
+  color: #fff;
   line-height: 2rem;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -62,33 +95,49 @@
   border-bottom-color: rgb(255, 255, 255);
   background: transparent;
   outline: none;
-  color: #000;
 }
 .form-field textarea {
-  width: 80%;
   border-radius: 10px;
   border: 1px solid #fff;
-  background: rgba(255, 255, 255, 0.5);
+  background: lightgray 50% / cover no-repeat,
+    linear-gradient(
+      111deg,
+      rgba(50, 50, 50, 0.5) -4.87%,
+      rgba(39, 39, 39, 0) 103.95%
+    );
+
+  backdrop-filter: blur(19.4964599609375px);
 }
 .form-field label {
   color: #fff;
 
-  font-family: Satoshi;
-  font-size: 15px;
+  font-family: "Satoshi";
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
+.form-field-select select {
+  background: orange;
+  border-radius: 10px;
+}
+
 .form-field button {
   margin-top: 20px;
-  background: linear-gradient(90deg, #20248a -17.97%, #595ff4 99.8%);
-  color: #fff;
+  background: #fff;
+  color: #69c1d4;
   border: none;
   border-radius: 131px;
-  padding: 10px 20px;
+  padding: 11px 25px;
   align-self: flex-end;
   cursor: pointer;
+  font-size: 22px;
+}
+
+.form-field-button {
+  position: relative;
+  float: right;
 }
 
 .form-field input::placeholder,
@@ -97,17 +146,21 @@
   color: #e1e1e1; /* Change placeholder color to gray */
 }
 .image-container {
+  display: none;
   width: 35%; /* Adjust as needed */
 }
 
-.image-container img {
+/* .image-container img {
   width: 100%;
   margin-top: 20px;
   margin-bottom: none;
   height: auto;
-}
+} */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
+  .form-heading img {
+    scale: calc(1);
+  }
   .form-container h2 {
     color: #fff;
 
@@ -118,11 +171,82 @@
     line-height: normal;
     letter-spacing: 1.98px;
   }
-  .image-container img {
+
+  .form-field input,
+  .form-field select,
+  .form-field textarea {
+    font-size: 18px;
+  }
+
+  .form-field label {
+    font-size: 18px;
+  }
+
+  .form-field textarea {
+    height: 9rem;
+  }
+
+  .form-heading {
+    padding: 20px 0;
+  }
+
+  .form-field button {
+    font-size: 18px;
+    padding: 8px 20px;
+  }
+  /* .image-container img {
     width: 100%;
     margin-top: 150px;
     margin-right: 20px;
     margin-bottom: none;
     height: auto;
+  } */
+}
+
+@media screen and (max-width: 600px) {
+  .form-field-mobile {
+    display: none !important;
+  }
+  .form-row {
+    flex-direction: column;
+  }
+  .form-row-padding {
+    padding: 15px 0;
+  }
+  .form-field-select {
+    padding: 0 0 17px 0;
+  }
+  .form-container h2 {
+    font-size: 30px;
+  }
+  .form-heading img {
+    scale: calc(0.7);
+    padding: 0 10px;
+    display: none;
+  }
+
+  .form-field input,
+  .form-field select,
+  .form-field textarea {
+    font-size: 16px;
+  }
+
+  .form-field button {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+
+  .row-form-hidden {
+    display: contents !important;
+  }
+
+  .form-field textarea {
+    height: 6rem;
+  }
+  .form-field-name {
+    padding: 0 0 20px 0;
+  }
+  .form-field label {
+    font-size: 16px;
   }
 }

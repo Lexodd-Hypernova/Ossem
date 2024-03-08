@@ -5,6 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 // import Image from "../../../public/assets/images/formimage.svg";
+import ArrowImg from "../../assets/Arrow135deg.svg";
 import "./contactModal.css";
 
 const ContactModal = ({ isOpen, onClose }) => {
@@ -135,45 +136,69 @@ const ContactModal = ({ isOpen, onClose }) => {
       >
         <div className="modal-content-contact">
           <div className="form-container">
-            <h2>Contact</h2>
+            <span className="form-heading">
+              <h2>Lets Connect</h2>
+              <img src={ArrowImg} alt="" />
+            </span>
             <form onSubmit={handleSubmit}>
               <div className="form-row">
-                <div className="form-field">
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Name"
-                    value={formData.name}
-                    onChange={handleInputChange}
-                  />
-                  {errors.name && <span className="error">{errors.name}</span>}
+                <div className="form-flex">
+                  <div className="form-field form-field-name ">
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Name"
+                      value={formData.name}
+                      onChange={handleInputChange}
+                    />
+                    {errors.name && (
+                      <span className="error">{errors.name}</span>
+                    )}
+                  </div>
+
+                  <div className="form-field">
+                    <input
+                      type="tel"
+                      name="phone"
+                      placeholder="Phone"
+                      value={formData.phone}
+                      onChange={handleInputChange}
+                    />
+                    {errors.phone && (
+                      <span className="error">{errors.phone}</span>
+                    )}
+                  </div>
                 </div>
-                <div className="form-field">
+                <div className="form-field form-field-mobile">
+                  <label>Description</label>
+                  <textarea
+                    name="description"
+                    rows="4"
+                    placeholder=""
+                    value={formData.description}
+                    onChange={handleInputChange}
+                  ></textarea>
+                  {errors.desctiption && (
+                    <span className="error">{errors.description}</span>
+                  )}
+                </div>
+              </div>
+
+              <div className="form-row form-row-padding">
+                <div className="form-field form-field-select">
                   <select
                     name="whoTheyResonate"
                     value={formData.whoTheyResonate}
                     onChange={handleInputChange}
                   >
-                    <option value="">Who they resonate ?</option>
+                    <option disabled value="">
+                      Who they resonate ?
+                    </option>
                     <option value="parents">Parents</option>
                     <option value="students">Student</option>
                   </select>
                   {errors.whoTheyResonate && (
                     <span className="error">{errors.whoTheyResonate}</span>
-                  )}
-                </div>
-              </div>
-              <div className="form-row">
-                <div className="form-field">
-                  <input
-                    type="tel"
-                    name="phone"
-                    placeholder="Mobile"
-                    value={formData.phone}
-                    onChange={handleInputChange}
-                  />
-                  {errors.phone && (
-                    <span className="error">{errors.phone}</span>
                   )}
                 </div>
                 <div className="form-field">
@@ -182,7 +207,9 @@ const ContactModal = ({ isOpen, onClose }) => {
                     value={formData.category}
                     onChange={handleInputChange}
                   >
-                    <option value="">Category</option>
+                    <option disabled value="">
+                      Category
+                    </option>
                     <option value="b2b">B2B</option>
                     <option value="b2c">B2C</option>
                   </select>
@@ -191,21 +218,22 @@ const ContactModal = ({ isOpen, onClose }) => {
                   )}
                 </div>
               </div>
-              <div className="form-field">
-                <label>Description</label>
-                <textarea
-                  name="description"
-                  rows="4"
-                  placeholder="Description"
-                  value={formData.description}
-                  onChange={handleInputChange}
-                ></textarea>
-                {errors.desctiption && (
-                  <span className="error">{errors.description}</span>
-                )}
+              <div className="form-row row-form-hidden">
+                <div className="form-field">
+                  <label>Description</label>
+                  <textarea
+                    name="description"
+                    rows="4"
+                    placeholder=""
+                    value={formData.description}
+                    onChange={handleInputChange}
+                  ></textarea>
+                  {errors.desctiption && (
+                    <span className="error">{errors.description}</span>
+                  )}
+                </div>
               </div>
-
-              <div className="form-field">
+              <div className="form-field form-field-button">
                 <button type="submit" disabled={loading}>
                   {loading ? "Submitting..." : "Submit"}
                 </button>
