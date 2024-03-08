@@ -463,7 +463,7 @@ body {
 
   .hr_ttl-txt {
     height: 60px;
-  } 
+  }
 
   .hr_ttl-txt span {
     font-size: 55px;
@@ -483,6 +483,12 @@ body {
   }
 }
 
+@media only screen and (min-width: 992px) {
+  .hero__Mb-ttl {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 991px) {
   .Hero-container {
     height: calc(100vh - 53px);
@@ -491,7 +497,7 @@ body {
 
   .hr__Sec-wrap {
     padding: 0 20px;
-}
+  }
 
   .hero__Ttl {
     padding-top: 0;
@@ -500,6 +506,25 @@ body {
     left: 50%;
     width: 100%;
     transform: translate(-50%, -50%);
+    display: none;
+  }
+
+  .hero__Mb-ttl {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    display: block;
+  }
+
+  .hero__Mb-ttl h1 {
+    font-family: Gotham;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.05em;
+    text-align: center;
   }
 
   .hr_ttl-txt span {

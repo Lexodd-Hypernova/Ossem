@@ -85,6 +85,12 @@
     }
 }
 
+@media only screen and (min-width: 991px) {
+    .abt__Mb-ttl {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 991px) {
     .abt_Hero-sec {
         flex-direction: column;
@@ -96,6 +102,22 @@
 
     .abt_Hero-txt {
         width: 100%;
+        display: none;
+    }
+
+    .abt__Mb-ttl {
+        display: block;
+        width: 100%;
+    }
+
+    .abt__Mb-ttl h1 {
+        font-family: Gotham;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 45px;
+        letter-spacing: -0.05em;
+        text-align: left;
+        text-transform: capitalize;
     }
 
     .abt__Hero-img {

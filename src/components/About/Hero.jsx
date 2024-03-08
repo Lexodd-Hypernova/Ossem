@@ -53,7 +53,16 @@ const Hero = () => {
                             organizations
                         </span>
                     </div>
-
+                </div>
+                <div className="abt__Mb-ttl">
+                    <h1>
+                        A digital<br></br>
+                        platform<br></br>
+                        crafted to<br></br>
+                        empower our<br></br>
+                        educational<br></br>
+                        organizations<br></br>
+                    </h1>
                 </div>
                 <div className='abt__Hero-img'>
                     <img src="assets/img/about.png" alt="about" />

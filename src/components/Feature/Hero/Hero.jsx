@@ -36,6 +36,14 @@ const Hero = () => {
             <span>Feature Odyssey</span>
           </div>
         </div>
+        <div className="fet__Mb-ttl">
+          <h1>
+            One Stop<br></br>
+            Solution for<br></br>
+            Educational<br></br>
+            Management -  Feature Odyssey.
+          </h1>
+        </div>
         <div className="ft_Hr-img">
           <img src="assets/img/hr-img.png" alt="" />
         </div>

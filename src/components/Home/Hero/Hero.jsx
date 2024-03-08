@@ -40,6 +40,13 @@ const Hero = () => {
               <span>DIGITALLY.</span>
             </div>
           </div>
+          <div className="hero__Mb-ttl">
+            <h1>
+              CRAFTED AND<br></br>
+              EMPOWERED,<br></br>
+              DIGITALLY.
+            </h1>
+          </div>
           <div className="hero__Cta">
             <div id="btn_container">
               <Link to="/about" className="learn-more-btn">
