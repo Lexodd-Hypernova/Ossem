@@ -11,7 +11,7 @@ const Founder = () => {
             <img src="assets/img/fnd1.png" alt="founder" />
             <div className="d_crd-cnt">
               <h3 className="">Karteek Routh</h3>
-              {/* <p className="">Co Founder</p> */}
+              <p className="">Co Founder</p>
               {/* <div className="">Marketing & Sales</div> */}
             </div>
           </div>
@@ -30,7 +30,7 @@ const Founder = () => {
             <img src="assets/img/fnd2.png" alt="founder" />
             <div className="d_crd-cnt">
               <h3 className="">Varun Ramani</h3>
-              {/* <p className="">Co Founder</p> */}
+              <p className="">Sales and Operations Head</p>
               {/* <div className="">Digital Marketing</div> */}
             </div>
           </div>
