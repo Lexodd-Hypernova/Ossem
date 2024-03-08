@@ -1,19 +1,20 @@
 .mob-modal {
-    position: fixed;
-    top: 0;
-    right: 0;
-    transform: translateX(0) translateY(-115%) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    transition: all .5s ease-in-out;
-    z-index: 2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: translateX(0) translateY(-115%) rotate(0) skewX(0) skewY(0)
+    scaleX(1) scaleY(1);
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  transition: all 0.5s ease-in-out;
+  z-index: 2;
 }
 
 .open {
-    transform: none;
-    transition-delay: .3s;
-    z-index: 3;
+  transform: none;
+  transition-delay: 0.3s;
+  z-index: 3;
 }
 
 /* .overlay {
@@ -36,35 +37,35 @@
 } */
 
 .mob-modal-content {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .modal-open {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .modal_title_wrap {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
 }
 
 .modal_title_wrap h3 {
-    font-size: 35px;
-    line-height: 48px;
-    font-weight: 400;
-    color: #fff;
+  font-size: 35px;
+  line-height: 48px;
+  font-weight: 400;
+  color: #fff;
 }
 
 .modal_title_wrap button {
-    width: 46px;
-    height: 46px;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    background: transparent;
-    color: #fff;
+  width: 46px;
+  height: 46px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  color: #fff;
 }
 
 /* .modal_title_wrap button img {
@@ -77,189 +78,188 @@ textarea {
 } */
 
 .mn_Cnt-us a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .mob-mn_Main-cnt {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .mob-mn_Cl-icn {
-    position: absolute;
-    top: 8rem;
-    right: 10rem;
+  position: absolute;
+  top: 8rem;
+  right: 10rem;
 }
 
 .mob-mn_Cl-icn i {
-    font-size: 40px;
-    color: #fff;
+  font-size: 40px;
+  color: #fff;
 }
 
 .mob-mn_Ttl-icn {
-    display: flex;
+  display: flex;
 }
 
 .mob-mn_Col2 li {
-    list-style: none;
+  list-style: none;
 }
 
 .mob-mn_Col2 a {
-    font-family: 'Gotham';
-    font-size: 72px;
-    font-weight: 600;
-    line-height: 1;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #fff;
-    text-decoration: none;
+  font-family: "Gotham";
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
 }
 
 .mob-mn_Col2 .active {
-    color: #00B2C7;
+  color: #00b2c7;
 }
 
 .mob-menu_Modal-logo {
-    width: 340px;
+  width: 340px;
 }
 
 .mob-menu_Modal-logo img {
-    width: 100%;
-    object-fit: cover;
+  width: 100%;
+  object-fit: cover;
 }
 
 .mob-mn_Icn-bx {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .mob-mn_Icn-bx i {
-    color: #4E4E4E;
-    font-size: 50px;
+  color: #4e4e4e;
+  font-size: 50px;
 }
 
 .mob-menu_Md-wrap {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .mob-mn_Cnt-bx {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 21rem 0 10rem;
-    position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 21rem 0 10rem;
+  position: relative;
 }
 
 .mn_Cnt-us a {
-    font-family: Inter;
-    font-size: 52px;
-    font-weight: 600;
-    line-height: 1;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #20248A;
-    display: flex;
-    align-items: center;
-    gap: 30px;
+  font-family: Inter;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #20248a;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .mn_Cnt-us i {
-    font-size: 50px;
-    color: #20248A;
+  font-size: 50px;
+  color: #20248a;
 }
 
 .mob-mn_Col2 ul {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
-
 @media only screen and (max-width: 991px) {
-    .mob-modal {
-        display: block;
-    }
+  .mob-modal {
+    display: block;
+  }
 
-    .mob-mn_Cnt-bx {
-        padding: 30px 30px 60px 30px;
-    }
+  .mob-mn_Cnt-bx {
+    padding: 30px 30px 60px 30px;
+  }
 
-    .mob-menu_Modal-logo {
-        width: 120px;
-    }
+  .mob-menu_Modal-logo {
+    width: 120px;
+  }
 
-    .mob-mn_Col2 {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        /* gap: 10rem; */
-    }
+  .mob-mn_Col2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 10rem; */
+  }
 
-    .mob-mn_Col2 ul {
-        justify-content: center;
-        align-items: center;
-        gap: 6rem;
-    }
+  .mob-mn_Col2 ul {
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+  }
 
-    .mob-mn_Col2 a {
-        font-size: 37px;
-        text-align: center;
-    }
+  .mob-mn_Col2 a {
+    font-size: 37px;
+    text-align: center;
+  }
 
-    .mob-mn_Cl-icn {
-        top: 30px;
-        right: 30px;
-    }
+  .mob-mn_Cl-icn {
+    top: 30px;
+    right: 30px;
+  }
 
-    .mob-mn_Cl-icn i {
-        font-size: 24px;
-    }
+  .mob-mn_Cl-icn i {
+    font-size: 24px;
+  }
 
-    .mob-mn_Cl-icn {
-        background: transparent;
-        border: none;
-    }
+  .mob-mn_Cl-icn {
+    background: transparent;
+    border: none;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .mob-menu_Modal-logo {
-        width: 80px;
-        /* height: 20px; */
-    }
+  .mob-menu_Modal-logo {
+    width: 80px;
+    /* height: 20px; */
+  }
 
-    .mob-mn_Col2 ul {
-        gap: 4rem;
-    }
+  .mob-mn_Col2 ul {
+    gap: 4rem;
+  }
 
-    .mob-mn_Col2 a {
-        font-size: 24px;
-    }
+  .mob-mn_Col2 a {
+    font-size: 24px;
+  }
 
-    /* .mob-mn_Col2 {
+  /* .mob-mn_Col2 {
         gap: 6rem;
     } */
 
-    .mn_Icn-bx i {
-        font-size: 26px;
-    }
+  .mn_Icn-bx i {
+    font-size: 26px;
+  }
 
-    .mob-mn_Cl-icn i {
-        font-size: 24px;
-    }
+  .mob-mn_Cl-icn i {
+    font-size: 24px;
+  }
 
-    .mob-mn_Cnt-bx {
-        padding: 20px 20px 40px 20px;
-    }
+  .mob-mn_Cnt-bx {
+    padding: 20px 20px 40px 20px;
+  }
 
-    .mob-mn_Cl-icn {
-        top: 20px;
-        right: 20px;
-    }
+  .mob-mn_Cl-icn {
+    top: 20px;
+    right: 20px;
+  }
 }
