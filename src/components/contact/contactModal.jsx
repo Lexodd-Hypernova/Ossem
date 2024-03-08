@@ -187,6 +187,7 @@ const ContactModal = ({ isOpen, onClose }) => {
               <div className="form-row form-row-padding">
                 <div className="form-field form-field-select">
                   <select
+                    className="custom-select"
                     name="whoTheyResonate"
                     value={formData.whoTheyResonate}
                     onChange={handleInputChange}
@@ -194,8 +195,10 @@ const ContactModal = ({ isOpen, onClose }) => {
                     <option disabled value="">
                       Who they resonate ?
                     </option>
-                    <option value="parents">Parents</option>
+                    <option value="parents">Faculty</option>
                     <option value="students">Student</option>
+                    <option value="students">Parents</option>
+                    <option value="students">Management</option>
                   </select>
                   {errors.whoTheyResonate && (
                     <span className="error">{errors.whoTheyResonate}</span>
@@ -203,6 +206,7 @@ const ContactModal = ({ isOpen, onClose }) => {
                 </div>
                 <div className="form-field">
                   <select
+                    className="custom-select"
                     name="category"
                     value={formData.category}
                     onChange={handleInputChange}

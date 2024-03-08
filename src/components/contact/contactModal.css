@@ -5,6 +5,7 @@
   padding: 0rem;
   width: auto !important;
   border-radius: 22.196px;
+  height: auto;
 }
 
 .modal-content-contact {
@@ -53,6 +54,7 @@
 }
 .form-row {
   display: flex;
+
   justify-content: space-between;
   margin-bottom: 15px;
 }
@@ -62,6 +64,7 @@
 }
 
 .form-field label {
+  font-family: Gotham;
   display: block;
   margin-bottom: 5px;
 }
@@ -111,7 +114,6 @@
 .form-field label {
   color: #fff;
 
-  font-family: "Satoshi";
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -119,11 +121,20 @@
 }
 
 .form-field-select select {
-  background: orange;
   border-radius: 10px;
+}
+.custom-select {
+  background-color: inherit;
+  color: #333;
+}
+
+.custom-select option {
+  background-color: transparent;
+  color: #333;
 }
 
 .form-field button {
+  font-family: Gotham;
   margin-top: 20px;
   background: #fff;
   color: #69c1d4;
