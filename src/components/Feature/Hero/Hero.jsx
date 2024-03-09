@@ -41,7 +41,8 @@ const Hero = () => {
             One Stop<br></br>
             Solution for<br></br>
             Educational<br></br>
-            Management -  Feature Odyssey.
+            Management -<br></br>
+            Feature Odyssey.
           </h1>
         </div>
         <div className="ft_Hr-img">

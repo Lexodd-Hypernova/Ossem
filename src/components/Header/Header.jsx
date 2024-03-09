@@ -101,28 +101,25 @@ const Navbar = () => {
           <div className="mob__Nav">
             <div className="mob_logo-div">
               <div className="mob_lg-icon">
-                <Link to="/about" onClick={toggleDrawer(false)}>
-                  {" "}
-                  <img src="assets/img/logo.png" alt="logo"></img>
-                </Link>
+                <img src="assets/img/logo.png" alt="logo"></img>
               </div>
             </div>
             <div className="mob__Links">
               <ul>
                 <li>
-                  <Link to="/" onClick={toggleDrawer(false)}>
+                  <NavLink to="/" onClick={toggleDrawer(false)}>
                     Home
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/about" onClick={toggleDrawer(false)}>
+                  <NavLink to="/about" onClick={toggleDrawer(false)}>
                     About
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/features" onClick={toggleDrawer(false)}>
+                  <NavLink to="/features" onClick={toggleDrawer(false)}>
                     Features
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
                   <a href="#connect" onClick={toggleDrawer(false)}>

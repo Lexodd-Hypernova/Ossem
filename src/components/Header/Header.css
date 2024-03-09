@@ -191,6 +191,11 @@
     text-align: center;
     color: #fff;
     text-decoration: none;
+    transition: .3s ease;
+  }
+
+  .mob__Links .active{
+    color: #00b2c7;
   }
 
   .mb__Close-btn {
