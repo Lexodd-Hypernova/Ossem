@@ -516,13 +516,14 @@ body {
     transform: translate(-50%, -50%);
     z-index: 0;
     display: block;
+    width: 100%;
   }
 
   .hero__Mb-ttl h1 {
     /* font-family: Gotham; */
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 700;
-    line-height: 28px;
+    line-height: 40px;
     letter-spacing: -0.05em;
     text-align: center;
   }
