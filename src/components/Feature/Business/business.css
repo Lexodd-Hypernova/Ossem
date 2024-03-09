@@ -5,7 +5,7 @@
 }
 
 .bnss__Ttl h2 {
-    font-family: 'Gotham';
+    /* font-family: 'Gotham'; */
     font-size: 119px;
     font-weight: 700;
     line-height: 170px;
@@ -15,7 +15,7 @@
 }
 
 .bn__Ttl-n {
-    font-family: 'Gotham';
+    font-family: 'Inter';
     font-size: 32px;
     font-weight: 400;
     line-height: 47px;
@@ -25,7 +25,7 @@
 }
 
 .bn_Ttl1 {
-    font-family: 'Gotham';
+    font-family: 'Inter';
     font-size: 32px;
     font-weight: 400;
     line-height: 47px;
@@ -46,7 +46,7 @@
     box-shadow: 0px 0px 27px 0px #136192;
     border-radius: 3px;
     display: inline-block;
-    font-family: 'Gotham';
+    font-family: 'Inter';
     font-size: 119px;
     font-weight: 700;
     line-height: 1;
@@ -65,7 +65,7 @@
     letter-spacing: 4px;
     padding-right: 15px;
     /* text-transform: uppercase; */
-    font-family: Gotham;
+    /* font-family: Gotham; */
     font-size: 41px;
     font-weight: 400;
     line-height: 71px;
@@ -149,7 +149,7 @@
 }
 
 .bnss__crd-cnt h3 {
-    font-family: Gotham;
+    /* font-family: Gotham; */
     font-size: 65px;
     font-weight: 400;
     line-height: 70px;
@@ -161,7 +161,7 @@
 }
 
 .bnss__crd-cnt p {
-    font-family: Gotham;
+    /* font-family: Gotham; */
     font-size: 38px;
     font-weight: 400;
     line-height: 36px;

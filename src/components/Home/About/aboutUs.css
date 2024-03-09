@@ -6,7 +6,7 @@
 }
 
 .abt_Us-ttl h2 {
-    font-family: Gotham;
+    /* font-family: Gotham; */
     font-size: 84px;
     font-weight: 400;
     line-height: 1;
@@ -38,7 +38,7 @@
 }
 
 .abt_us-para h3 {
-    font-family: Gotham;
+    /* font-family: Gotham; */
     font-size: 48px;
     font-weight: 400;
     line-height: 46px;
@@ -51,7 +51,7 @@
 }
 
 .abt_us-para p {
-    font-family: Gotham;
+    /* font-family: Gotham; */
     font-size: 36px;
     font-weight: 300;
     line-height: 34px;

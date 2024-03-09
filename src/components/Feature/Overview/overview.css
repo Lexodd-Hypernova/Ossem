@@ -31,7 +31,7 @@
 }
 
 .ov__Ttl h2 {
-    font-family: Gotham;
+    /* font-family: Gotham; */
     font-size: 18px;
     font-weight: 700;
     line-height: 17px;
@@ -95,7 +95,7 @@
 }
 
 .ov-crd-ttl h3 {
-    font-family: Gotham;
+    /* font-family: Gotham; */
     font-size: 40px;
     font-weight: 500;
     line-height: 38px;
@@ -107,7 +107,7 @@
 }
 
 .ov-crd-ttl p {
-    font-family: Gotham;
+    /* font-family: Gotham; */
     font-size: 24px;
     font-weight: 300;
     line-height: 23px;
@@ -221,7 +221,7 @@
 }
 
 .ov_Para p {
-    font-family: Gotham;
+    /* font-family: Gotham; */
     font-size: 40px;
     font-weight: 400;
     line-height: 38px;

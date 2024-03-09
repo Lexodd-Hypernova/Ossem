@@ -4,7 +4,7 @@
 }
 
 .app__Ft-ttl h2 {
-    font-family: Gotham;
+    /* font-family: Gotham; */
     font-size: 96px;
     font-weight: 700;
     line-height: 92px;
@@ -30,7 +30,7 @@
 } */
 
 .prod-comp-txt p {
-    font-family: Gotham;
+    /* font-family: Gotham; */
     font-size: 28px;
     font-weight: 400;
     line-height: 29px;
@@ -100,7 +100,7 @@
 }
 
 .sb__Md-ttl h4 {
-    font-family: Gotham;
+    /* font-family: Gotham; */
     font-size: 24px;
     font-weight: 300;
     line-height: 23px;
@@ -113,7 +113,7 @@
 }
 
 .sb__List span {
-    font-family: Gotham;
+    /* font-family: Gotham; */
     font-size: 24px;
     font-weight: 300;
     line-height: 23px;
@@ -229,7 +229,7 @@
 }
 
 .slider__thumbs .thumb_txt {
-    font-family: Gotham;
+    font-family: Inter;
     font-size: 24px;
     font-weight: 400;
     line-height: 23px;
@@ -328,7 +328,7 @@
 }
 
 .sb__Table td {
-    font-family: Gotham;
+    font-family: Inter;
     font-size: 24px;
     font-weight: 300;
     line-height: 23px;

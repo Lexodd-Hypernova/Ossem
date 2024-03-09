@@ -68,7 +68,7 @@ const Benefits = () => {
                                     <h3>
                                         <Fade direction="up">
 
-                                            ‘Innovating tomorrow, Today.”
+                                        “Innovating tomorrow, Today.”
                                         </Fade>
                                     </h3>
                                     <p>

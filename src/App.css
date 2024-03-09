@@ -11,6 +11,7 @@
 body {
   background-color: #141517;
   color: #fff;
+  font-family: "Inter", sans-serif;
 }
 
 li {
@@ -19,6 +20,7 @@ li {
 
 a {
   text-decoration: none;
+  font-family: "Inter", sans-serif;
 }
 
 .pg__Wrap {

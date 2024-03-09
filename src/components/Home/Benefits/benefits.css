@@ -54,7 +54,7 @@
 }
 
 .benefits__Sec .swiper-pagination-bullet em {
-    font-family: Gotham;
+    font-family: Inter;
     font-size: 64px;
     font-weight: 400;
     line-height: 83px;
@@ -149,7 +149,7 @@
 }
 
 .bn_Txt h3 {
-    font-family: Gotham;
+    /* font-family: Gotham; */
     font-size: 40px;
     font-weight: 500;
     line-height: 1;
@@ -160,7 +160,7 @@
 }
 
 .bn_Txt p {
-    font-family: Gotham;
+    /* font-family: Gotham; */
     font-size: 20px;
     font-weight: 400;
     line-height: 19px;
@@ -177,7 +177,7 @@
 }
 
 .bnft__Ttl-txt h4 {
-    font-family: Gotham;
+    /* font-family: Gotham; */
     font-size: 20px;
     font-weight: 500;
     line-height: 27px;

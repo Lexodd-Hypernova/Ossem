@@ -5,7 +5,7 @@
 }
 
 .wh__Ttl h2 {
-  font-family: Gotham;
+  /* font-family: Gotham; */
   font-size: 84px;
   font-weight: 400;
   line-height: 101px;
@@ -42,7 +42,7 @@
 }
 
 .rsz__Cnt h4 {
-  font-family: Gotham;
+  /* font-family: Gotham; */
   font-size: 43px;
   font-weight: 400;
   line-height: 1;
@@ -53,7 +53,7 @@
 }
 
 .rsz__Cnt h3 {
-  font-family: 'Gotham';
+  /* font-family: 'Gotham'; */
   font-size: 19px;
   font-weight: 500;
   line-height: 1;
@@ -64,7 +64,7 @@
 }
 
 .rsz__Cnt p {
-  font-family: Gotham;
+  /* font-family: Gotham; */
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
