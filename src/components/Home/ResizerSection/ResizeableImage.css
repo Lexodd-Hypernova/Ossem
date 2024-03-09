@@ -38,6 +38,7 @@
 .rsz__Cnt {
   position: relative;
   height: 22vh;
+  z-index: -1;
 }
 
 .rsz__Cnt h4 {
@@ -163,6 +164,8 @@
 .rsz__Img {
   width: 937px;
   height: 543px;
+  position: relative;
+  z-index: 0;
   /* width: 100%;
   height: 543px; */
 }
