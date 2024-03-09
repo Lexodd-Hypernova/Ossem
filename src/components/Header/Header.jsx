@@ -101,11 +101,11 @@ const Navbar = () => {
             </div>
             <div className="mob__Links">
               <ul>
-                <li><Link to="/" onClick={toggleDrawer(false)}>Home</Link ></li>
-                <li><Link to="/about" onClick={toggleDrawer(false)}>About</Link></li>
-                <li><Link to="/features" onClick={toggleDrawer(false)}>Features</Link></li>
+                <li><Link to="/">Home</Link ></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/features">Features</Link></li>
                 <li>
-                  <a href="#connect" onClick={toggleDrawer(false)}>
+                  <a href="#connect">
                     Contact
                   </a>
                 </li>
