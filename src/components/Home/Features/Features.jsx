@@ -6,6 +6,7 @@ import FeatureCard from "./FeatureCard";
 // import Student from "../../../assets/StudentFeature.svg";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 const Features = () => {
   return (
     <div className="Features-container">
@@ -47,12 +48,12 @@ const Features = () => {
       <div className="ft__Wh-kn">
         <div class="wh_kn">
           <div id="btn_container">
-            <Link to="/features" className="learn-more-btn">
+            <HashLink to="/features#products" className="learn-more-btn">
               <span className="circle-btn" aria-hidden="true">
                 <span className="icon-btn arrow-btn"></span>
               </span>
               <span class="button-text">Know more</span>
-            </Link>
+            </HashLink>
           </div>
         </div>
       </div>

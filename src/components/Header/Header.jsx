@@ -4,6 +4,7 @@ import "./Header.css";
 import Drawer from "@mui/material/Drawer";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+
 // import MobileModal from "../menu/MobileModal";
 
 // import MenuModal from "../menu/MenuModal";
@@ -74,7 +75,7 @@ const Navbar = () => {
       <div className="mob_Navbar">
         <div className="mob_Logo-con">
           <div className="mob-logo">
-            <img src="assets/img/logo.png"></img>
+            <img src="assets/img/mobile_logo_ossem.svg"></img>
           </div>
         </div>
         <div className="mob_ham-con">
@@ -101,7 +102,7 @@ const Navbar = () => {
           <div className="mob__Nav">
             <div className="mob_logo-div">
               <div className="mob_lg-icon">
-                <img src="assets/img/logo.png" alt="logo"></img>
+                <img src="assets/img/mobile_logo_ossem.svg" alt="logo"></img>
               </div>
             </div>
             <div className="mob__Links">
