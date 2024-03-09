@@ -51,7 +51,7 @@ const MobileModal = ({ isOpen, onClose }) => {
                     </div>
                 </div>
             </div>
-            {/* <div className={`overlay ${isOpen ? "active" : ""}`} onClick={onClose}></div> */}
+            <div className={`overlay ${isOpen ? "active" : ""}`} onClick={onClose}></div>
         </>
     );
 };

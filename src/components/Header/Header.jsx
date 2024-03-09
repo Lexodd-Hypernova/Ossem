@@ -1,33 +1,48 @@
 import React, { useState } from "react";
-import Logo from "../../assets/logo.svg";
+// import Logo from "../../assets/logo.svg";
 import "./Header.css";
-
+import Drawer from "@mui/material/Drawer";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import MobileModal from "../menu/MobileModal";
+// import MobileModal from "../menu/MobileModal";
+
+// import MenuModal from "../menu/MenuModal";
 
 const Navbar = () => {
-  const [isMobModalOpen, setIsMobModalOpen] = useState(false);
+  // const [isMobModalOpen, setIsMobModalOpen] = useState(false);
 
-  const openMobModal = () => {
-    setIsMobModalOpen(true);
-    // setModalContent(content);
-    // document.body.style.overflow = 'hidden';
+  // const openMobModal = () => {
+  //   setIsMobModalOpen(true);
+  //   // setModalContent(content);
+  //   // document.body.style.overflow = 'hidden';
+  // };
+
+  // const closeMobModal = () => {
+  //   setIsMobModalOpen(false);
+  //   // if (!isModalOpen) {
+  //   //     document.body.style.overflow = 'auto';
+  //   // }
+  //   // else if (isMobileMenuOpen && isModalOpen) {
+  //   //     document.body.style.overflow = 'hidden';
+  //   // }
+  //   // else {
+  //   //     document.body.style.overflow = 'auto';
+  //   // }
+  //   // setModalContent(null);
+  // };
+
+  const [open, setState] = useState(false);
+  const toggleDrawer = (open) => (event) => {
+    if (
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")
+    ) {
+      return;
+    }
+    //changes the function state according to the value of open
+    setState(open);
   };
 
-  const closeMobModal = () => {
-    setIsMobModalOpen(false);
-    // if (!isModalOpen) {
-    //     document.body.style.overflow = 'auto';
-    // }
-    // else if (isMobileMenuOpen && isModalOpen) {
-    //     document.body.style.overflow = 'hidden';
-    // }
-    // else {
-    //     document.body.style.overflow = 'auto';
-    // }
-    // setModalContent(null);
-  };
 
   return (
     <>
@@ -58,12 +73,60 @@ const Navbar = () => {
           </div>
         </div>
         <div className="mob_ham-con">
-          <div className="mob_ham" onClick={openMobModal}>
+          {/* onClick={openMobModal} */}
+          <div className="mob_ham" onClick={toggleDrawer(true)}>
             <img src="assets/img/ham.png" alt="Menu" className="menu-image" />
           </div>
         </div>
       </div>
-      <MobileModal isOpen={isMobModalOpen} onClose={closeMobModal}></MobileModal>
+
+      {/* <CloseIcon onClick={toggleDrawer(false)} /> */}
+
+      <Drawer
+        //from which side the drawer slides in
+        anchor="right"
+        //if open is true --> drawer is shown
+        open={open}
+        //function that is called when the drawer should close
+        onClose={toggleDrawer(false)}
+        //function that is called when the drawer should open
+        onOpen={toggleDrawer(true)}
+      >
+        <div className="mob__Nav-wrap">
+          <div className="mob__Nav">
+            <div className="mob_logo-div">
+              <div className="mob_lg-icon">
+                <img src="assets/img/logo.png" alt="logo"></img>
+              </div>
+            </div>
+            <div className="mob__Links">
+              <ul>
+                <li><Link to="/" onClick={toggleDrawer(false)}>Home</Link ></li>
+                <li><Link to="/about" onClick={toggleDrawer(false)}>About</Link></li>
+                <li><Link to="/features" onClick={toggleDrawer(false)}>Features</Link></li>
+                <li>
+                  <a href="#connect" onClick={toggleDrawer(false)}>
+                    Contact
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    Login
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button className="mb__Close-btn" onClick={toggleDrawer(false)} >
+            <i className="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+
+
+      </Drawer>
+      {/* <MenuModal isOpen={isMobModalOpen} onClose={closeMobModal}></MenuModal> */}
+      {/* <MobileModal isOpen={isMobModalOpen} onClose={closeMobModal}></MobileModal> */}
     </>
   );
 };
