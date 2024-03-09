@@ -32,7 +32,7 @@
 .form-heading h2 {
   color: #fff;
 
-  font-family: Gotham;
+  font-family: "Inter";
   font-size: 65px;
   font-style: normal;
   font-weight: 400;
@@ -64,7 +64,7 @@
 }
 
 .form-field label {
-  font-family: Gotham;
+  font-family: "Inter";
   display: block;
   margin-bottom: 5px;
 }
@@ -80,7 +80,7 @@
 .form-field input,
 .form-field select,
 .form-field textarea {
-  font-family: "Gotham";
+  font-family: "Inter";
   font-size: 25px;
   font-style: normal;
   font-weight: 3000;
@@ -134,7 +134,7 @@
 }
 
 .form-field button {
-  font-family: Gotham;
+  font-family: "Inter";
   margin-top: 20px;
   background: #fff;
   color: #69c1d4;
@@ -175,7 +175,7 @@
   .form-container h2 {
     color: #fff;
 
-    font-family: Satoshi;
+    font-family: Inter;
     font-size: 45px;
     font-style: normal;
     font-weight: 500;
