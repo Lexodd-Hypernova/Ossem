@@ -16,13 +16,17 @@
 }
 
 .Hero-container::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(72.07% 72.07% at 50% 50%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: radial-gradient(
+    72.07% 72.07% at 50% 50%,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
 }
 
 .hero__Ttl {
@@ -68,8 +72,6 @@
   bottom: 8rem;
   left: 8rem;
 }
-
-
 
 /* .Hero-container button {
   font-family: Gotham;
@@ -140,9 +142,13 @@
 }
 
 .ttl_stl1 {
-  background: linear-gradient(180deg, rgba(19, 97, 146, 0.73) 50%, #7491A3 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(19, 97, 146, 0.73) 50%,
+    #7491a3 100%
+  );
   box-shadow: 0px 0px 27px 0px #136192;
-  color: #020202;
+  color: #ffffff;
   display: inline-block;
   padding: 10px 3px;
   border-radius: 3px;
@@ -158,14 +164,18 @@
 }
 
 .ttl_stl3 {
-  background: linear-gradient(180deg, rgba(19, 97, 146, 0.73) 50%, #7491A3 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(19, 97, 146, 0.73) 50%,
+    #7491a3 100%
+  );
   box-shadow: 0px 0px 27px 0px #136192;
   /* font-family: Gotham; */
   font-size: 119px;
   font-weight: 700;
   line-height: 114px;
   letter-spacing: 0em;
-  color: #1E1E1E;
+  color: #ffffff;
   padding: 15px 23px 23px;
   display: inline-block;
   border-radius: 3px;
@@ -265,7 +275,7 @@ body {
   margin: 0;
   width: 6rem;
   height: 6rem;
-  background: #F79D1D;
+  background: #f79d1d;
   border-radius: 9999px;
 }
 
@@ -305,7 +315,7 @@ body {
   right: 0;
   bottom: 0;
   margin: 0 0 0 40px;
-  color: #F79D1D;
+  color: #f79d1d;
   line-height: 1.6;
   text-align: center;
   text-transform: capitalize;
@@ -344,7 +354,6 @@ body {
     justify-self: center;
   }
 } */
-
 
 @media only screen and (max-width: 1680px) {
   .Hero-container {
@@ -454,7 +463,6 @@ body {
     line-height: 38px;
   }
 }
-
 
 @media only screen and (max-width: 1200px) {
   .hero__Ttl {
@@ -574,7 +582,6 @@ body {
   .build__Sec {
     padding: 0 20px;
   }
-
 }
 
 @media only screen and (max-width: 600px) {
