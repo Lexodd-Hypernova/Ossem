@@ -1,50 +1,46 @@
-import React from 'react';
+import React from "react";
 import "./aboutUs.css";
 
-import TextReveal from '../../TextReveal';
-import { Link } from 'react-router-dom';
+import TextReveal from "../../TextReveal";
+import { Link } from "react-router-dom";
 
-const textReveal = "One of the leading digital platforms where your educational organizations get empowered with our seamless deployment of EMS or ERP systems."
+const textReveal =
+  "One of the leading digital platforms where your educational organizations get empowered with our seamless deployment of EMS or ERP systems.";
 
 const AboutUs = () => {
-    return (
-        <div className='aboutUs__Wrap'>
-            <div className='abt_Us-sec'>
-                <div className='abt_Us-ttl'>
-                    <h2>
-                        About Us
-                    </h2>
-                </div>
-                <div className='abt_Us-box'>
-                    <div className='abt_us-img'>
-                        <img src="assets/img/abt.png" alt="about" />
-                    </div>
-                    <div className='abt_us-cnt'>
-                        <div className='abt_us-para'>
-                            <h3>
-                                Prodserv Technologies
-                            </h3>
-                            <TextReveal text={textReveal}></TextReveal>
-                            <br></br>
-                            <p>
-                                You pick the features; we make it happen!
-                            </p>
-                        </div>
-                        <div className='abt_us-cta'>
-                            <div id="btn_container">
-                                <Link to="/about" className="learn-more-btn">
-                                    <span className="circle-btn" aria-hidden="true">
-                                        <span className="icon-btn arrow-btn"></span>
-                                    </span>
-                                    <span class="button-text">Know more</span>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  return (
+    <div className="aboutUs__Wrap">
+      <div className="abt_Us-sec">
+        <div className="abt_Us-ttl">
+          <h2>About Us</h2>
         </div>
-    )
-}
+        <div className="abt_Us-box">
+          <div className="abt_us-img">
+            <img src="assets/img/abt.png" alt="about" />
+          </div>
+          <div className="abt_us-cnt">
+            <div className="abt_us-para">
+              <h3>Prodserv Technologies</h3>
 
-export default AboutUs
+              <p>{textReveal}</p>
+              <br></br>
+              <p>You pick the features; we make it happen!</p>
+            </div>
+            <div className="abt_us-cta">
+              <div id="btn_container">
+                <Link to="/about" className="learn-more-btn">
+                  <span className="circle-btn" aria-hidden="true">
+                    <span className="icon-btn arrow-btn"></span>
+                  </span>
+                  <span class="button-text">Know more</span>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default AboutUs;
