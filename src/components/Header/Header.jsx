@@ -43,7 +43,6 @@ const Navbar = () => {
     setState(open);
   };
 
-
   return (
     <>
       <nav className="top__Nav">
@@ -54,9 +53,15 @@ const Navbar = () => {
             </div>
             <div className="nav-first-links">
               <ul>
-                <li><NavLink to="/">Home</NavLink></li>
-                <li><NavLink to="/about">About</NavLink></li>
-                <li><NavLink to="/features">Features</NavLink></li>
+                <li>
+                  <NavLink to="/">Home</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/about">About</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/features">Features</NavLink>
+                </li>
               </ul>
             </div>
           </div>
@@ -96,34 +101,44 @@ const Navbar = () => {
           <div className="mob__Nav">
             <div className="mob_logo-div">
               <div className="mob_lg-icon">
-                <img src="assets/img/logo.png" alt="logo"></img>
+                <Link to="/about" onClick={toggleDrawer(false)}>
+                  {" "}
+                  <img src="assets/img/logo.png" alt="logo"></img>
+                </Link>
               </div>
             </div>
             <div className="mob__Links">
               <ul>
-                <li><Link to="/">Home</Link ></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/features">Features</Link></li>
                 <li>
-                  <a href="#connect">
+                  <Link to="/" onClick={toggleDrawer(false)}>
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/about" onClick={toggleDrawer(false)}>
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/features" onClick={toggleDrawer(false)}>
+                    Features
+                  </Link>
+                </li>
+                <li>
+                  <a href="#connect" onClick={toggleDrawer(false)}>
                     Contact
                   </a>
                 </li>
                 <li>
-                  <a>
-                    Login
-                  </a>
+                  <a>Login</a>
                 </li>
               </ul>
             </div>
           </div>
-          <button className="mb__Close-btn" onClick={toggleDrawer(false)} >
+          <button className="mb__Close-btn" onClick={toggleDrawer(false)}>
             <i className="fa-solid fa-xmark"></i>
           </button>
         </div>
-
-
-
       </Drawer>
       {/* <MenuModal isOpen={isMobModalOpen} onClose={closeMobModal}></MenuModal> */}
       {/* <MobileModal isOpen={isMobModalOpen} onClose={closeMobModal}></MobileModal> */}

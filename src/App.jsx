@@ -138,7 +138,6 @@
 
 //           </div>
 
-
 //         </div>
 //         <div className="wrapper">
 //           <div className="border">
@@ -166,9 +165,7 @@
 
 // export default App;
 
-
-
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 import "./App.css";
 import Home from "./pages/Home";
@@ -176,19 +173,18 @@ import Features from "./pages/Features";
 import Routing from "./Routing";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import About from './pages/About';
+import About from "./pages/About";
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
-
   return (
     <>
       <BrowserRouter>
         <div className="pg__Wrap">
           <Header />
           <Routes>
-            <Route exact path="/" element={<Routing />}>
+            <Route path="/" element={<Routing />}>
               <Route index element={<Home />} />
               <Route path="home" element={<Home />} />
               <Route path="features" element={<Features />} />
@@ -203,6 +199,3 @@ const App = () => {
 };
 
 export default App;
-
-
-

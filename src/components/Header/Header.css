@@ -52,23 +52,23 @@
   font-weight: 400;
   line-height: 1;
   text-decoration: none;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
   position: relative;
 }
 
 .top__Nav a:hover {
-  color: #00B2C7;
+  color: #00b2c7;
 }
 
 .top__Nav a::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 0%;
   height: 1px;
   bottom: -8px;
   left: 0;
-  background-color: #00B2C7;
-  transition: .3s ease-in-out;
+  background-color: #00b2c7;
+  transition: 0.3s ease-in-out;
 }
 
 .top__Nav a:hover::before {
@@ -76,7 +76,7 @@
 }
 
 .top__Nav .active {
-  color: #00B2C7;
+  color: #00b2c7;
 }
 
 .top__Nav .active::before {
@@ -90,7 +90,7 @@
 }
 
 .button-Login {
-  font-family: 'Gotham';
+  font-family: "Gotham";
   font-size: 20px;
   font-weight: 400;
   line-height: 1;
@@ -103,7 +103,6 @@
   border-radius: 37px;
   cursor: pointer;
 }
-
 
 @media only screen and (max-width: 1680px) {
   .nav-container {
@@ -175,7 +174,6 @@
     position: relative;
     background: #000;
     padding: 20px;
-    
   }
 
   .mob__Nav {
@@ -185,7 +183,7 @@
   }
 
   .mob__Links a {
-    font-family: "Gotham";
+    font-family: Inter;
     font-size: 30px;
     font-weight: 600;
     line-height: 1;
