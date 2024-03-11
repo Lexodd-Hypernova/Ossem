@@ -23,9 +23,9 @@ const Benefits = () => {
             autoplayDisableOnInteraction: false,
             slidesPerView: 1,
             autoHeight: true,
-            // autoplay: {
-            //     delay: 5000,
-            // },
+            autoplay: {
+                delay: 5000,
+            },
             effect: 'fade',
             fadeEffect: {
                 crossFade: true
