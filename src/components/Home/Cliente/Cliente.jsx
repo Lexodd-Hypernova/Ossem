@@ -6,7 +6,7 @@ const Cliente = () => {
   return (
     <div className="Cliente-container">
       <div className="cl__Ttl">
-        <h2>Our Cliente</h2>
+        <h2>Our Clientele</h2>
       </div>
       <Sponser baseVelocity={1} />
       <Testimonial />
